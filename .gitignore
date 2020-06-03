@@ -1,3 +1,7 @@
+
+data/Primeira-Aplicacao.xlsx
+data/Segunda-Aplicacao.xlsx
+
 # History files
 .Rhistory
 .Rapp.history
@@ -19,6 +23,9 @@
 
 # RStudio files
 .Rproj.user/
+.cache/
+.rstudio/
+.texlive*/
 
 # produced vignettes
 vignettes/*.html

@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+## Uncomment the following lines to run a development environment
+## through the docker-compose 
+  dev:
+    image: geiser/r-studio:latest
+    container_name: 2020-validation-QATeDI_app
+    restart: unless-stopped
+    tty: true
+    volumes:
+      - ./:/home/gcc 
+    ports:
+      - "8787:8787"
+      

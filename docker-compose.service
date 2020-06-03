@@ -1,0 +1,19 @@
+[Unit]
+Description=%i service of 2020-validation-QATeDI with docker-compose
+
+[Service]
+Restart=always
+WorkingDirectory=/cygdrive/d/Users/gcc/Workspace/2020-validation-QATeDI
+# Remove old containers, pull images and build containers
+ExecStartPre=/cygdrive/c/Program Files/Docker/Docker/resources/bin/docker-compose -p 2020-validation-QATeDI down -v
+ExecStartPre=/cygdrive/c/Program Files/Docker/Docker/resources/bin/docker-compose -p 2020-validation-QATeDI pull %i
+ExecStartPre=/cygdrive/c/Program Files/Docker/Docker/resources/bin/docker-compose -p 2020-validation-QATeDI build --force-rm %i
+# Compose up
+ExecStart=/cygdrive/c/Program Files/Docker/Docker/resources/bin/docker-compose -p 2020-validation-QATeDI up --no-build %i
+# Compose down and restart
+ExecStop=/cygdrive/c/Program Files/Docker/Docker/resources/bin/docker-compose -p 2020-validation-QATeDI down -v
+ExecReload=/cygdrive/c/Program Files/Docker/Docker/resources/bin/docker-compose -p 2020-validation-QATeDI restart %i
+
+[Install]
+WantedBy=multi-user.target
+

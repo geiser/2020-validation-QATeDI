@@ -1,0 +1,98 @@
+Unidade,Nivel,Modalidade,n,df,chisq,AGFI,TLI,CFI,SRMR,RMSEA,CI.lwr,CI.upr,p
+NA,NA,NA,4371,48,1124.6745,0.9503,0.8504,0.8912,0.0846,0.0716,0.068,0.0753,0
+Centro de Educação - CEDU,NA,NA,496,48,179.6414,0.9453,0.9005,0.9276,0.0925,0.0744,0.063,0.0862,3e-4
+NA,Graduação (bacharelado),NA,2619,48,754.508,0.9431,0.8254,0.873,0.1058,0.075,0.0703,0.0797,0
+NA,Graduação (licenciatura),NA,1316,48,334.1063,0.9523,0.8676,0.9037,0.0667,0.0673,0.0606,0.0742,0
+NA,NA,Presencial,4217,48,1072.8122,0.9508,0.8486,0.8899,0.0828,0.0712,0.0675,0.0749,0
+Centro de Educação - CEDU,NA,Presencial,419,48,165.1932,0.9428,0.8877,0.9183,0.0863,0.0764,0.0639,0.0893,4e-4
+NA,Graduação (bacharelado),Presencial,2611,48,753.0892,0.943,0.8252,0.8729,0.1058,0.075,0.0703,0.0798,0
+Centro de Educação - CEDU,Graduação (licenciatura),Presencial,330,48,122.5496,0.9482,0.8996,0.927,0.0758,0.0687,0.0538,0.0839,0.021
+NA,Doutorado,Presencial,140,48,158.8453,0.923,0.8818,0.914,0.206,0.1289,0.107,0.1514,0
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",NA,NA,73,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Faculdade de Odontologia - FOUFAL,NA,NA,106,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Campus CECA,NA,NA,232,48,138.3338,0.9296,NA,NA,0.1598,0.0903,0.0729,0.108,1e-4
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",NA,NA,790,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+"Faculdade de Economia, Administração e Contabilidade - FEAC",NA,NA,224,48,152.3534,0.9611,NA,NA,0.1482,0.0987,0.0813,0.1166,0
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",NA,NA,256,48,106.0925,0.9412,NA,NA,0.1082,0.0689,0.0512,0.0866,0.0403
+Faculdade de Nutrição - FANUT,NA,NA,98,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Centro de Tecnologia - CTEC,NA,NA,334,48,135.7785,0.9312,NA,NA,0.2344,0.0741,0.0596,0.0889,0.0039
+Instituto de Ciências Biológicas e da Saúde - ICBS,NA,NA,146,48,100.0364,0.9361,NA,NA,0.1436,0.0865,0.0625,0.1103,0.0082
+Instituto de Educação Física e Esporte - IEFE,NA,NA,77,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Faculdade de Medicina - FAMED,NA,NA,199,48,142.5263,0.9259,NA,NA,0.1705,0.0997,0.0811,0.1188,0
+Instituto de Física - IF,NA,NA,31,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Ciências Atmosféricas - ICAT,NA,NA,66,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Faculdade de Direito - FDA,NA,NA,99,48,141.8395,0.9748,NA,NA,0.1814,0.1412,0.1147,0.1684,0
+Instituto de Matemática - IM,NA,NA,37,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Escola de Enfermagem e Farmácia - ESENFAR,NA,NA,71,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Faculdade de Serviço Social - FSSO,NA,NA,39,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Computação - IC,NA,NA,59,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Ciências Sociais - ICS,NA,NA,38,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Faculdade de Odontologia - FOUFAL,Graduação (bacharelado),NA,106,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Campus CECA,Graduação (bacharelado),NA,213,48,136.5929,0.9314,NA,NA,0.1697,0.0933,0.0751,0.1119,1e-4
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (bacharelado),NA,450,48,157.9008,0.9367,NA,NA,0.1536,0.0714,0.0592,0.0839,0.0024
+Instituto de Química e Biotecnologia - IQB,Graduação (bacharelado),NA,45,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+"Faculdade de Economia, Administração e Contabilidade - FEAC",Graduação (bacharelado),NA,223,48,152.6881,0.961,NA,NA,0.1472,0.0991,0.0817,0.117,0
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (bacharelado),NA,108,48,99.9992,0.9654,NA,NA,0.1736,0.1006,0.0727,0.1284,0.0026
+Faculdade de Nutrição - FANUT,Graduação (bacharelado),NA,93,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (bacharelado),NA,55,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Educação Física e Esporte - IEFE,Graduação (bacharelado),NA,44,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Psicologia - IP,Graduação (bacharelado),NA,79,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Ciências Atmosféricas - ICAT,Graduação (bacharelado),NA,61,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Escola de Enfermagem e Farmácia - ESENFAR,Graduação (bacharelado),NA,64,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Faculdade de Serviço Social - FSSO,Graduação (bacharelado),NA,35,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Computação - IC,Graduação (bacharelado),NA,44,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",Graduação (licenciatura),NA,40,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (licenciatura),NA,331,48,122.1743,0.9397,NA,NA,0.0893,0.0684,0.0535,0.0836,0.0224
+Instituto de Química e Biotecnologia - IQB,Graduação (licenciatura),NA,44,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (licenciatura),NA,142,48,95.1196,0.9257,NA,NA,0.1623,0.0834,0.0585,0.1079,0.0161
+Centro de Educação - CEDU,Graduação (licenciatura),NA,382,48,148.8031,0.9427,NA,NA,0.0828,0.0742,0.0609,0.0879,0.0018
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (licenciatura),NA,50,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Educação Física e Esporte - IEFE,Graduação (licenciatura),NA,33,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+NA,Mestrado,NA,251,48,138.1794,0.9501,NA,NA,0.2661,0.0867,0.07,0.1038,3e-4
+Centro de Tecnologia - CTEC,Mestrado,NA,31,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Centro de Educação - CEDU,Mestrado,NA,46,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+NA,Doutorado,NA,146,48,167.5738,0.9172,NA,NA,0.2325,0.1311,0.1098,0.153,0
+Centro de Educação - CEDU,Doutorado,NA,41,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",NA,Presencial,56,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Faculdade de Odontologia - FOUFAL,NA,Presencial,106,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",NA,Presencial,764,48,204.455,0.9464,NA,NA,0.0908,0.0654,0.0563,0.0747,0.0031
+"Faculdade de Economia, Administração e Contabilidade - FEAC",NA,Presencial,224,48,152.3534,0.9611,NA,NA,0.1482,0.0987,0.0813,0.1166,0
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",NA,Presencial,256,48,106.0925,0.9412,NA,NA,0.1082,0.0689,0.0512,0.0866,0.0403
+Faculdade de Nutrição - FANUT,NA,Presencial,98,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Centro de Tecnologia - CTEC,NA,Presencial,333,48,134.7972,0.9311,NA,NA,0.238,0.0738,0.0592,0.0887,0.0044
+Instituto de Ciências Biológicas e da Saúde - ICBS,NA,Presencial,146,48,100.0364,0.9361,NA,NA,0.1436,0.0865,0.0625,0.1103,0.0082
+Instituto de Educação Física e Esporte - IEFE,NA,Presencial,77,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Faculdade de Medicina - FAMED,NA,Presencial,196,48,138.8581,0.9292,NA,NA,0.1767,0.0985,0.0796,0.1179,0
+Instituto de Ciências Atmosféricas - ICAT,NA,Presencial,66,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Faculdade de Direito - FDA,NA,Presencial,98,48,137.9944,0.9771,NA,NA,0.1831,0.139,0.1122,0.1665,0
+Instituto de Matemática - IM,NA,Presencial,35,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Escola de Enfermagem e Farmácia - ESENFAR,NA,Presencial,68,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Faculdade de Serviço Social - FSSO,NA,Presencial,38,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Computação - IC,NA,Presencial,56,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Ciências Sociais - ICS,NA,Presencial,37,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Faculdade de Odontologia - FOUFAL,Graduação (bacharelado),Presencial,106,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Campus CECA,Graduação (bacharelado),Presencial,213,48,136.5929,0.9314,NA,NA,0.1697,0.0933,0.0751,0.1119,1e-4
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (bacharelado),Presencial,448,48,154.814,0.9379,NA,NA,0.1482,0.0706,0.0583,0.0831,0.0035
+Instituto de Química e Biotecnologia - IQB,Graduação (bacharelado),Presencial,45,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+"Faculdade de Economia, Administração e Contabilidade - FEAC",Graduação (bacharelado),Presencial,223,48,152.6881,0.961,NA,NA,0.1472,0.0991,0.0817,0.117,0
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (bacharelado),Presencial,108,48,99.9992,0.9654,NA,NA,0.1736,0.1006,0.0727,0.1284,0.0026
+Faculdade de Nutrição - FANUT,Graduação (bacharelado),Presencial,93,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (bacharelado),Presencial,55,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Educação Física e Esporte - IEFE,Graduação (bacharelado),Presencial,44,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Psicologia - IP,Graduação (bacharelado),Presencial,79,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Ciências Atmosféricas - ICAT,Graduação (bacharelado),Presencial,61,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Escola de Enfermagem e Farmácia - ESENFAR,Graduação (bacharelado),Presencial,64,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Faculdade de Serviço Social - FSSO,Graduação (bacharelado),Presencial,35,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Computação - IC,Graduação (bacharelado),Presencial,41,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+NA,Graduação (licenciatura),Presencial,1203,48,305.3502,0.9526,NA,NA,0.0664,0.0668,0.0597,0.074,1e-4
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (licenciatura),Presencial,308,48,114.7076,0.942,NA,NA,0.0928,0.0673,0.0515,0.0832,0.0362
+Instituto de Química e Biotecnologia - IQB,Graduação (licenciatura),Presencial,44,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (licenciatura),Presencial,142,48,95.1196,0.9257,NA,NA,0.1623,0.0834,0.0585,0.1079,0.0161
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (licenciatura),Presencial,50,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Instituto de Educação Física e Esporte - IEFE,Graduação (licenciatura),Presencial,33,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+NA,Mestrado,Presencial,250,48,135.9889,0.9509,NA,NA,0.2654,0.0858,0.069,0.103,4e-4
+Centro de Tecnologia - CTEC,Mestrado,Presencial,31,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Centro de Educação - CEDU,Mestrado,Presencial,46,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Centro de Educação - CEDU,Doutorado,Presencial,40,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Centro de Educação - CEDU,NA,Educação a Distância,77,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012
+Centro de Educação - CEDU,Graduação (licenciatura),Educação a Distância,52,48,216.1428,0.9447,NA,NA,0.0933,0.0666,0.0577,0.0758,0.0012

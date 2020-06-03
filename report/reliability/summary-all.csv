@@ -1,0 +1,869 @@
+Unidade,Nivel,Modalidade,n,factor,raw_alpha,std.alpha,G6(smc),average_r,S/N,ase,mean,sd,median_r
+NA,NA,NA,4371,all,0.79,0.8,0.9,0.25,4.08,0,2.5,0.77,0.22
+NA,NA,NA,4371,WLS1,0.86,0.87,0.87,0.62,6.45,0,3.7,0.98,0.62
+NA,NA,NA,4371,WLS2,0.82,0.83,0.71,0.71,4.81,0.01,2.66,1.41,0.71
+NA,NA,NA,4371,WLS3,0.9,0.9,0.81,0.81,8.62,0,2.08,1.23,0.81
+NA,NA,NA,4371,WLS4,0.98,0.98,0.97,0.97,56.52,0,0.95,1.73,0.97
+NA,NA,NA,4371,WLS5,0.6,0.6,0.43,0.43,1.53,0.01,1.94,1.24,0.43
+NA,NA,NA,4371,WLS1+WLS3+WLS4+WLS5,0.81,0.82,0.9,0.32,4.64,0,2.47,0.84,0.24
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",NA,NA,73,all,0.81,0.81,0.92,0.27,4.4,0.03,2.47,0.83,0.22
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",NA,NA,73,WLS1,0.88,0.89,0.89,0.66,7.72,0.02,3.57,1.1,0.67
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",NA,NA,73,WLS2,0.86,0.87,0.77,0.77,6.57,0.03,2.57,1.47,0.77
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",NA,NA,73,WLS3,0.9,0.9,0.81,0.81,8.67,0.02,2.09,1.33,0.81
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",NA,NA,73,WLS4,0.97,0.97,0.95,0.95,34.82,0.01,0.92,1.65,0.95
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",NA,NA,73,WLS5,0.75,0.75,0.6,0.6,3.02,0.06,2.11,1.41,0.6
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",NA,NA,73,WLS1+WLS3+WLS4+WLS5,0.83,0.84,0.93,0.34,5.2,0.03,2.45,0.92,0.31
+Faculdade de Odontologia - FOUFAL,NA,NA,106,all,0.74,0.75,0.88,0.2,3.04,0.04,2.21,0.61,0.17
+Faculdade de Odontologia - FOUFAL,NA,NA,106,WLS1,0.84,0.84,0.83,0.57,5.31,0.03,3.69,0.88,0.53
+Faculdade de Odontologia - FOUFAL,NA,NA,106,WLS2,0.82,0.83,0.72,0.72,5.06,0.03,2.41,1.41,0.72
+Faculdade de Odontologia - FOUFAL,NA,NA,106,WLS3,0.92,0.93,0.86,0.86,12.34,0.01,1.64,1.22,0.86
+Faculdade de Odontologia - FOUFAL,NA,NA,106,WLS4,0.99,1,0.99,0.99,199.57,0,0.15,0.78,0.99
+Faculdade de Odontologia - FOUFAL,NA,NA,106,WLS5,0.4,0.4,0.25,0.25,0.67,0.12,1.67,1.08,0.25
+Faculdade de Odontologia - FOUFAL,NA,NA,106,WLS1+WLS3+WLS4+WLS5,0.75,0.75,0.88,0.24,3.08,0.04,2.17,0.63,0.22
+Campus CECA,NA,NA,232,all,0.78,0.79,0.89,0.24,3.74,0.02,2.44,0.75,0.2
+Campus CECA,NA,NA,232,WLS1,0.85,0.85,0.87,0.59,5.66,0.02,3.65,1.02,0.56
+Campus CECA,NA,NA,232,WLS2,0.77,0.78,0.64,0.64,3.52,0.03,2.63,1.3,0.64
+Campus CECA,NA,NA,232,WLS3,0.9,0.9,0.82,0.82,9.19,0.01,2.11,1.3,0.82
+Campus CECA,NA,NA,232,WLS4,0.98,0.98,0.96,0.96,47.86,0,0.7,1.55,0.96
+Campus CECA,NA,NA,232,WLS5,0.65,0.65,0.48,0.48,1.88,0.05,1.89,1.27,0.48
+Campus CECA,NA,NA,232,WLS1+WLS3+WLS4+WLS5,0.78,0.79,0.9,0.28,3.8,0.02,2.4,0.8,0.22
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",NA,NA,790,all,0.78,0.79,0.89,0.24,3.72,0.01,2.23,0.71,0.18
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",NA,NA,790,WLS1,0.87,0.87,0.87,0.63,6.7,0.01,3.48,1.01,0.64
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",NA,NA,790,WLS2,0.79,0.8,0.67,0.67,4.07,0.01,2.36,1.35,0.67
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",NA,NA,790,WLS3,0.9,0.9,0.82,0.82,8.93,0.01,1.79,1.17,0.82
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",NA,NA,790,WLS4,0.98,0.98,0.96,0.96,50.11,0,0.55,1.36,0.96
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",NA,NA,790,WLS5,0.54,0.54,0.37,0.37,1.17,0.03,1.74,1.18,0.37
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",NA,NA,790,WLS1+WLS3+WLS4+WLS5,0.8,0.81,0.9,0.29,4.16,0.01,2.21,0.77,0.22
+Instituto de Química e Biotecnologia - IQB,NA,NA,120,all,0.79,0.81,0.91,0.26,4.24,0.03,2.59,0.73,0.2
+Instituto de Química e Biotecnologia - IQB,NA,NA,120,WLS1,0.9,0.9,0.9,0.7,9.49,0.01,3.7,0.99,0.72
+Instituto de Química e Biotecnologia - IQB,NA,NA,120,WLS2,0.71,0.74,0.59,0.59,2.87,0.05,3.19,1.17,0.59
+Instituto de Química e Biotecnologia - IQB,NA,NA,120,WLS3,0.9,0.9,0.82,0.82,9.28,0.02,2.15,1.07,0.82
+Instituto de Química e Biotecnologia - IQB,NA,NA,120,WLS4,0.99,0.99,0.98,0.98,83.53,0,0.93,1.71,0.98
+Instituto de Química e Biotecnologia - IQB,NA,NA,120,WLS5,0.48,0.48,0.32,0.32,0.94,0.09,1.89,1.17,0.32
+Instituto de Química e Biotecnologia - IQB,NA,NA,120,WLS1+WLS3+WLS4+WLS5,0.79,0.81,0.91,0.3,4.26,0.03,2.48,0.78,0.21
+"Faculdade de Economia, Administração e Contabilidade - FEAC",NA,NA,224,all,0.83,0.85,0.92,0.32,5.56,0.02,2.91,0.89,0.29
+"Faculdade de Economia, Administração e Contabilidade - FEAC",NA,NA,224,WLS1,0.86,0.86,0.87,0.61,6.17,0.02,3.91,0.95,0.64
+"Faculdade de Economia, Administração e Contabilidade - FEAC",NA,NA,224,WLS2,0.81,0.83,0.7,0.7,4.72,0.02,2.7,1.42,0.7
+"Faculdade de Economia, Administração e Contabilidade - FEAC",NA,NA,224,WLS3,0.89,0.89,0.8,0.8,8,0.01,2.23,1.21,0.8
+"Faculdade de Economia, Administração e Contabilidade - FEAC",NA,NA,224,WLS4,0.98,0.98,0.97,0.97,61.79,0,2.42,2.18,0.97
+"Faculdade de Economia, Administração e Contabilidade - FEAC",NA,NA,224,WLS5,0.68,0.69,0.53,0.53,2.25,0.04,2.28,1.26,0.53
+"Faculdade de Economia, Administração e Contabilidade - FEAC",NA,NA,224,WLS1+WLS3+WLS4+WLS5,0.84,0.86,0.92,0.38,6.15,0.02,2.95,0.96,0.33
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",NA,NA,256,all,0.79,0.8,0.9,0.25,4.03,0.02,2.44,0.8,0.19
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",NA,NA,256,WLS1,0.85,0.85,0.87,0.59,5.86,0.02,3.58,1.04,0.55
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",NA,NA,256,WLS2,0.76,0.78,0.63,0.63,3.45,0.03,2.74,1.35,0.63
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",NA,NA,256,WLS3,0.89,0.89,0.8,0.8,8.19,0.01,1.97,1.24,0.8
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",NA,NA,256,WLS4,0.98,0.98,0.95,0.95,39.25,0,1.15,1.83,0.95
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",NA,NA,256,WLS5,0.68,0.68,0.51,0.51,2.12,0.04,1.65,1.28,0.51
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",NA,NA,256,WLS1+WLS3+WLS4+WLS5,0.81,0.82,0.9,0.31,4.45,0.02,2.39,0.87,0.24
+Faculdade de Nutrição - FANUT,NA,NA,98,all,0.75,0.76,0.88,0.21,3.21,0.04,2.53,0.64,0.19
+Faculdade de Nutrição - FANUT,NA,NA,98,WLS1,0.81,0.81,0.83,0.51,4.21,0.03,3.89,0.83,0.53
+Faculdade de Nutrição - FANUT,NA,NA,98,WLS2,0.81,0.83,0.72,0.72,5.05,0.03,2.98,1.39,0.72
+Faculdade de Nutrição - FANUT,NA,NA,98,WLS3,0.9,0.9,0.81,0.81,8.68,0.02,2.06,1.21,0.81
+Faculdade de Nutrição - FANUT,NA,NA,98,WLS4,0.99,0.99,0.98,0.98,110.96,0,0.3,1.05,0.98
+Faculdade de Nutrição - FANUT,NA,NA,98,WLS5,0.18,0.19,0.1,0.1,0.23,0.16,2.04,1.06,0.1
+Faculdade de Nutrição - FANUT,NA,NA,98,WLS1+WLS3+WLS4+WLS5,0.74,0.75,0.87,0.24,3.07,0.04,2.43,0.65,0.17
+Faculdade de Arquitetura e Urbanismo - FAU,NA,NA,264,all,0.72,0.74,0.87,0.19,2.86,0.03,2.39,0.66,0.11
+Faculdade de Arquitetura e Urbanismo - FAU,NA,NA,264,WLS1,0.86,0.86,0.88,0.61,6.38,0.01,3.76,0.95,0.62
+Faculdade de Arquitetura e Urbanismo - FAU,NA,NA,264,WLS2,0.79,0.8,0.66,0.66,3.92,0.03,2.09,1.23,0.66
+Faculdade de Arquitetura e Urbanismo - FAU,NA,NA,264,WLS3,0.88,0.88,0.78,0.78,7.2,0.02,2.16,1.21,0.78
+Faculdade de Arquitetura e Urbanismo - FAU,NA,NA,264,WLS4,0.98,0.98,0.96,0.96,44.86,0,0.78,1.6,0.96
+Faculdade de Arquitetura e Urbanismo - FAU,NA,NA,264,WLS5,0.56,0.57,0.4,0.4,1.32,0.05,1.77,1.15,0.4
+Faculdade de Arquitetura e Urbanismo - FAU,NA,NA,264,WLS1+WLS3+WLS4+WLS5,0.75,0.77,0.88,0.25,3.41,0.02,2.45,0.74,0.2
+Centro de Tecnologia - CTEC,NA,NA,334,all,0.77,0.79,0.89,0.24,3.84,0.02,2.71,0.73,0.2
+Centro de Tecnologia - CTEC,NA,NA,334,WLS1,0.87,0.88,0.88,0.64,7.1,0.01,3.95,0.93,0.66
+Centro de Tecnologia - CTEC,NA,NA,334,WLS2,0.78,0.79,0.65,0.65,3.73,0.02,2.89,1.31,0.65
+Centro de Tecnologia - CTEC,NA,NA,334,WLS3,0.91,0.91,0.83,0.83,9.87,0.01,2.44,1.23,0.83
+Centro de Tecnologia - CTEC,NA,NA,334,WLS4,0.99,0.99,0.98,0.98,118.26,0,0.84,1.71,0.98
+Centro de Tecnologia - CTEC,NA,NA,334,WLS5,0.52,0.54,0.37,0.37,1.2,0.05,2.19,1.15,0.37
+Centro de Tecnologia - CTEC,NA,NA,334,WLS1+WLS3+WLS4+WLS5,0.79,0.81,0.9,0.29,4.17,0.02,2.67,0.79,0.23
+Faculdade de Letras - FALE,NA,NA,160,all,0.74,0.77,0.9,0.22,3.32,0.03,2.49,0.73,0.21
+Faculdade de Letras - FALE,NA,NA,160,WLS1,0.85,0.86,0.88,0.6,6.07,0.02,3.67,0.97,0.56
+Faculdade de Letras - FALE,NA,NA,160,WLS2,0.87,0.88,0.79,0.79,7.61,0.02,2.49,1.53,0.79
+Faculdade de Letras - FALE,NA,NA,160,WLS3,0.93,0.93,0.87,0.87,13.42,0.01,2.13,1.3,0.87
+Faculdade de Letras - FALE,NA,NA,160,WLS4,0.98,0.98,0.96,0.96,50.47,0,1.08,1.69,0.96
+Faculdade de Letras - FALE,NA,NA,160,WLS5,0.66,0.66,0.49,0.49,1.94,0.05,1.91,1.3,0.49
+Faculdade de Letras - FALE,NA,NA,160,WLS1+WLS3+WLS4+WLS5,0.81,0.82,0.92,0.32,4.68,0.02,2.49,0.85,0.25
+Centro de Educação - CEDU,NA,NA,496,all,0.8,0.81,0.9,0.27,4.34,0.01,2.57,0.8,0.22
+Centro de Educação - CEDU,NA,NA,496,WLS1,0.86,0.86,0.85,0.61,6.2,0.01,3.69,0.93,0.64
+Centro de Educação - CEDU,NA,NA,496,WLS2,0.86,0.87,0.77,0.77,6.78,0.01,2.48,1.54,0.77
+Centro de Educação - CEDU,NA,NA,496,WLS3,0.89,0.9,0.81,0.81,8.57,0.01,2.05,1.19,0.81
+Centro de Educação - CEDU,NA,NA,496,WLS4,0.97,0.97,0.94,0.94,31.85,0,1.39,1.86,0.94
+Centro de Educação - CEDU,NA,NA,496,WLS5,0.63,0.64,0.47,0.47,1.75,0.03,2.12,1.28,0.47
+Centro de Educação - CEDU,NA,NA,496,WLS1+WLS3+WLS4+WLS5,0.82,0.83,0.9,0.33,5,0.01,2.59,0.87,0.27
+Instituto de Ciências Biológicas e da Saúde - ICBS,NA,NA,146,all,0.76,0.78,0.89,0.22,3.46,0.03,2.55,0.7,0.17
+Instituto de Ciências Biológicas e da Saúde - ICBS,NA,NA,146,WLS1,0.85,0.85,0.84,0.58,5.56,0.02,3.66,0.93,0.58
+Instituto de Ciências Biológicas e da Saúde - ICBS,NA,NA,146,WLS2,0.82,0.83,0.71,0.71,4.96,0.03,3.07,1.37,0.71
+Instituto de Ciências Biológicas e da Saúde - ICBS,NA,NA,146,WLS3,0.85,0.85,0.74,0.74,5.81,0.02,2.18,1.14,0.74
+Instituto de Ciências Biológicas e da Saúde - ICBS,NA,NA,146,WLS4,0.99,0.99,0.98,0.98,82.62,0,0.82,1.61,0.98
+Instituto de Ciências Biológicas e da Saúde - ICBS,NA,NA,146,WLS5,0.64,0.64,0.47,0.47,1.8,0.06,1.94,1.21,0.47
+Instituto de Ciências Biológicas e da Saúde - ICBS,NA,NA,146,WLS1+WLS3+WLS4+WLS5,0.77,0.79,0.89,0.27,3.69,0.03,2.45,0.75,0.19
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),NA,NA,243,all,0.79,0.8,0.9,0.25,4.03,0.02,2.43,0.77,0.22
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),NA,NA,243,WLS1,0.87,0.87,0.88,0.63,6.84,0.01,3.47,1.04,0.65
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),NA,NA,243,WLS2,0.8,0.82,0.7,0.7,4.57,0.02,3.16,1.39,0.7
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),NA,NA,243,WLS3,0.89,0.89,0.8,0.8,7.84,0.01,1.94,1.25,0.8
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),NA,NA,243,WLS4,0.98,0.98,0.97,0.97,58.3,0,0.78,1.55,0.97
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),NA,NA,243,WLS5,0.56,0.57,0.39,0.39,1.3,0.06,1.73,1.25,0.39
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),NA,NA,243,WLS1+WLS3+WLS4+WLS5,0.82,0.83,0.91,0.33,4.97,0.02,2.28,0.86,0.28
+Instituto de Educação Física e Esporte - IEFE,NA,NA,77,all,0.82,0.83,0.9,0.29,4.87,0.03,2.47,0.81,0.26
+Instituto de Educação Física e Esporte - IEFE,NA,NA,77,WLS1,0.82,0.83,0.84,0.54,4.75,0.03,3.59,0.97,0.5
+Instituto de Educação Física e Esporte - IEFE,NA,NA,77,WLS2,0.74,0.77,0.62,0.62,3.29,0.05,2.9,1.29,0.62
+Instituto de Educação Física e Esporte - IEFE,NA,NA,77,WLS3,0.87,0.87,0.78,0.78,6.97,0.03,1.89,1.17,0.78
+Instituto de Educação Física e Esporte - IEFE,NA,NA,77,WLS4,0.98,0.98,0.97,0.97,61.44,0,1.12,1.82,0.97
+Instituto de Educação Física e Esporte - IEFE,NA,NA,77,WLS5,0.41,0.41,0.26,0.26,0.7,0.13,1.71,1,0.26
+Instituto de Educação Física e Esporte - IEFE,NA,NA,77,WLS1+WLS3+WLS4+WLS5,0.83,0.84,0.9,0.35,5.28,0.03,2.38,0.87,0.35
+Instituto de Psicologia - IP,NA,NA,106,all,0.78,0.8,0.91,0.25,4.03,0.03,2.5,0.78,0.26
+Instituto de Psicologia - IP,NA,NA,106,WLS1,0.89,0.89,0.9,0.68,8.51,0.02,3.61,1.03,0.69
+Instituto de Psicologia - IP,NA,NA,106,WLS2,0.83,0.84,0.72,0.72,5.23,0.03,2.58,1.44,0.72
+Instituto de Psicologia - IP,NA,NA,106,WLS3,0.86,0.86,0.75,0.75,6.08,0.03,2.35,1.26,0.75
+Instituto de Psicologia - IP,NA,NA,106,WLS4,0.98,0.98,0.96,0.96,51.44,0,1.07,1.8,0.96
+Instituto de Psicologia - IP,NA,NA,106,WLS5,0.62,0.62,0.45,0.45,1.66,0.07,1.81,1.26,0.45
+Instituto de Psicologia - IP,NA,NA,106,WLS1+WLS3+WLS4+WLS5,0.83,0.85,0.92,0.35,5.5,0.02,2.49,0.9,0.3
+Faculdade de Medicina - FAMED,NA,NA,199,all,0.77,0.79,0.89,0.24,3.82,0.02,2.87,0.67,0.17
+Faculdade de Medicina - FAMED,NA,NA,199,WLS1,0.85,0.85,0.85,0.59,5.66,0.02,4.22,0.73,0.62
+Faculdade de Medicina - FAMED,NA,NA,199,WLS2,0.75,0.77,0.63,0.63,3.39,0.03,3.2,1.29,0.63
+Faculdade de Medicina - FAMED,NA,NA,199,WLS3,0.88,0.88,0.78,0.78,7.21,0.02,2.52,1.12,0.78
+Faculdade de Medicina - FAMED,NA,NA,199,WLS4,0.99,0.99,0.98,0.98,97.85,0,0.68,1.56,0.98
+Faculdade de Medicina - FAMED,NA,NA,199,WLS5,0.63,0.64,0.47,0.47,1.76,0.05,2.39,1.27,0.47
+Faculdade de Medicina - FAMED,NA,NA,199,WLS1+WLS3+WLS4+WLS5,0.77,0.8,0.89,0.28,3.95,0.02,2.8,0.71,0.21
+Instituto de Física - IF,NA,NA,31,all,0.81,0.82,0.94,0.27,4.5,0.05,2.49,0.81,0.24
+Instituto de Física - IF,NA,NA,31,WLS1,0.89,0.89,0.91,0.67,8.09,0.03,3.61,1.09,0.66
+Instituto de Física - IF,NA,NA,31,WLS2,0.75,0.76,0.61,0.61,3.08,0.09,2.98,1.33,0.61
+Instituto de Física - IF,NA,NA,31,WLS3,0.92,0.93,0.87,0.87,13.38,0.03,1.79,1.18,0.87
+Instituto de Física - IF,NA,NA,31,WLS4,0.97,0.98,0.97,0.97,58.35,0.01,0.95,1.71,0.97
+Instituto de Física - IF,NA,NA,31,WLS5,0.63,0.64,0.48,0.48,1.81,0.13,2,1.24,0.48
+Instituto de Física - IF,NA,NA,31,WLS1+WLS3+WLS4+WLS5,0.86,0.87,0.96,0.39,6.42,0.04,2.39,0.93,0.3
+Instituto de Ciências Atmosféricas - ICAT,NA,NA,66,all,0.68,0.71,0.88,0.17,2.47,0.06,2.24,0.63,0.12
+Instituto de Ciências Atmosféricas - ICAT,NA,NA,66,WLS1,0.84,0.85,0.87,0.59,5.64,0.03,3.52,0.97,0.54
+Instituto de Ciências Atmosféricas - ICAT,NA,NA,66,WLS2,0.85,0.85,0.75,0.75,5.85,0.04,2.77,1.48,0.75
+Instituto de Ciências Atmosféricas - ICAT,NA,NA,66,WLS3,0.85,0.85,0.73,0.73,5.51,0.04,1.53,1.16,0.73
+Instituto de Ciências Atmosféricas - ICAT,NA,NA,66,WLS4,0.99,0.99,0.97,0.97,75.1,0,0.52,1.32,0.97
+Instituto de Ciências Atmosféricas - ICAT,NA,NA,66,WLS5,0.65,0.65,0.48,0.48,1.86,0.09,1.6,1.2,0.48
+Instituto de Ciências Atmosféricas - ICAT,NA,NA,66,WLS1+WLS3+WLS4+WLS5,0.76,0.77,0.89,0.25,3.27,0.05,2.14,0.71,0.17
+Faculdade de Direito - FDA,NA,NA,99,all,0.78,0.8,0.91,0.26,4.11,0.03,3.01,0.79,0.19
+Faculdade de Direito - FDA,NA,NA,99,WLS1,0.84,0.84,0.83,0.57,5.21,0.03,4.2,0.71,0.55
+Faculdade de Direito - FDA,NA,NA,99,WLS2,0.85,0.85,0.74,0.74,5.73,0.03,2.48,1.52,0.74
+Faculdade de Direito - FDA,NA,NA,99,WLS3,0.89,0.89,0.79,0.79,7.75,0.02,2.56,1.16,0.79
+Faculdade de Direito - FDA,NA,NA,99,WLS4,0.98,0.99,0.97,0.97,66.55,0,2.2,2.21,0.97
+Faculdade de Direito - FDA,NA,NA,99,WLS5,0.74,0.75,0.6,0.6,3.05,0.05,2.4,1.32,0.6
+Faculdade de Direito - FDA,NA,NA,99,WLS1+WLS3+WLS4+WLS5,0.8,0.82,0.91,0.31,4.58,0.03,3.11,0.85,0.28
+Instituto de Matemática - IM,NA,NA,37,all,0.48,0.48,0.85,0.07,0.93,0.13,2.54,0.52,0.05
+Instituto de Matemática - IM,NA,NA,37,WLS1,0.57,0.55,0.72,0.24,1.23,0.11,3.82,0.67,0.19
+Instituto de Matemática - IM,NA,NA,37,WLS2,0.87,0.88,0.79,0.79,7.35,0.04,2.73,1.54,0.79
+Instituto de Matemática - IM,NA,NA,37,WLS3,0.82,0.82,0.69,0.69,4.45,0.06,1.92,1.05,0.69
+Instituto de Matemática - IM,NA,NA,37,WLS4,0.98,0.99,0.98,0.98,87.53,0,0.96,1.7,0.98
+Instituto de Matemática - IM,NA,NA,37,WLS5,0.61,0.63,0.46,0.46,1.69,0.12,1.99,1.15,0.46
+Instituto de Matemática - IM,NA,NA,37,WLS1+WLS3+WLS4+WLS5,0.52,0.52,0.84,0.1,1.09,0.12,2.5,0.55,0.06
+Escola de Enfermagem e Farmácia - ESENFAR,NA,NA,71,all,0.7,0.72,0.87,0.18,2.62,0.05,2.41,0.6,0.11
+Escola de Enfermagem e Farmácia - ESENFAR,NA,NA,71,WLS1,0.84,0.84,0.84,0.57,5.28,0.03,3.74,0.89,0.59
+Escola de Enfermagem e Farmácia - ESENFAR,NA,NA,71,WLS2,0.82,0.84,0.73,0.73,5.29,0.04,2.77,1.44,0.73
+Escola de Enfermagem e Farmácia - ESENFAR,NA,NA,71,WLS3,0.91,0.91,0.83,0.83,10.05,0.02,2.06,1.15,0.83
+Escola de Enfermagem e Farmácia - ESENFAR,NA,NA,71,WLS4,0.99,0.99,0.98,0.98,130.56,0,0.31,1.02,0.98
+Escola de Enfermagem e Farmácia - ESENFAR,NA,NA,71,WLS5,0.5,0.5,0.34,0.34,1.01,0.12,1.85,1.14,0.34
+Escola de Enfermagem e Farmácia - ESENFAR,NA,NA,71,WLS1+WLS3+WLS4+WLS5,0.73,0.74,0.87,0.22,2.79,0.05,2.34,0.63,0.11
+Faculdade de Serviço Social - FSSO,NA,NA,39,all,0.76,0.77,0.93,0.22,3.35,0.06,2.26,0.8,0.19
+Faculdade de Serviço Social - FSSO,NA,NA,39,WLS1,0.89,0.89,0.94,0.67,8.29,0.03,3.46,1.29,0.61
+Faculdade de Serviço Social - FSSO,NA,NA,39,WLS2,0.88,0.9,0.81,0.81,8.7,0.04,2.63,1.65,0.81
+Faculdade de Serviço Social - FSSO,NA,NA,39,WLS3,0.83,0.83,0.71,0.71,4.81,0.06,1.9,1.29,0.71
+Faculdade de Serviço Social - FSSO,NA,NA,39,WLS4,0.99,0.99,0.99,0.99,137.32,0,0.68,1.64,0.99
+Faculdade de Serviço Social - FSSO,NA,NA,39,WLS5,0.66,0.66,0.49,0.49,1.96,0.11,1.46,1.23,0.49
+Faculdade de Serviço Social - FSSO,NA,NA,39,WLS1+WLS3+WLS4+WLS5,0.83,0.83,0.93,0.33,4.91,0.04,2.19,0.94,0.29
+Instituto de Computação - IC,NA,NA,59,all,0.75,0.77,0.91,0.21,3.26,0.05,2.95,0.73,0.21
+Instituto de Computação - IC,NA,NA,59,WLS1,0.84,0.84,0.88,0.57,5.33,0.03,3.88,0.95,0.56
+Instituto de Computação - IC,NA,NA,59,WLS2,0.86,0.86,0.76,0.76,6.4,0.04,3.22,1.39,0.76
+Instituto de Computação - IC,NA,NA,59,WLS3,0.87,0.88,0.78,0.78,7.02,0.03,2.64,1.17,0.78
+Instituto de Computação - IC,NA,NA,59,WLS4,0.99,0.99,0.98,0.98,104.59,0,1.35,2.02,0.98
+Instituto de Computação - IC,NA,NA,59,WLS5,0.56,0.62,0.45,0.45,1.63,0.1,2.72,1.06,0.45
+Instituto de Computação - IC,NA,NA,59,WLS1+WLS3+WLS4+WLS5,0.8,0.82,0.92,0.31,4.45,0.04,2.89,0.85,0.25
+Instituto de Ciências Sociais - ICS,NA,NA,38,all,0.8,0.8,0.92,0.25,3.89,0.04,2.59,0.85,0.27
+Instituto de Ciências Sociais - ICS,NA,NA,38,WLS1,0.74,0.74,0.87,0.42,2.9,0.07,3.74,0.95,0.29
+Instituto de Ciências Sociais - ICS,NA,NA,38,WLS2,0.66,0.66,0.49,0.49,1.95,0.11,2.37,1.16,0.49
+Instituto de Ciências Sociais - ICS,NA,NA,38,WLS3,0.88,0.88,0.79,0.79,7.66,0.04,2.14,1.37,0.79
+Instituto de Ciências Sociais - ICS,NA,NA,38,WLS4,0.98,0.98,0.96,0.96,48.54,0.01,1.61,2.18,0.96
+Instituto de Ciências Sociais - ICS,NA,NA,38,WLS5,0.67,0.67,0.5,0.5,2.02,0.11,1.93,1.24,0.5
+Instituto de Ciências Sociais - ICS,NA,NA,38,WLS1+WLS3+WLS4+WLS5,0.84,0.85,0.94,0.36,5.54,0.04,2.63,1.01,0.33
+NA,Graduação (bacharelado),NA,2619,all,0.79,0.81,0.9,0.26,4.16,0.01,2.51,0.76,0.19
+NA,Graduação (bacharelado),NA,2619,WLS1,0.87,0.87,0.87,0.62,6.53,0,3.75,0.97,0.63
+NA,Graduação (bacharelado),NA,2619,WLS2,0.79,0.8,0.67,0.67,4.07,0.01,2.69,1.34,0.67
+NA,Graduação (bacharelado),NA,2619,WLS3,0.9,0.9,0.81,0.81,8.61,0,2.09,1.23,0.81
+NA,Graduação (bacharelado),NA,2619,WLS4,0.99,0.99,0.97,0.97,70.95,0,0.83,1.68,0.97
+NA,Graduação (bacharelado),NA,2619,WLS5,0.59,0.6,0.42,0.42,1.47,0.02,1.92,1.22,0.42
+NA,Graduação (bacharelado),NA,2619,WLS1+WLS3+WLS4+WLS5,0.8,0.82,0.9,0.31,4.46,0.01,2.47,0.82,0.23
+Faculdade de Odontologia - FOUFAL,Graduação (bacharelado),NA,106,all,0.74,0.75,0.88,0.2,3.04,0.04,2.21,0.61,0.17
+Faculdade de Odontologia - FOUFAL,Graduação (bacharelado),NA,106,WLS1,0.84,0.84,0.83,0.57,5.31,0.03,3.69,0.88,0.53
+Faculdade de Odontologia - FOUFAL,Graduação (bacharelado),NA,106,WLS2,0.82,0.83,0.72,0.72,5.06,0.03,2.41,1.41,0.72
+Faculdade de Odontologia - FOUFAL,Graduação (bacharelado),NA,106,WLS3,0.92,0.93,0.86,0.86,12.34,0.01,1.64,1.22,0.86
+Faculdade de Odontologia - FOUFAL,Graduação (bacharelado),NA,106,WLS4,0.99,1,0.99,0.99,199.57,0,0.15,0.78,0.99
+Faculdade de Odontologia - FOUFAL,Graduação (bacharelado),NA,106,WLS5,0.4,0.4,0.25,0.25,0.67,0.12,1.67,1.08,0.25
+Faculdade de Odontologia - FOUFAL,Graduação (bacharelado),NA,106,WLS1+WLS3+WLS4+WLS5,0.75,0.75,0.88,0.24,3.08,0.04,2.17,0.63,0.22
+Campus CECA,Graduação (bacharelado),NA,213,all,0.78,0.79,0.9,0.24,3.8,0.02,2.42,0.75,0.21
+Campus CECA,Graduação (bacharelado),NA,213,WLS1,0.85,0.85,0.87,0.59,5.78,0.02,3.63,1.03,0.57
+Campus CECA,Graduação (bacharelado),NA,213,WLS2,0.75,0.76,0.62,0.62,3.25,0.03,2.65,1.26,0.62
+Campus CECA,Graduação (bacharelado),NA,213,WLS3,0.9,0.9,0.82,0.82,9.37,0.01,2.11,1.3,0.82
+Campus CECA,Graduação (bacharelado),NA,213,WLS4,0.98,0.98,0.96,0.96,51.26,0,0.67,1.53,0.96
+Campus CECA,Graduação (bacharelado),NA,213,WLS5,0.66,0.66,0.49,0.49,1.92,0.05,1.82,1.26,0.49
+Campus CECA,Graduação (bacharelado),NA,213,WLS1+WLS3+WLS4+WLS5,0.78,0.79,0.9,0.28,3.86,0.02,2.37,0.8,0.23
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (bacharelado),NA,450,all,0.78,0.79,0.89,0.24,3.75,0.02,2.21,0.7,0.19
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (bacharelado),NA,450,WLS1,0.86,0.87,0.88,0.62,6.51,0.01,3.53,0.99,0.63
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (bacharelado),NA,450,WLS2,0.74,0.75,0.6,0.6,3.05,0.02,2.1,1.19,0.6
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (bacharelado),NA,450,WLS3,0.9,0.9,0.82,0.82,9.11,0.01,1.86,1.2,0.82
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (bacharelado),NA,450,WLS4,0.98,0.98,0.96,0.96,49.72,0,0.49,1.31,0.96
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (bacharelado),NA,450,WLS5,0.56,0.56,0.39,0.39,1.28,0.04,1.75,1.18,0.39
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (bacharelado),NA,450,WLS1+WLS3+WLS4+WLS5,0.79,0.8,0.9,0.29,4.04,0.01,2.23,0.76,0.22
+Instituto de Química e Biotecnologia - IQB,Graduação (bacharelado),NA,45,all,0.8,0.82,0.93,0.27,4.43,0.05,2.61,0.74,0.23
+Instituto de Química e Biotecnologia - IQB,Graduação (bacharelado),NA,45,WLS1,0.9,0.9,0.93,0.69,8.92,0.03,3.83,1.02,0.7
+Instituto de Química e Biotecnologia - IQB,Graduação (bacharelado),NA,45,WLS2,0.72,0.74,0.59,0.59,2.83,0.08,3.2,1.18,0.59
+Instituto de Química e Biotecnologia - IQB,Graduação (bacharelado),NA,45,WLS3,0.81,0.82,0.7,0.7,4.68,0.05,2.29,0.89,0.7
+Instituto de Química e Biotecnologia - IQB,Graduação (bacharelado),NA,45,WLS4,0.99,0.99,0.99,0.99,144.72,0,0.78,1.7,0.99
+Instituto de Química e Biotecnologia - IQB,Graduação (bacharelado),NA,45,WLS5,0.48,0.49,0.32,0.32,0.95,0.15,1.77,1.19,0.32
+Instituto de Química e Biotecnologia - IQB,Graduação (bacharelado),NA,45,WLS1+WLS3+WLS4+WLS5,0.79,0.81,0.93,0.3,4.38,0.05,2.5,0.78,0.25
+"Faculdade de Economia, Administração e Contabilidade - FEAC",Graduação (bacharelado),NA,223,all,0.83,0.85,0.92,0.31,5.51,0.02,2.9,0.88,0.28
+"Faculdade de Economia, Administração e Contabilidade - FEAC",Graduação (bacharelado),NA,223,WLS1,0.86,0.86,0.87,0.61,6.13,0.02,3.9,0.95,0.63
+"Faculdade de Economia, Administração e Contabilidade - FEAC",Graduação (bacharelado),NA,223,WLS2,0.81,0.83,0.7,0.7,4.72,0.02,2.7,1.43,0.7
+"Faculdade de Economia, Administração e Contabilidade - FEAC",Graduação (bacharelado),NA,223,WLS3,0.89,0.89,0.8,0.8,7.92,0.02,2.22,1.21,0.8
+"Faculdade de Economia, Administração e Contabilidade - FEAC",Graduação (bacharelado),NA,223,WLS4,0.98,0.98,0.97,0.97,61.41,0,2.4,2.18,0.97
+"Faculdade de Economia, Administração e Contabilidade - FEAC",Graduação (bacharelado),NA,223,WLS5,0.68,0.69,0.53,0.53,2.25,0.04,2.28,1.26,0.53
+"Faculdade de Economia, Administração e Contabilidade - FEAC",Graduação (bacharelado),NA,223,WLS1+WLS3+WLS4+WLS5,0.84,0.86,0.92,0.38,6.09,0.02,2.94,0.96,0.33
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (bacharelado),NA,108,all,0.79,0.81,0.9,0.26,4.19,0.03,2.58,0.8,0.21
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (bacharelado),NA,108,WLS1,0.86,0.87,0.86,0.62,6.49,0.02,3.69,0.94,0.63
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (bacharelado),NA,108,WLS2,0.78,0.79,0.65,0.65,3.76,0.04,2.78,1.36,0.65
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (bacharelado),NA,108,WLS3,0.9,0.9,0.82,0.82,9.1,0.02,1.94,1.19,0.82
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (bacharelado),NA,108,WLS4,0.97,0.97,0.94,0.94,31.39,0.01,1.74,2.04,0.94
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (bacharelado),NA,108,WLS5,0.67,0.67,0.5,0.5,2.02,0.06,1.65,1.3,0.5
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (bacharelado),NA,108,WLS1+WLS3+WLS4+WLS5,0.8,0.82,0.91,0.32,4.66,0.03,2.54,0.87,0.27
+Faculdade de Nutrição - FANUT,Graduação (bacharelado),NA,93,all,0.77,0.78,0.88,0.22,3.46,0.04,2.51,0.64,0.18
+Faculdade de Nutrição - FANUT,Graduação (bacharelado),NA,93,WLS1,0.81,0.81,0.83,0.51,4.25,0.03,3.87,0.84,0.53
+Faculdade de Nutrição - FANUT,Graduação (bacharelado),NA,93,WLS2,0.8,0.82,0.7,0.7,4.67,0.04,3.06,1.33,0.7
+Faculdade de Nutrição - FANUT,Graduação (bacharelado),NA,93,WLS3,0.9,0.9,0.82,0.82,9.05,0.02,2.03,1.23,0.82
+Faculdade de Nutrição - FANUT,Graduação (bacharelado),NA,93,WLS4,0.98,0.99,0.98,0.98,87.68,0,0.21,0.9,0.98
+Faculdade de Nutrição - FANUT,Graduação (bacharelado),NA,93,WLS5,0.17,0.17,0.09,0.09,0.21,0.17,2,1.04,0.09
+Faculdade de Nutrição - FANUT,Graduação (bacharelado),NA,93,WLS1+WLS3+WLS4+WLS5,0.74,0.75,0.87,0.23,2.97,0.04,2.39,0.63,0.17
+Faculdade de Arquitetura e Urbanismo - FAU,Graduação (bacharelado),NA,243,all,0.71,0.73,0.86,0.18,2.72,0.03,2.36,0.65,0.1
+Faculdade de Arquitetura e Urbanismo - FAU,Graduação (bacharelado),NA,243,WLS1,0.86,0.86,0.88,0.61,6.32,0.01,3.73,0.96,0.62
+Faculdade de Arquitetura e Urbanismo - FAU,Graduação (bacharelado),NA,243,WLS2,0.79,0.79,0.66,0.66,3.86,0.03,2.13,1.21,0.66
+Faculdade de Arquitetura e Urbanismo - FAU,Graduação (bacharelado),NA,243,WLS3,0.87,0.87,0.78,0.78,6.98,0.02,2.12,1.2,0.78
+Faculdade de Arquitetura e Urbanismo - FAU,Graduação (bacharelado),NA,243,WLS4,0.97,0.98,0.96,0.96,44.18,0,0.76,1.58,0.96
+Faculdade de Arquitetura e Urbanismo - FAU,Graduação (bacharelado),NA,243,WLS5,0.56,0.56,0.39,0.39,1.27,0.06,1.72,1.13,0.39
+Faculdade de Arquitetura e Urbanismo - FAU,Graduação (bacharelado),NA,243,WLS1+WLS3+WLS4+WLS5,0.74,0.76,0.88,0.24,3.12,0.03,2.41,0.72,0.19
+Centro de Tecnologia - CTEC,Graduação (bacharelado),NA,289,all,0.78,0.79,0.89,0.24,3.82,0.02,2.67,0.71,0.18
+Centro de Tecnologia - CTEC,Graduação (bacharelado),NA,289,WLS1,0.86,0.87,0.88,0.62,6.58,0.01,3.91,0.93,0.64
+Centro de Tecnologia - CTEC,Graduação (bacharelado),NA,289,WLS2,0.72,0.74,0.59,0.59,2.82,0.03,2.95,1.21,0.59
+Centro de Tecnologia - CTEC,Graduação (bacharelado),NA,289,WLS3,0.91,0.91,0.84,0.84,10.72,0.01,2.38,1.24,0.84
+Centro de Tecnologia - CTEC,Graduação (bacharelado),NA,289,WLS4,0.99,0.99,0.98,0.98,106.13,0,0.69,1.58,0.98
+Centro de Tecnologia - CTEC,Graduação (bacharelado),NA,289,WLS5,0.5,0.52,0.35,0.35,1.1,0.06,2.17,1.13,0.35
+Centro de Tecnologia - CTEC,Graduação (bacharelado),NA,289,WLS1+WLS3+WLS4+WLS5,0.79,0.81,0.9,0.29,4.18,0.02,2.61,0.77,0.24
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (bacharelado),NA,55,all,0.74,0.76,0.88,0.21,3.1,0.05,2.46,0.65,0.15
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (bacharelado),NA,55,WLS1,0.86,0.86,0.84,0.6,6.02,0.03,3.72,0.98,0.6
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (bacharelado),NA,55,WLS2,0.74,0.76,0.61,0.61,3.11,0.07,3.29,1.15,0.61
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (bacharelado),NA,55,WLS3,0.88,0.88,0.79,0.79,7.69,0.03,1.73,1.2,0.79
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (bacharelado),NA,55,WLS4,0.99,0.99,0.99,0.99,146.17,0,0.45,1.28,0.99
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (bacharelado),NA,55,WLS5,0.46,0.46,0.3,0.3,0.84,0.15,1.85,1.16,0.3
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (bacharelado),NA,55,WLS1+WLS3+WLS4+WLS5,0.77,0.78,0.89,0.26,3.59,0.05,2.29,0.73,0.23
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (bacharelado),NA,141,all,0.78,0.8,0.9,0.25,4,0.03,2.5,0.73,0.19
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (bacharelado),NA,141,WLS1,0.87,0.87,0.87,0.63,6.94,0.02,3.59,0.98,0.63
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (bacharelado),NA,141,WLS2,0.8,0.83,0.7,0.7,4.77,0.03,3.11,1.35,0.7
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (bacharelado),NA,141,WLS3,0.86,0.86,0.76,0.76,6.37,0.02,2.16,1.18,0.76
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (bacharelado),NA,141,WLS4,0.99,0.99,0.98,0.98,97.18,0,0.63,1.44,0.98
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (bacharelado),NA,141,WLS5,0.57,0.58,0.41,0.41,1.39,0.07,1.91,1.23,0.41
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (bacharelado),NA,141,WLS1+WLS3+WLS4+WLS5,0.81,0.82,0.91,0.31,4.44,0.03,2.38,0.79,0.23
+Instituto de Educação Física e Esporte - IEFE,Graduação (bacharelado),NA,44,all,0.86,0.87,0.93,0.35,6.54,0.03,2.62,0.89,0.36
+Instituto de Educação Física e Esporte - IEFE,Graduação (bacharelado),NA,44,WLS1,0.86,0.86,0.85,0.61,6.13,0.03,3.7,0.97,0.58
+Instituto de Educação Física e Esporte - IEFE,Graduação (bacharelado),NA,44,WLS2,0.82,0.84,0.73,0.73,5.35,0.05,2.98,1.39,0.73
+Instituto de Educação Física e Esporte - IEFE,Graduação (bacharelado),NA,44,WLS3,0.92,0.93,0.86,0.86,12.63,0.02,2.03,1.21,0.86
+Instituto de Educação Física e Esporte - IEFE,Graduação (bacharelado),NA,44,WLS4,0.98,0.98,0.96,0.96,48.79,0.01,1.57,1.97,0.96
+Instituto de Educação Física e Esporte - IEFE,Graduação (bacharelado),NA,44,WLS5,0.38,0.38,0.23,0.23,0.61,0.19,1.74,1.01,0.23
+Instituto de Educação Física e Esporte - IEFE,Graduação (bacharelado),NA,44,WLS1+WLS3+WLS4+WLS5,0.87,0.87,0.92,0.41,6.98,0.03,2.55,0.95,0.43
+Instituto de Psicologia - IP,Graduação (bacharelado),NA,79,all,0.81,0.81,0.91,0.27,4.36,0.03,2.53,0.79,0.24
+Instituto de Psicologia - IP,Graduação (bacharelado),NA,79,WLS1,0.88,0.89,0.89,0.66,7.72,0.02,3.63,1.01,0.67
+Instituto de Psicologia - IP,Graduação (bacharelado),NA,79,WLS2,0.65,0.67,0.51,0.51,2.05,0.07,3.09,1.07,0.51
+Instituto de Psicologia - IP,Graduação (bacharelado),NA,79,WLS3,0.85,0.85,0.75,0.75,5.85,0.03,2.16,1.33,0.75
+Instituto de Psicologia - IP,Graduação (bacharelado),NA,79,WLS4,0.99,0.99,0.98,0.98,118.37,0,0.87,1.75,0.98
+Instituto de Psicologia - IP,Graduação (bacharelado),NA,79,WLS5,0.65,0.65,0.48,0.48,1.85,0.08,1.78,1.31,0.48
+Instituto de Psicologia - IP,Graduação (bacharelado),NA,79,WLS1+WLS3+WLS4+WLS5,0.83,0.84,0.92,0.34,5.21,0.03,2.41,0.9,0.28
+Faculdade de Medicina - FAMED,Graduação (bacharelado),NA,185,all,0.77,0.79,0.89,0.24,3.83,0.03,2.84,0.65,0.17
+Faculdade de Medicina - FAMED,Graduação (bacharelado),NA,185,WLS1,0.85,0.85,0.85,0.59,5.77,0.02,4.21,0.74,0.63
+Faculdade de Medicina - FAMED,Graduação (bacharelado),NA,185,WLS2,0.74,0.76,0.62,0.62,3.2,0.04,3.24,1.25,0.62
+Faculdade de Medicina - FAMED,Graduação (bacharelado),NA,185,WLS3,0.88,0.88,0.79,0.79,7.61,0.02,2.49,1.13,0.79
+Faculdade de Medicina - FAMED,Graduação (bacharelado),NA,185,WLS4,0.99,0.99,0.98,0.98,100.1,0,0.49,1.38,0.98
+Faculdade de Medicina - FAMED,Graduação (bacharelado),NA,185,WLS5,0.64,0.65,0.48,0.48,1.86,0.05,2.38,1.27,0.48
+Faculdade de Medicina - FAMED,Graduação (bacharelado),NA,185,WLS1+WLS3+WLS4+WLS5,0.77,0.8,0.9,0.28,3.98,0.03,2.76,0.68,0.22
+Instituto de Ciências Atmosféricas - ICAT,Graduação (bacharelado),NA,61,all,0.7,0.72,0.88,0.17,2.51,0.06,2.19,0.6,0.12
+Instituto de Ciências Atmosféricas - ICAT,Graduação (bacharelado),NA,61,WLS1,0.85,0.85,0.87,0.59,5.67,0.03,3.49,0.98,0.54
+Instituto de Ciências Atmosféricas - ICAT,Graduação (bacharelado),NA,61,WLS2,0.82,0.82,0.69,0.69,4.54,0.05,2.92,1.38,0.69
+Instituto de Ciências Atmosféricas - ICAT,Graduação (bacharelado),NA,61,WLS3,0.82,0.82,0.7,0.7,4.63,0.05,1.47,1.12,0.7
+Instituto de Ciências Atmosféricas - ICAT,Graduação (bacharelado),NA,61,WLS4,0.98,0.98,0.97,0.97,61.42,0,0.22,0.84,0.97
+Instituto de Ciências Atmosféricas - ICAT,Graduação (bacharelado),NA,61,WLS5,0.65,0.65,0.48,0.48,1.88,0.09,1.56,1.21,0.48
+Instituto de Ciências Atmosféricas - ICAT,Graduação (bacharelado),NA,61,WLS1+WLS3+WLS4+WLS5,0.72,0.72,0.88,0.21,2.62,0.05,2.04,0.63,0.14
+Faculdade de Direito - FDA,Graduação (bacharelado),NA,84,all,0.8,0.82,0.91,0.27,4.45,0.03,2.98,0.81,0.23
+Faculdade de Direito - FDA,Graduação (bacharelado),NA,84,WLS1,0.84,0.84,0.83,0.57,5.29,0.03,4.17,0.73,0.55
+Faculdade de Direito - FDA,Graduação (bacharelado),NA,84,WLS2,0.77,0.78,0.64,0.64,3.58,0.05,2.69,1.34,0.64
+Faculdade de Direito - FDA,Graduação (bacharelado),NA,84,WLS3,0.88,0.88,0.79,0.79,7.36,0.03,2.45,1.18,0.79
+Faculdade de Direito - FDA,Graduação (bacharelado),NA,84,WLS4,0.99,0.99,0.97,0.97,71.55,0,2.04,2.25,0.97
+Faculdade de Direito - FDA,Graduação (bacharelado),NA,84,WLS5,0.72,0.74,0.58,0.58,2.8,0.06,2.39,1.3,0.58
+Faculdade de Direito - FDA,Graduação (bacharelado),NA,84,WLS1+WLS3+WLS4+WLS5,0.8,0.83,0.91,0.32,4.72,0.03,3.04,0.86,0.28
+Escola de Enfermagem e Farmácia - ESENFAR,Graduação (bacharelado),NA,64,all,0.67,0.69,0.86,0.16,2.22,0.06,2.37,0.55,0.1
+Escola de Enfermagem e Farmácia - ESENFAR,Graduação (bacharelado),NA,64,WLS1,0.83,0.83,0.83,0.55,4.99,0.03,3.73,0.88,0.56
+Escola de Enfermagem e Farmácia - ESENFAR,Graduação (bacharelado),NA,64,WLS2,0.79,0.82,0.7,0.7,4.63,0.05,2.76,1.38,0.7
+Escola de Enfermagem e Farmácia - ESENFAR,Graduação (bacharelado),NA,64,WLS3,0.9,0.9,0.82,0.82,9.23,0.02,1.99,1.15,0.82
+Escola de Enfermagem e Farmácia - ESENFAR,Graduação (bacharelado),NA,64,WLS4,0.98,0.98,0.96,0.96,52.01,0.01,0.14,0.58,0.96
+Escola de Enfermagem e Farmácia - ESENFAR,Graduação (bacharelado),NA,64,WLS5,0.44,0.44,0.29,0.29,0.8,0.14,1.88,1.09,0.29
+Escola de Enfermagem e Farmácia - ESENFAR,Graduação (bacharelado),NA,64,WLS1+WLS3+WLS4+WLS5,0.73,0.72,0.87,0.21,2.61,0.05,2.29,0.59,0.14
+Faculdade de Serviço Social - FSSO,Graduação (bacharelado),NA,35,all,0.79,0.8,0.94,0.25,3.95,0.05,2.25,0.83,0.24
+Faculdade de Serviço Social - FSSO,Graduação (bacharelado),NA,35,WLS1,0.91,0.92,0.94,0.73,10.9,0.03,3.43,1.31,0.69
+Faculdade de Serviço Social - FSSO,Graduação (bacharelado),NA,35,WLS2,0.86,0.88,0.78,0.78,7.1,0.04,2.81,1.58,0.78
+Faculdade de Serviço Social - FSSO,Graduação (bacharelado),NA,35,WLS3,0.89,0.89,0.8,0.8,8.18,0.04,1.77,1.28,0.8
+Faculdade de Serviço Social - FSSO,Graduação (bacharelado),NA,35,WLS4,0.99,0.99,0.99,0.99,184.77,0,0.66,1.65,0.99
+Faculdade de Serviço Social - FSSO,Graduação (bacharelado),NA,35,WLS5,0.6,0.6,0.43,0.43,1.52,0.13,1.4,1.17,0.43
+Faculdade de Serviço Social - FSSO,Graduação (bacharelado),NA,35,WLS1+WLS3+WLS4+WLS5,0.85,0.85,0.94,0.36,5.52,0.04,2.14,0.95,0.31
+Instituto de Computação - IC,Graduação (bacharelado),NA,44,all,0.75,0.75,0.9,0.2,2.98,0.05,2.84,0.71,0.14
+Instituto de Computação - IC,Graduação (bacharelado),NA,44,WLS1,0.83,0.85,0.88,0.58,5.46,0.04,3.8,1.01,0.56
+Instituto de Computação - IC,Graduação (bacharelado),NA,44,WLS2,0.67,0.68,0.52,0.52,2.13,0.1,3.49,1.02,0.52
+Instituto de Computação - IC,Graduação (bacharelado),NA,44,WLS3,0.86,0.86,0.76,0.76,6.33,0.04,2.4,1.2,0.76
+Instituto de Computação - IC,Graduação (bacharelado),NA,44,WLS4,0.99,0.99,0.98,0.98,86.42,0,0.99,1.87,0.98
+Instituto de Computação - IC,Graduação (bacharelado),NA,44,WLS5,0.55,0.61,0.44,0.44,1.55,0.11,2.55,1.07,0.44
+Instituto de Computação - IC,Graduação (bacharelado),NA,44,WLS1+WLS3+WLS4+WLS5,0.79,0.8,0.91,0.28,3.92,0.05,2.71,0.83,0.22
+NA,Graduação (licenciatura),NA,1316,all,0.77,0.78,0.89,0.23,3.58,0.01,2.37,0.74,0.2
+NA,Graduação (licenciatura),NA,1316,WLS1,0.85,0.86,0.87,0.6,6,0.01,3.52,1.01,0.59
+NA,Graduação (licenciatura),NA,1316,WLS2,0.82,0.83,0.71,0.71,4.97,0.01,2.67,1.46,0.71
+NA,Graduação (licenciatura),NA,1316,WLS3,0.89,0.89,0.81,0.81,8.34,0.01,1.82,1.2,0.81
+NA,Graduação (licenciatura),NA,1316,WLS4,0.98,0.98,0.96,0.96,44.38,0,0.87,1.61,0.96
+NA,Graduação (licenciatura),NA,1316,WLS5,0.58,0.58,0.41,0.41,1.39,0.02,1.83,1.23,0.41
+NA,Graduação (licenciatura),NA,1316,WLS1+WLS3+WLS4+WLS5,0.8,0.81,0.9,0.3,4.32,0.01,2.31,0.82,0.23
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",Graduação (licenciatura),NA,40,all,0.8,0.8,0.94,0.26,4.12,0.05,2.57,0.84,0.21
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",Graduação (licenciatura),NA,40,WLS1,0.87,0.87,0.91,0.63,6.92,0.04,3.53,1.06,0.68
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",Graduação (licenciatura),NA,40,WLS2,0.88,0.88,0.79,0.79,7.38,0.04,2.6,1.53,0.79
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",Graduação (licenciatura),NA,40,WLS3,0.89,0.89,0.8,0.8,8.01,0.04,2.04,1.37,0.8
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",Graduação (licenciatura),NA,40,WLS4,0.97,0.97,0.94,0.94,30.55,0.01,1.24,1.79,0.94
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",Graduação (licenciatura),NA,40,WLS5,0.73,0.73,0.57,0.57,2.69,0.09,2.48,1.37,0.57
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",Graduação (licenciatura),NA,40,WLS1+WLS3+WLS4+WLS5,0.83,0.83,0.94,0.33,5.01,0.04,2.56,0.93,0.3
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (licenciatura),NA,331,all,0.76,0.78,0.88,0.22,3.45,0.02,2.23,0.7,0.19
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (licenciatura),NA,331,WLS1,0.87,0.87,0.88,0.63,6.93,0.01,3.39,1.02,0.64
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (licenciatura),NA,331,WLS2,0.81,0.82,0.7,0.7,4.68,0.02,2.69,1.44,0.7
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (licenciatura),NA,331,WLS3,0.89,0.89,0.8,0.8,8.22,0.01,1.65,1.11,0.8
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (licenciatura),NA,331,WLS4,0.99,0.99,0.97,0.97,69.77,0,0.58,1.35,0.97
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (licenciatura),NA,331,WLS5,0.49,0.49,0.33,0.33,0.97,0.06,1.68,1.16,0.33
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (licenciatura),NA,331,WLS1+WLS3+WLS4+WLS5,0.79,0.8,0.89,0.29,3.99,0.02,2.14,0.75,0.21
+Instituto de Química e Biotecnologia - IQB,Graduação (licenciatura),NA,44,all,0.8,0.8,0.93,0.25,4.03,0.05,2.47,0.72,0.2
+Instituto de Química e Biotecnologia - IQB,Graduação (licenciatura),NA,44,WLS1,0.93,0.93,0.92,0.78,14.25,0.02,3.61,1.11,0.78
+Instituto de Química e Biotecnologia - IQB,Graduação (licenciatura),NA,44,WLS2,0.78,0.81,0.68,0.68,4.31,0.06,3.2,1.23,0.68
+Instituto de Química e Biotecnologia - IQB,Graduação (licenciatura),NA,44,WLS3,0.94,0.94,0.88,0.88,14.67,0.02,1.89,1.25,0.88
+Instituto de Química e Biotecnologia - IQB,Graduação (licenciatura),NA,44,WLS4,0.98,0.98,0.97,0.97,61.12,0,0.6,1.34,0.97
+Instituto de Química e Biotecnologia - IQB,Graduação (licenciatura),NA,44,WLS5,0.34,0.34,0.21,0.21,0.52,0.2,1.91,1.06,0.21
+Instituto de Química e Biotecnologia - IQB,Graduação (licenciatura),NA,44,WLS1+WLS3+WLS4+WLS5,0.8,0.81,0.93,0.3,4.19,0.05,2.33,0.77,0.21
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (licenciatura),NA,142,all,0.8,0.8,0.9,0.25,4.07,0.03,2.34,0.79,0.21
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (licenciatura),NA,142,WLS1,0.84,0.84,0.88,0.57,5.34,0.02,3.49,1.09,0.51
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (licenciatura),NA,142,WLS2,0.76,0.77,0.62,0.62,3.33,0.04,2.74,1.33,0.62
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (licenciatura),NA,142,WLS3,0.89,0.89,0.8,0.8,8.23,0.02,1.97,1.29,0.8
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (licenciatura),NA,142,WLS4,0.98,0.98,0.96,0.96,44.52,0,0.69,1.5,0.96
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (licenciatura),NA,142,WLS5,0.67,0.67,0.51,0.51,2.06,0.05,1.64,1.27,0.51
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (licenciatura),NA,142,WLS1+WLS3+WLS4+WLS5,0.81,0.82,0.91,0.31,4.42,0.02,2.26,0.86,0.25
+Faculdade de Letras - FALE,Graduação (licenciatura),NA,125,all,0.74,0.76,0.9,0.21,3.16,0.04,2.43,0.71,0.18
+Faculdade de Letras - FALE,Graduação (licenciatura),NA,125,WLS1,0.85,0.86,0.87,0.6,6.09,0.02,3.63,0.98,0.55
+Faculdade de Letras - FALE,Graduação (licenciatura),NA,125,WLS2,0.86,0.87,0.77,0.77,6.64,0.02,2.62,1.46,0.77
+Faculdade de Letras - FALE,Graduação (licenciatura),NA,125,WLS3,0.93,0.93,0.86,0.86,12.48,0.01,1.97,1.28,0.86
+Faculdade de Letras - FALE,Graduação (licenciatura),NA,125,WLS4,0.98,0.98,0.97,0.97,61.86,0,0.85,1.57,0.97
+Faculdade de Letras - FALE,Graduação (licenciatura),NA,125,WLS5,0.68,0.69,0.52,0.52,2.19,0.06,1.86,1.3,0.52
+Faculdade de Letras - FALE,Graduação (licenciatura),NA,125,WLS1+WLS3+WLS4+WLS5,0.8,0.81,0.91,0.3,4.36,0.03,2.39,0.82,0.24
+Centro de Educação - CEDU,Graduação (licenciatura),NA,382,all,0.74,0.77,0.88,0.21,3.27,0.02,2.39,0.72,0.18
+Centro de Educação - CEDU,Graduação (licenciatura),NA,382,WLS1,0.86,0.86,0.85,0.6,6.04,0.01,3.59,0.95,0.64
+Centro de Educação - CEDU,Graduação (licenciatura),NA,382,WLS2,0.86,0.86,0.76,0.76,6.25,0.01,2.36,1.53,0.76
+Centro de Educação - CEDU,Graduação (licenciatura),NA,382,WLS3,0.88,0.88,0.79,0.79,7.32,0.01,1.8,1.14,0.79
+Centro de Educação - CEDU,Graduação (licenciatura),NA,382,WLS4,0.97,0.97,0.94,0.94,32.61,0,1.1,1.74,0.94
+Centro de Educação - CEDU,Graduação (licenciatura),NA,382,WLS5,0.57,0.58,0.4,0.4,1.36,0.04,1.92,1.23,0.4
+Centro de Educação - CEDU,Graduação (licenciatura),NA,382,WLS1+WLS3+WLS4+WLS5,0.78,0.79,0.88,0.28,3.84,0.02,2.4,0.79,0.22
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (licenciatura),NA,50,all,0.85,0.86,0.93,0.34,6.22,0.03,2.57,0.83,0.27
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (licenciatura),NA,50,WLS1,0.89,0.89,0.89,0.68,8.45,0.02,3.67,1.04,0.71
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (licenciatura),NA,50,WLS2,0.8,0.81,0.68,0.68,4.3,0.05,3.11,1.43,0.68
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (licenciatura),NA,50,WLS3,0.88,0.88,0.79,0.79,7.57,0.03,2.32,1.16,0.79
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (licenciatura),NA,50,WLS4,0.99,0.99,0.98,0.98,116.11,0,0.56,1.47,0.98
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (licenciatura),NA,50,WLS5,0.72,0.72,0.57,0.57,2.61,0.08,2.1,1.24,0.57
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (licenciatura),NA,50,WLS1+WLS3+WLS4+WLS5,0.86,0.87,0.94,0.39,6.47,0.03,2.46,0.86,0.37
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (licenciatura),NA,101,all,0.79,0.81,0.9,0.26,4.13,0.03,2.32,0.81,0.27
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (licenciatura),NA,101,WLS1,0.86,0.87,0.88,0.62,6.53,0.02,3.31,1.11,0.63
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (licenciatura),NA,101,WLS2,0.8,0.81,0.69,0.69,4.4,0.04,3.22,1.44,0.69
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (licenciatura),NA,101,WLS3,0.9,0.9,0.82,0.82,9.12,0.02,1.61,1.28,0.82
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (licenciatura),NA,101,WLS4,0.97,0.98,0.95,0.95,42.06,0.01,0.98,1.68,0.95
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (licenciatura),NA,101,WLS5,0.54,0.54,0.37,0.37,1.15,0.09,1.46,1.24,0.37
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (licenciatura),NA,101,WLS1+WLS3+WLS4+WLS5,0.84,0.85,0.92,0.36,5.64,0.02,2.13,0.93,0.32
+Instituto de Educação Física e Esporte - IEFE,Graduação (licenciatura),NA,33,all,0.72,0.72,0.9,0.18,2.59,0.07,2.26,0.64,0.2
+Instituto de Educação Física e Esporte - IEFE,Graduação (licenciatura),NA,33,WLS1,0.77,0.78,0.83,0.46,3.47,0.07,3.44,0.97,0.4
+Instituto de Educação Física e Esporte - IEFE,Graduação (licenciatura),NA,33,WLS2,0.59,0.62,0.44,0.44,1.6,0.13,2.8,1.15,0.44
+Instituto de Educação Física e Esporte - IEFE,Graduação (licenciatura),NA,33,WLS3,0.79,0.79,0.66,0.66,3.81,0.07,1.7,1.1,0.66
+Instituto de Educação Física e Esporte - IEFE,Graduação (licenciatura),NA,33,WLS4,0.98,0.99,0.98,0.98,95.9,0,0.52,1.42,0.98
+Instituto de Educação Física e Esporte - IEFE,Graduação (licenciatura),NA,33,WLS5,0.45,0.45,0.29,0.29,0.83,0.19,1.68,1.01,0.29
+Instituto de Educação Física e Esporte - IEFE,Graduação (licenciatura),NA,33,WLS1+WLS3+WLS4+WLS5,0.74,0.75,0.9,0.23,2.99,0.07,2.15,0.7,0.23
+NA,Mestrado,NA,251,all,0.77,0.8,0.91,0.25,3.93,0.02,2.79,0.77,0.21
+NA,Mestrado,NA,251,WLS1,0.88,0.89,0.89,0.66,7.88,0.01,3.86,0.92,0.67
+NA,Mestrado,NA,251,WLS2,0.93,0.93,0.87,0.87,13.45,0.01,2.14,1.72,0.87
+NA,Mestrado,NA,251,WLS3,0.85,0.85,0.73,0.73,5.52,0.02,2.76,0.99,0.73
+NA,Mestrado,NA,251,WLS4,0.98,0.98,0.96,0.96,43.85,0,1.7,1.98,0.96
+NA,Mestrado,NA,251,WLS5,0.68,0.69,0.53,0.53,2.26,0.04,2.44,1.23,0.53
+NA,Mestrado,NA,251,WLS1+WLS3+WLS4+WLS5,0.81,0.83,0.91,0.32,4.76,0.02,2.92,0.83,0.25
+Centro de Tecnologia - CTEC,Mestrado,NA,31,all,0.75,0.78,0.94,0.22,3.45,0.06,2.9,0.8,0.21
+Centro de Tecnologia - CTEC,Mestrado,NA,31,WLS1,0.94,0.94,0.95,0.81,16.52,0.02,4.1,1.05,0.81
+Centro de Tecnologia - CTEC,Mestrado,NA,31,WLS2,0.95,0.95,0.9,0.9,18.37,0.02,2.39,1.92,0.9
+Centro de Tecnologia - CTEC,Mestrado,NA,31,WLS3,0.81,0.81,0.68,0.68,4.25,0.07,2.73,1.05,0.68
+Centro de Tecnologia - CTEC,Mestrado,NA,31,WLS4,0.99,0.99,0.99,0.99,189,0,1.53,2.14,0.99
+Centro de Tecnologia - CTEC,Mestrado,NA,31,WLS5,0.64,0.65,0.49,0.49,1.88,0.12,2.53,1.18,0.49
+Centro de Tecnologia - CTEC,Mestrado,NA,31,WLS1+WLS3+WLS4+WLS5,0.72,0.76,0.92,0.24,3.1,0.07,3,0.77,0.19
+Centro de Educação - CEDU,Mestrado,NA,46,all,0.76,0.79,0.94,0.23,3.69,0.05,3.05,0.74,0.2
+Centro de Educação - CEDU,Mestrado,NA,46,WLS1,0.89,0.89,0.92,0.67,8.12,0.03,3.88,0.92,0.63
+Centro de Educação - CEDU,Mestrado,NA,46,WLS2,0.93,0.94,0.89,0.89,15.57,0.02,2.64,1.61,0.89
+Centro de Educação - CEDU,Mestrado,NA,46,WLS3,0.9,0.9,0.82,0.82,8.98,0.03,3.01,0.88,0.82
+Centro de Educação - CEDU,Mestrado,NA,46,WLS4,0.96,0.96,0.93,0.93,25.82,0.01,2.03,1.99,0.93
+Centro de Educação - CEDU,Mestrado,NA,46,WLS5,0.6,0.6,0.43,0.43,1.52,0.12,2.84,1.17,0.43
+Centro de Educação - CEDU,Mestrado,NA,46,WLS1+WLS3+WLS4+WLS5,0.85,0.85,0.94,0.37,5.76,0.03,3.13,0.88,0.4
+NA,Doutorado,NA,146,all,0.78,0.81,0.9,0.26,4.27,0.03,2.99,0.76,0.24
+NA,Doutorado,NA,146,WLS1,0.82,0.83,0.85,0.55,4.82,0.02,3.92,0.8,0.51
+NA,Doutorado,NA,146,WLS2,0.84,0.86,0.75,0.75,5.97,0.02,2.76,1.52,0.75
+NA,Doutorado,NA,146,WLS3,0.81,0.81,0.68,0.68,4.29,0.03,2.79,0.95,0.68
+NA,Doutorado,NA,146,WLS4,0.96,0.96,0.92,0.92,24.11,0.01,2.31,1.93,0.92
+NA,Doutorado,NA,146,WLS5,0.67,0.67,0.5,0.5,2.02,0.05,2.25,1.29,0.5
+NA,Doutorado,NA,146,WLS1+WLS3+WLS4+WLS5,0.79,0.82,0.89,0.31,4.48,0.03,3.04,0.79,0.28
+Centro de Educação - CEDU,Doutorado,NA,41,all,0.85,0.87,0.93,0.35,6.44,0.03,3.22,0.78,0.32
+Centro de Educação - CEDU,Doutorado,NA,41,WLS1,0.81,0.84,0.81,0.57,5.21,0.04,4.08,0.65,0.58
+Centro de Educação - CEDU,Doutorado,NA,41,WLS2,0.81,0.83,0.7,0.7,4.76,0.06,2.84,1.41,0.7
+Centro de Educação - CEDU,Doutorado,NA,41,WLS3,0.74,0.74,0.59,0.59,2.88,0.08,2.94,0.79,0.59
+Centro de Educação - CEDU,Doutorado,NA,41,WLS4,0.93,0.93,0.87,0.87,13.74,0.02,2.84,1.76,0.87
+Centro de Educação - CEDU,Doutorado,NA,41,WLS5,0.82,0.82,0.69,0.69,4.42,0.06,2.56,1.3,0.69
+Centro de Educação - CEDU,Doutorado,NA,41,WLS1+WLS3+WLS4+WLS5,0.84,0.86,0.91,0.38,6.25,0.03,3.3,0.78,0.37
+NA,NA,Presencial,4217,all,0.79,0.8,0.9,0.25,4.08,0,2.49,0.77,0.22
+NA,NA,Presencial,4217,WLS1,0.86,0.87,0.87,0.62,6.55,0,3.7,0.99,0.62
+NA,NA,Presencial,4217,WLS2,0.81,0.82,0.7,0.7,4.62,0.01,2.67,1.4,0.7
+NA,NA,Presencial,4217,WLS3,0.9,0.9,0.81,0.81,8.72,0,2.06,1.23,0.81
+NA,NA,Presencial,4217,WLS4,0.98,0.98,0.97,0.97,58.97,0,0.91,1.7,0.97
+NA,NA,Presencial,4217,WLS5,0.6,0.6,0.43,0.43,1.49,0.01,1.9,1.23,0.43
+NA,NA,Presencial,4217,WLS1+WLS3+WLS4+WLS5,0.81,0.82,0.9,0.32,4.66,0,2.45,0.84,0.25
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",NA,Presencial,56,all,0.82,0.83,0.93,0.28,4.74,0.04,2.3,0.83,0.28
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",NA,Presencial,56,WLS1,0.89,0.89,0.91,0.68,8.47,0.02,3.54,1.19,0.67
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",NA,Presencial,56,WLS2,0.83,0.84,0.73,0.73,5.42,0.04,2.56,1.39,0.73
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",NA,Presencial,56,WLS3,0.9,0.91,0.83,0.83,9.71,0.03,1.92,1.36,0.83
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",NA,Presencial,56,WLS4,0.97,0.97,0.95,0.95,34.92,0.01,0.53,1.33,0.95
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",NA,Presencial,56,WLS5,0.73,0.73,0.57,0.57,2.69,0.07,1.7,1.33,0.57
+"Instituto de Geografia, Desenvolvimento e Meio Ambiente - IGDEMA",NA,Presencial,56,WLS1+WLS3+WLS4+WLS5,0.85,0.85,0.93,0.36,5.68,0.03,2.24,0.92,0.34
+Faculdade de Odontologia - FOUFAL,NA,Presencial,106,all,0.74,0.75,0.88,0.2,3.04,0.04,2.21,0.61,0.17
+Faculdade de Odontologia - FOUFAL,NA,Presencial,106,WLS1,0.84,0.84,0.83,0.57,5.31,0.03,3.69,0.88,0.53
+Faculdade de Odontologia - FOUFAL,NA,Presencial,106,WLS2,0.82,0.83,0.72,0.72,5.06,0.03,2.41,1.41,0.72
+Faculdade de Odontologia - FOUFAL,NA,Presencial,106,WLS3,0.92,0.93,0.86,0.86,12.34,0.01,1.64,1.22,0.86
+Faculdade de Odontologia - FOUFAL,NA,Presencial,106,WLS4,0.99,1,0.99,0.99,199.57,0,0.15,0.78,0.99
+Faculdade de Odontologia - FOUFAL,NA,Presencial,106,WLS5,0.4,0.4,0.25,0.25,0.67,0.12,1.67,1.08,0.25
+Faculdade de Odontologia - FOUFAL,NA,Presencial,106,WLS1+WLS3+WLS4+WLS5,0.75,0.75,0.88,0.24,3.08,0.04,2.17,0.63,0.22
+Campus CECA,NA,Presencial,230,all,0.78,0.79,0.89,0.24,3.77,0.02,2.44,0.75,0.2
+Campus CECA,NA,Presencial,230,WLS1,0.85,0.85,0.87,0.59,5.67,0.02,3.66,1.02,0.56
+Campus CECA,NA,Presencial,230,WLS2,0.76,0.77,0.63,0.63,3.37,0.03,2.65,1.28,0.63
+Campus CECA,NA,Presencial,230,WLS3,0.9,0.9,0.82,0.82,9.13,0.01,2.11,1.3,0.82
+Campus CECA,NA,Presencial,230,WLS4,0.98,0.98,0.96,0.96,47.4,0,0.69,1.54,0.96
+Campus CECA,NA,Presencial,230,WLS5,0.65,0.65,0.49,0.49,1.9,0.05,1.88,1.27,0.49
+Campus CECA,NA,Presencial,230,WLS1+WLS3+WLS4+WLS5,0.78,0.79,0.9,0.28,3.82,0.02,2.4,0.8,0.23
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",NA,Presencial,764,all,0.77,0.78,0.89,0.23,3.62,0.01,2.21,0.7,0.19
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",NA,Presencial,764,WLS1,0.87,0.87,0.88,0.63,6.87,0.01,3.48,1.01,0.65
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",NA,Presencial,764,WLS2,0.79,0.8,0.67,0.67,4.06,0.01,2.34,1.34,0.67
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",NA,Presencial,764,WLS3,0.9,0.9,0.82,0.82,8.89,0.01,1.77,1.17,0.82
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",NA,Presencial,764,WLS4,0.98,0.98,0.96,0.96,48.29,0,0.5,1.31,0.96
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",NA,Presencial,764,WLS5,0.54,0.54,0.37,0.37,1.16,0.03,1.69,1.16,0.37
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",NA,Presencial,764,WLS1+WLS3+WLS4+WLS5,0.8,0.8,0.9,0.29,4.12,0.01,2.18,0.76,0.22
+Instituto de Química e Biotecnologia - IQB,NA,Presencial,119,all,0.8,0.81,0.91,0.26,4.28,0.03,2.59,0.74,0.2
+Instituto de Química e Biotecnologia - IQB,NA,Presencial,119,WLS1,0.9,0.9,0.9,0.7,9.45,0.01,3.71,0.99,0.72
+Instituto de Química e Biotecnologia - IQB,NA,Presencial,119,WLS2,0.71,0.74,0.59,0.59,2.86,0.05,3.18,1.17,0.59
+Instituto de Química e Biotecnologia - IQB,NA,Presencial,119,WLS3,0.9,0.9,0.82,0.82,9.28,0.02,2.15,1.07,0.82
+Instituto de Química e Biotecnologia - IQB,NA,Presencial,119,WLS4,0.99,0.99,0.98,0.98,82.72,0,0.9,1.68,0.98
+Instituto de Química e Biotecnologia - IQB,NA,Presencial,119,WLS5,0.48,0.49,0.32,0.32,0.94,0.09,1.89,1.18,0.32
+Instituto de Química e Biotecnologia - IQB,NA,Presencial,119,WLS1+WLS3+WLS4+WLS5,0.79,0.81,0.91,0.3,4.32,0.03,2.47,0.78,0.21
+"Faculdade de Economia, Administração e Contabilidade - FEAC",NA,Presencial,224,all,0.83,0.85,0.92,0.32,5.56,0.02,2.91,0.89,0.29
+"Faculdade de Economia, Administração e Contabilidade - FEAC",NA,Presencial,224,WLS1,0.86,0.86,0.87,0.61,6.17,0.02,3.91,0.95,0.64
+"Faculdade de Economia, Administração e Contabilidade - FEAC",NA,Presencial,224,WLS2,0.81,0.83,0.7,0.7,4.72,0.02,2.7,1.42,0.7
+"Faculdade de Economia, Administração e Contabilidade - FEAC",NA,Presencial,224,WLS3,0.89,0.89,0.8,0.8,8,0.01,2.23,1.21,0.8
+"Faculdade de Economia, Administração e Contabilidade - FEAC",NA,Presencial,224,WLS4,0.98,0.98,0.97,0.97,61.79,0,2.42,2.18,0.97
+"Faculdade de Economia, Administração e Contabilidade - FEAC",NA,Presencial,224,WLS5,0.68,0.69,0.53,0.53,2.25,0.04,2.28,1.26,0.53
+"Faculdade de Economia, Administração e Contabilidade - FEAC",NA,Presencial,224,WLS1+WLS3+WLS4+WLS5,0.84,0.86,0.92,0.38,6.15,0.02,2.95,0.96,0.33
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",NA,Presencial,256,all,0.79,0.8,0.9,0.25,4.03,0.02,2.44,0.8,0.19
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",NA,Presencial,256,WLS1,0.85,0.85,0.87,0.59,5.86,0.02,3.58,1.04,0.55
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",NA,Presencial,256,WLS2,0.76,0.78,0.63,0.63,3.45,0.03,2.74,1.35,0.63
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",NA,Presencial,256,WLS3,0.89,0.89,0.8,0.8,8.19,0.01,1.97,1.24,0.8
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",NA,Presencial,256,WLS4,0.98,0.98,0.95,0.95,39.25,0,1.15,1.83,0.95
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",NA,Presencial,256,WLS5,0.68,0.68,0.51,0.51,2.12,0.04,1.65,1.28,0.51
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",NA,Presencial,256,WLS1+WLS3+WLS4+WLS5,0.81,0.82,0.9,0.31,4.45,0.02,2.39,0.87,0.24
+Faculdade de Nutrição - FANUT,NA,Presencial,98,all,0.75,0.76,0.88,0.21,3.21,0.04,2.53,0.64,0.19
+Faculdade de Nutrição - FANUT,NA,Presencial,98,WLS1,0.81,0.81,0.83,0.51,4.21,0.03,3.89,0.83,0.53
+Faculdade de Nutrição - FANUT,NA,Presencial,98,WLS2,0.81,0.83,0.72,0.72,5.05,0.03,2.98,1.39,0.72
+Faculdade de Nutrição - FANUT,NA,Presencial,98,WLS3,0.9,0.9,0.81,0.81,8.68,0.02,2.06,1.21,0.81
+Faculdade de Nutrição - FANUT,NA,Presencial,98,WLS4,0.99,0.99,0.98,0.98,110.96,0,0.3,1.05,0.98
+Faculdade de Nutrição - FANUT,NA,Presencial,98,WLS5,0.18,0.19,0.1,0.1,0.23,0.16,2.04,1.06,0.1
+Faculdade de Nutrição - FANUT,NA,Presencial,98,WLS1+WLS3+WLS4+WLS5,0.74,0.75,0.87,0.24,3.07,0.04,2.43,0.65,0.17
+Faculdade de Arquitetura e Urbanismo - FAU,NA,Presencial,264,all,0.72,0.74,0.87,0.19,2.86,0.03,2.39,0.66,0.11
+Faculdade de Arquitetura e Urbanismo - FAU,NA,Presencial,264,WLS1,0.86,0.86,0.88,0.61,6.38,0.01,3.76,0.95,0.62
+Faculdade de Arquitetura e Urbanismo - FAU,NA,Presencial,264,WLS2,0.79,0.8,0.66,0.66,3.92,0.03,2.09,1.23,0.66
+Faculdade de Arquitetura e Urbanismo - FAU,NA,Presencial,264,WLS3,0.88,0.88,0.78,0.78,7.2,0.02,2.16,1.21,0.78
+Faculdade de Arquitetura e Urbanismo - FAU,NA,Presencial,264,WLS4,0.98,0.98,0.96,0.96,44.86,0,0.78,1.6,0.96
+Faculdade de Arquitetura e Urbanismo - FAU,NA,Presencial,264,WLS5,0.56,0.57,0.4,0.4,1.32,0.05,1.77,1.15,0.4
+Faculdade de Arquitetura e Urbanismo - FAU,NA,Presencial,264,WLS1+WLS3+WLS4+WLS5,0.75,0.77,0.88,0.25,3.41,0.02,2.45,0.74,0.2
+Centro de Tecnologia - CTEC,NA,Presencial,333,all,0.78,0.79,0.89,0.24,3.86,0.02,2.71,0.73,0.2
+Centro de Tecnologia - CTEC,NA,Presencial,333,WLS1,0.87,0.88,0.88,0.64,7.13,0.01,3.95,0.93,0.66
+Centro de Tecnologia - CTEC,NA,Presencial,333,WLS2,0.78,0.79,0.65,0.65,3.76,0.02,2.89,1.31,0.65
+Centro de Tecnologia - CTEC,NA,Presencial,333,WLS3,0.91,0.91,0.83,0.83,9.86,0.01,2.44,1.23,0.83
+Centro de Tecnologia - CTEC,NA,Presencial,333,WLS4,0.99,0.99,0.98,0.98,118.21,0,0.83,1.7,0.98
+Centro de Tecnologia - CTEC,NA,Presencial,333,WLS5,0.53,0.54,0.37,0.37,1.2,0.05,2.19,1.15,0.37
+Centro de Tecnologia - CTEC,NA,Presencial,333,WLS1+WLS3+WLS4+WLS5,0.79,0.81,0.9,0.29,4.18,0.02,2.67,0.79,0.23
+Faculdade de Letras - FALE,NA,Presencial,154,all,0.75,0.77,0.9,0.22,3.34,0.03,2.47,0.73,0.2
+Faculdade de Letras - FALE,NA,Presencial,154,WLS1,0.85,0.86,0.88,0.6,6.02,0.02,3.64,0.98,0.55
+Faculdade de Letras - FALE,NA,Presencial,154,WLS2,0.86,0.87,0.78,0.78,6.98,0.02,2.54,1.5,0.78
+Faculdade de Letras - FALE,NA,Presencial,154,WLS3,0.93,0.93,0.87,0.87,13.38,0.01,2.12,1.29,0.87
+Faculdade de Letras - FALE,NA,Presencial,154,WLS4,0.98,0.98,0.97,0.97,65.41,0,1.02,1.67,0.97
+Faculdade de Letras - FALE,NA,Presencial,154,WLS5,0.64,0.65,0.48,0.48,1.82,0.06,1.85,1.28,0.48
+Faculdade de Letras - FALE,NA,Presencial,154,WLS1+WLS3+WLS4+WLS5,0.81,0.82,0.91,0.31,4.48,0.02,2.46,0.84,0.25
+Centro de Educação - CEDU,NA,Presencial,419,all,0.79,0.8,0.9,0.25,4.09,0.02,2.51,0.78,0.22
+Centro de Educação - CEDU,NA,Presencial,419,WLS1,0.86,0.87,0.86,0.62,6.49,0.01,3.68,0.94,0.65
+Centro de Educação - CEDU,NA,Presencial,419,WLS2,0.84,0.85,0.74,0.74,5.76,0.01,2.48,1.48,0.74
+Centro de Educação - CEDU,NA,Presencial,419,WLS3,0.9,0.9,0.82,0.82,9.26,0.01,2,1.19,0.82
+Centro de Educação - CEDU,NA,Presencial,419,WLS4,0.97,0.97,0.94,0.94,34.23,0,1.3,1.84,0.94
+Centro de Educação - CEDU,NA,Presencial,419,WLS5,0.58,0.59,0.41,0.41,1.41,0.04,1.93,1.23,0.41
+Centro de Educação - CEDU,NA,Presencial,419,WLS1+WLS3+WLS4+WLS5,0.82,0.83,0.9,0.33,5.01,0.01,2.52,0.86,0.28
+Instituto de Ciências Biológicas e da Saúde - ICBS,NA,Presencial,146,all,0.76,0.78,0.89,0.22,3.46,0.03,2.55,0.7,0.17
+Instituto de Ciências Biológicas e da Saúde - ICBS,NA,Presencial,146,WLS1,0.85,0.85,0.84,0.58,5.56,0.02,3.66,0.93,0.58
+Instituto de Ciências Biológicas e da Saúde - ICBS,NA,Presencial,146,WLS2,0.82,0.83,0.71,0.71,4.96,0.03,3.07,1.37,0.71
+Instituto de Ciências Biológicas e da Saúde - ICBS,NA,Presencial,146,WLS3,0.85,0.85,0.74,0.74,5.81,0.02,2.18,1.14,0.74
+Instituto de Ciências Biológicas e da Saúde - ICBS,NA,Presencial,146,WLS4,0.99,0.99,0.98,0.98,82.62,0,0.82,1.61,0.98
+Instituto de Ciências Biológicas e da Saúde - ICBS,NA,Presencial,146,WLS5,0.64,0.64,0.47,0.47,1.8,0.06,1.94,1.21,0.47
+Instituto de Ciências Biológicas e da Saúde - ICBS,NA,Presencial,146,WLS1+WLS3+WLS4+WLS5,0.77,0.79,0.89,0.27,3.69,0.03,2.45,0.75,0.19
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),NA,Presencial,234,all,0.8,0.81,0.9,0.26,4.28,0.02,2.41,0.77,0.22
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),NA,Presencial,234,WLS1,0.87,0.87,0.88,0.63,6.92,0.01,3.47,1.05,0.65
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),NA,Presencial,234,WLS2,0.78,0.8,0.67,0.67,3.99,0.03,3.22,1.33,0.67
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),NA,Presencial,234,WLS3,0.89,0.89,0.8,0.8,8.19,0.01,1.93,1.26,0.8
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),NA,Presencial,234,WLS4,0.98,0.98,0.97,0.97,58.68,0,0.71,1.49,0.97
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),NA,Presencial,234,WLS5,0.58,0.58,0.41,0.41,1.39,0.05,1.69,1.24,0.41
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),NA,Presencial,234,WLS1+WLS3+WLS4+WLS5,0.83,0.83,0.91,0.34,5.05,0.02,2.25,0.85,0.27
+Instituto de Educação Física e Esporte - IEFE,NA,Presencial,77,all,0.82,0.83,0.9,0.29,4.87,0.03,2.47,0.81,0.26
+Instituto de Educação Física e Esporte - IEFE,NA,Presencial,77,WLS1,0.82,0.83,0.84,0.54,4.75,0.03,3.59,0.97,0.5
+Instituto de Educação Física e Esporte - IEFE,NA,Presencial,77,WLS2,0.74,0.77,0.62,0.62,3.29,0.05,2.9,1.29,0.62
+Instituto de Educação Física e Esporte - IEFE,NA,Presencial,77,WLS3,0.87,0.87,0.78,0.78,6.97,0.03,1.89,1.17,0.78
+Instituto de Educação Física e Esporte - IEFE,NA,Presencial,77,WLS4,0.98,0.98,0.97,0.97,61.44,0,1.12,1.82,0.97
+Instituto de Educação Física e Esporte - IEFE,NA,Presencial,77,WLS5,0.41,0.41,0.26,0.26,0.7,0.13,1.71,1,0.26
+Instituto de Educação Física e Esporte - IEFE,NA,Presencial,77,WLS1+WLS3+WLS4+WLS5,0.83,0.84,0.9,0.35,5.28,0.03,2.38,0.87,0.35
+Instituto de Psicologia - IP,NA,Presencial,106,all,0.78,0.8,0.91,0.25,4.03,0.03,2.5,0.78,0.26
+Instituto de Psicologia - IP,NA,Presencial,106,WLS1,0.89,0.89,0.9,0.68,8.51,0.02,3.61,1.03,0.69
+Instituto de Psicologia - IP,NA,Presencial,106,WLS2,0.83,0.84,0.72,0.72,5.23,0.03,2.58,1.44,0.72
+Instituto de Psicologia - IP,NA,Presencial,106,WLS3,0.86,0.86,0.75,0.75,6.08,0.03,2.35,1.26,0.75
+Instituto de Psicologia - IP,NA,Presencial,106,WLS4,0.98,0.98,0.96,0.96,51.44,0,1.07,1.8,0.96
+Instituto de Psicologia - IP,NA,Presencial,106,WLS5,0.62,0.62,0.45,0.45,1.66,0.07,1.81,1.26,0.45
+Instituto de Psicologia - IP,NA,Presencial,106,WLS1+WLS3+WLS4+WLS5,0.83,0.85,0.92,0.35,5.5,0.02,2.49,0.9,0.3
+Faculdade de Medicina - FAMED,NA,Presencial,196,all,0.76,0.79,0.89,0.24,3.77,0.03,2.87,0.66,0.18
+Faculdade de Medicina - FAMED,NA,Presencial,196,WLS1,0.85,0.85,0.85,0.59,5.66,0.02,4.22,0.73,0.62
+Faculdade de Medicina - FAMED,NA,Presencial,196,WLS2,0.75,0.77,0.63,0.63,3.37,0.03,3.21,1.27,0.63
+Faculdade de Medicina - FAMED,NA,Presencial,196,WLS3,0.88,0.88,0.79,0.79,7.34,0.02,2.51,1.12,0.79
+Faculdade de Medicina - FAMED,NA,Presencial,196,WLS4,0.99,0.99,0.98,0.98,99.23,0,0.63,1.51,0.98
+Faculdade de Medicina - FAMED,NA,Presencial,196,WLS5,0.62,0.63,0.46,0.46,1.72,0.05,2.4,1.26,0.46
+Faculdade de Medicina - FAMED,NA,Presencial,196,WLS1+WLS3+WLS4+WLS5,0.77,0.8,0.89,0.28,3.94,0.02,2.8,0.7,0.21
+Instituto de Ciências Atmosféricas - ICAT,NA,Presencial,66,all,0.68,0.71,0.88,0.17,2.47,0.06,2.24,0.63,0.12
+Instituto de Ciências Atmosféricas - ICAT,NA,Presencial,66,WLS1,0.84,0.85,0.87,0.59,5.64,0.03,3.52,0.97,0.54
+Instituto de Ciências Atmosféricas - ICAT,NA,Presencial,66,WLS2,0.85,0.85,0.75,0.75,5.85,0.04,2.77,1.48,0.75
+Instituto de Ciências Atmosféricas - ICAT,NA,Presencial,66,WLS3,0.85,0.85,0.73,0.73,5.51,0.04,1.53,1.16,0.73
+Instituto de Ciências Atmosféricas - ICAT,NA,Presencial,66,WLS4,0.99,0.99,0.97,0.97,75.1,0,0.52,1.32,0.97
+Instituto de Ciências Atmosféricas - ICAT,NA,Presencial,66,WLS5,0.65,0.65,0.48,0.48,1.86,0.09,1.6,1.2,0.48
+Instituto de Ciências Atmosféricas - ICAT,NA,Presencial,66,WLS1+WLS3+WLS4+WLS5,0.76,0.77,0.89,0.25,3.27,0.05,2.14,0.71,0.17
+Faculdade de Direito - FDA,NA,Presencial,98,all,0.79,0.81,0.91,0.26,4.18,0.03,3.01,0.8,0.2
+Faculdade de Direito - FDA,NA,Presencial,98,WLS1,0.84,0.84,0.83,0.57,5.21,0.03,4.2,0.71,0.55
+Faculdade de Direito - FDA,NA,Presencial,98,WLS2,0.84,0.85,0.74,0.74,5.55,0.03,2.51,1.51,0.74
+Faculdade de Direito - FDA,NA,Presencial,98,WLS3,0.89,0.89,0.8,0.8,7.76,0.02,2.55,1.17,0.8
+Faculdade de Direito - FDA,NA,Presencial,98,WLS4,0.99,0.99,0.97,0.97,67.76,0,2.17,2.21,0.97
+Faculdade de Direito - FDA,NA,Presencial,98,WLS5,0.73,0.75,0.6,0.6,2.94,0.05,2.43,1.3,0.6
+Faculdade de Direito - FDA,NA,Presencial,98,WLS1+WLS3+WLS4+WLS5,0.8,0.82,0.91,0.32,4.66,0.03,3.11,0.85,0.28
+Instituto de Matemática - IM,NA,Presencial,35,all,0.43,0.41,0.82,0.05,0.69,0.14,2.56,0.48,0.04
+Instituto de Matemática - IM,NA,Presencial,35,WLS1,0.55,0.53,0.71,0.22,1.12,0.11,3.86,0.67,0.16
+Instituto de Matemática - IM,NA,Presencial,35,WLS2,0.84,0.85,0.74,0.74,5.82,0.05,2.89,1.44,0.74
+Instituto de Matemática - IM,NA,Presencial,35,WLS3,0.77,0.77,0.63,0.63,3.38,0.08,1.91,0.97,0.63
+Instituto de Matemática - IM,NA,Presencial,35,WLS4,0.98,0.99,0.98,0.98,89.52,0.01,0.9,1.66,0.98
+Instituto de Matemática - IM,NA,Presencial,35,WLS5,0.62,0.63,0.46,0.46,1.74,0.12,1.94,1.16,0.46
+Instituto de Matemática - IM,NA,Presencial,35,WLS1+WLS3+WLS4+WLS5,0.45,0.46,0.81,0.08,0.86,0.14,2.49,0.51,0.05
+Escola de Enfermagem e Farmácia - ESENFAR,NA,Presencial,68,all,0.67,0.7,0.86,0.16,2.3,0.06,2.41,0.56,0.09
+Escola de Enfermagem e Farmácia - ESENFAR,NA,Presencial,68,WLS1,0.83,0.83,0.83,0.56,4.99,0.03,3.73,0.87,0.57
+Escola de Enfermagem e Farmácia - ESENFAR,NA,Presencial,68,WLS2,0.8,0.83,0.71,0.71,4.82,0.04,2.76,1.41,0.71
+Escola de Enfermagem e Farmácia - ESENFAR,NA,Presencial,68,WLS3,0.91,0.91,0.83,0.83,9.9,0.02,2.05,1.15,0.83
+Escola de Enfermagem e Farmácia - ESENFAR,NA,Presencial,68,WLS4,0.99,0.99,0.98,0.98,104.91,0,0.26,0.9,0.98
+Escola de Enfermagem e Farmácia - ESENFAR,NA,Presencial,68,WLS5,0.47,0.47,0.31,0.31,0.89,0.13,1.93,1.1,0.31
+Escola de Enfermagem e Farmácia - ESENFAR,NA,Presencial,68,WLS1+WLS3+WLS4+WLS5,0.73,0.73,0.87,0.21,2.67,0.05,2.34,0.61,0.14
+Faculdade de Serviço Social - FSSO,NA,Presencial,38,all,0.78,0.79,0.93,0.24,3.75,0.05,2.26,0.81,0.23
+Faculdade de Serviço Social - FSSO,NA,Presencial,38,WLS1,0.92,0.92,0.94,0.74,11.43,0.02,3.49,1.29,0.7
+Faculdade de Serviço Social - FSSO,NA,Presencial,38,WLS2,0.88,0.9,0.81,0.81,8.78,0.04,2.62,1.67,0.81
+Faculdade de Serviço Social - FSSO,NA,Presencial,38,WLS3,0.82,0.82,0.7,0.7,4.71,0.06,1.87,1.29,0.7
+Faculdade de Serviço Social - FSSO,NA,Presencial,38,WLS4,0.99,0.99,0.99,0.99,187.15,0,0.61,1.59,0.99
+Faculdade de Serviço Social - FSSO,NA,Presencial,38,WLS5,0.65,0.65,0.48,0.48,1.87,0.11,1.5,1.22,0.48
+Faculdade de Serviço Social - FSSO,NA,Presencial,38,WLS1+WLS3+WLS4+WLS5,0.85,0.85,0.93,0.36,5.61,0.04,2.19,0.95,0.29
+Instituto de Computação - IC,NA,Presencial,56,all,0.76,0.78,0.92,0.22,3.48,0.05,2.95,0.74,0.22
+Instituto de Computação - IC,NA,Presencial,56,WLS1,0.84,0.85,0.88,0.58,5.6,0.03,3.92,0.93,0.58
+Instituto de Computação - IC,NA,Presencial,56,WLS2,0.87,0.88,0.78,0.78,7.1,0.03,3.2,1.41,0.78
+Instituto de Computação - IC,NA,Presencial,56,WLS3,0.9,0.9,0.81,0.81,8.77,0.03,2.64,1.19,0.81
+Instituto de Computação - IC,NA,Presencial,56,WLS4,0.99,0.99,0.98,0.98,99.85,0,1.35,2.03,0.98
+Instituto de Computação - IC,NA,Presencial,56,WLS5,0.55,0.62,0.45,0.45,1.62,0.1,2.7,1.06,0.45
+Instituto de Computação - IC,NA,Presencial,56,WLS1+WLS3+WLS4+WLS5,0.81,0.83,0.92,0.33,4.82,0.04,2.91,0.86,0.27
+Instituto de Ciências Sociais - ICS,NA,Presencial,37,all,0.8,0.8,0.92,0.25,4.02,0.04,2.56,0.85,0.25
+Instituto de Ciências Sociais - ICS,NA,Presencial,37,WLS1,0.74,0.75,0.87,0.42,2.93,0.08,3.73,0.95,0.28
+Instituto de Ciências Sociais - ICS,NA,Presencial,37,WLS2,0.61,0.62,0.45,0.45,1.61,0.13,2.43,1.11,0.45
+Instituto de Ciências Sociais - ICS,NA,Presencial,37,WLS3,0.88,0.88,0.78,0.78,7.23,0.04,2.09,1.35,0.78
+Instituto de Ciências Sociais - ICS,NA,Presencial,37,WLS4,0.98,0.98,0.96,0.96,45.75,0.01,1.51,2.14,0.96
+Instituto de Ciências Sociais - ICS,NA,Presencial,37,WLS5,0.64,0.64,0.47,0.47,1.81,0.12,1.88,1.21,0.47
+Instituto de Ciências Sociais - ICS,NA,Presencial,37,WLS1+WLS3+WLS4+WLS5,0.83,0.84,0.94,0.34,5.22,0.04,2.59,0.98,0.32
+NA,Graduação (bacharelado),Presencial,2611,all,0.79,0.81,0.9,0.26,4.16,0.01,2.5,0.76,0.19
+NA,Graduação (bacharelado),Presencial,2611,WLS1,0.87,0.87,0.87,0.62,6.56,0,3.75,0.97,0.63
+NA,Graduação (bacharelado),Presencial,2611,WLS2,0.79,0.8,0.67,0.67,4.06,0.01,2.69,1.33,0.67
+NA,Graduação (bacharelado),Presencial,2611,WLS3,0.9,0.9,0.81,0.81,8.63,0,2.09,1.23,0.81
+NA,Graduação (bacharelado),Presencial,2611,WLS4,0.99,0.99,0.97,0.97,70.97,0,0.83,1.67,0.97
+NA,Graduação (bacharelado),Presencial,2611,WLS5,0.59,0.6,0.42,0.42,1.48,0.02,1.92,1.22,0.42
+NA,Graduação (bacharelado),Presencial,2611,WLS1+WLS3+WLS4+WLS5,0.8,0.82,0.9,0.31,4.47,0.01,2.47,0.82,0.24
+Faculdade de Odontologia - FOUFAL,Graduação (bacharelado),Presencial,106,all,0.74,0.75,0.88,0.2,3.04,0.04,2.21,0.61,0.17
+Faculdade de Odontologia - FOUFAL,Graduação (bacharelado),Presencial,106,WLS1,0.84,0.84,0.83,0.57,5.31,0.03,3.69,0.88,0.53
+Faculdade de Odontologia - FOUFAL,Graduação (bacharelado),Presencial,106,WLS2,0.82,0.83,0.72,0.72,5.06,0.03,2.41,1.41,0.72
+Faculdade de Odontologia - FOUFAL,Graduação (bacharelado),Presencial,106,WLS3,0.92,0.93,0.86,0.86,12.34,0.01,1.64,1.22,0.86
+Faculdade de Odontologia - FOUFAL,Graduação (bacharelado),Presencial,106,WLS4,0.99,1,0.99,0.99,199.57,0,0.15,0.78,0.99
+Faculdade de Odontologia - FOUFAL,Graduação (bacharelado),Presencial,106,WLS5,0.4,0.4,0.25,0.25,0.67,0.12,1.67,1.08,0.25
+Faculdade de Odontologia - FOUFAL,Graduação (bacharelado),Presencial,106,WLS1+WLS3+WLS4+WLS5,0.75,0.75,0.88,0.24,3.08,0.04,2.17,0.63,0.22
+Campus CECA,Graduação (bacharelado),Presencial,213,all,0.78,0.79,0.9,0.24,3.8,0.02,2.42,0.75,0.21
+Campus CECA,Graduação (bacharelado),Presencial,213,WLS1,0.85,0.85,0.87,0.59,5.78,0.02,3.63,1.03,0.57
+Campus CECA,Graduação (bacharelado),Presencial,213,WLS2,0.75,0.76,0.62,0.62,3.25,0.03,2.65,1.26,0.62
+Campus CECA,Graduação (bacharelado),Presencial,213,WLS3,0.9,0.9,0.82,0.82,9.37,0.01,2.11,1.3,0.82
+Campus CECA,Graduação (bacharelado),Presencial,213,WLS4,0.98,0.98,0.96,0.96,51.26,0,0.67,1.53,0.96
+Campus CECA,Graduação (bacharelado),Presencial,213,WLS5,0.66,0.66,0.49,0.49,1.92,0.05,1.82,1.26,0.49
+Campus CECA,Graduação (bacharelado),Presencial,213,WLS1+WLS3+WLS4+WLS5,0.78,0.79,0.9,0.28,3.86,0.02,2.37,0.8,0.23
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (bacharelado),Presencial,448,all,0.78,0.78,0.89,0.23,3.65,0.02,2.2,0.69,0.18
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (bacharelado),Presencial,448,WLS1,0.86,0.87,0.88,0.62,6.49,0.01,3.53,0.99,0.63
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (bacharelado),Presencial,448,WLS2,0.74,0.75,0.6,0.6,3.01,0.02,2.09,1.19,0.6
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (bacharelado),Presencial,448,WLS3,0.9,0.9,0.82,0.82,9.05,0.01,1.85,1.2,0.82
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (bacharelado),Presencial,448,WLS4,0.98,0.98,0.96,0.96,49.06,0,0.47,1.3,0.96
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (bacharelado),Presencial,448,WLS5,0.56,0.56,0.39,0.39,1.3,0.04,1.74,1.18,0.39
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (bacharelado),Presencial,448,WLS1+WLS3+WLS4+WLS5,0.79,0.8,0.9,0.28,3.97,0.02,2.23,0.75,0.22
+Instituto de Química e Biotecnologia - IQB,Graduação (bacharelado),Presencial,45,all,0.8,0.82,0.93,0.27,4.43,0.05,2.61,0.74,0.23
+Instituto de Química e Biotecnologia - IQB,Graduação (bacharelado),Presencial,45,WLS1,0.9,0.9,0.93,0.69,8.92,0.03,3.83,1.02,0.7
+Instituto de Química e Biotecnologia - IQB,Graduação (bacharelado),Presencial,45,WLS2,0.72,0.74,0.59,0.59,2.83,0.08,3.2,1.18,0.59
+Instituto de Química e Biotecnologia - IQB,Graduação (bacharelado),Presencial,45,WLS3,0.81,0.82,0.7,0.7,4.68,0.05,2.29,0.89,0.7
+Instituto de Química e Biotecnologia - IQB,Graduação (bacharelado),Presencial,45,WLS4,0.99,0.99,0.99,0.99,144.72,0,0.78,1.7,0.99
+Instituto de Química e Biotecnologia - IQB,Graduação (bacharelado),Presencial,45,WLS5,0.48,0.49,0.32,0.32,0.95,0.15,1.77,1.19,0.32
+Instituto de Química e Biotecnologia - IQB,Graduação (bacharelado),Presencial,45,WLS1+WLS3+WLS4+WLS5,0.79,0.81,0.93,0.3,4.38,0.05,2.5,0.78,0.25
+"Faculdade de Economia, Administração e Contabilidade - FEAC",Graduação (bacharelado),Presencial,223,all,0.83,0.85,0.92,0.31,5.51,0.02,2.9,0.88,0.28
+"Faculdade de Economia, Administração e Contabilidade - FEAC",Graduação (bacharelado),Presencial,223,WLS1,0.86,0.86,0.87,0.61,6.13,0.02,3.9,0.95,0.63
+"Faculdade de Economia, Administração e Contabilidade - FEAC",Graduação (bacharelado),Presencial,223,WLS2,0.81,0.83,0.7,0.7,4.72,0.02,2.7,1.43,0.7
+"Faculdade de Economia, Administração e Contabilidade - FEAC",Graduação (bacharelado),Presencial,223,WLS3,0.89,0.89,0.8,0.8,7.92,0.02,2.22,1.21,0.8
+"Faculdade de Economia, Administração e Contabilidade - FEAC",Graduação (bacharelado),Presencial,223,WLS4,0.98,0.98,0.97,0.97,61.41,0,2.4,2.18,0.97
+"Faculdade de Economia, Administração e Contabilidade - FEAC",Graduação (bacharelado),Presencial,223,WLS5,0.68,0.69,0.53,0.53,2.25,0.04,2.28,1.26,0.53
+"Faculdade de Economia, Administração e Contabilidade - FEAC",Graduação (bacharelado),Presencial,223,WLS1+WLS3+WLS4+WLS5,0.84,0.86,0.92,0.38,6.09,0.02,2.94,0.96,0.33
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (bacharelado),Presencial,108,all,0.79,0.81,0.9,0.26,4.19,0.03,2.58,0.8,0.21
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (bacharelado),Presencial,108,WLS1,0.86,0.87,0.86,0.62,6.49,0.02,3.69,0.94,0.63
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (bacharelado),Presencial,108,WLS2,0.78,0.79,0.65,0.65,3.76,0.04,2.78,1.36,0.65
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (bacharelado),Presencial,108,WLS3,0.9,0.9,0.82,0.82,9.1,0.02,1.94,1.19,0.82
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (bacharelado),Presencial,108,WLS4,0.97,0.97,0.94,0.94,31.39,0.01,1.74,2.04,0.94
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (bacharelado),Presencial,108,WLS5,0.67,0.67,0.5,0.5,2.02,0.06,1.65,1.3,0.5
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (bacharelado),Presencial,108,WLS1+WLS3+WLS4+WLS5,0.8,0.82,0.91,0.32,4.66,0.03,2.54,0.87,0.27
+Faculdade de Nutrição - FANUT,Graduação (bacharelado),Presencial,93,all,0.77,0.78,0.88,0.22,3.46,0.04,2.51,0.64,0.18
+Faculdade de Nutrição - FANUT,Graduação (bacharelado),Presencial,93,WLS1,0.81,0.81,0.83,0.51,4.25,0.03,3.87,0.84,0.53
+Faculdade de Nutrição - FANUT,Graduação (bacharelado),Presencial,93,WLS2,0.8,0.82,0.7,0.7,4.67,0.04,3.06,1.33,0.7
+Faculdade de Nutrição - FANUT,Graduação (bacharelado),Presencial,93,WLS3,0.9,0.9,0.82,0.82,9.05,0.02,2.03,1.23,0.82
+Faculdade de Nutrição - FANUT,Graduação (bacharelado),Presencial,93,WLS4,0.98,0.99,0.98,0.98,87.68,0,0.21,0.9,0.98
+Faculdade de Nutrição - FANUT,Graduação (bacharelado),Presencial,93,WLS5,0.17,0.17,0.09,0.09,0.21,0.17,2,1.04,0.09
+Faculdade de Nutrição - FANUT,Graduação (bacharelado),Presencial,93,WLS1+WLS3+WLS4+WLS5,0.74,0.75,0.87,0.23,2.97,0.04,2.39,0.63,0.17
+Faculdade de Arquitetura e Urbanismo - FAU,Graduação (bacharelado),Presencial,243,all,0.71,0.73,0.86,0.18,2.72,0.03,2.36,0.65,0.1
+Faculdade de Arquitetura e Urbanismo - FAU,Graduação (bacharelado),Presencial,243,WLS1,0.86,0.86,0.88,0.61,6.32,0.01,3.73,0.96,0.62
+Faculdade de Arquitetura e Urbanismo - FAU,Graduação (bacharelado),Presencial,243,WLS2,0.79,0.79,0.66,0.66,3.86,0.03,2.13,1.21,0.66
+Faculdade de Arquitetura e Urbanismo - FAU,Graduação (bacharelado),Presencial,243,WLS3,0.87,0.87,0.78,0.78,6.98,0.02,2.12,1.2,0.78
+Faculdade de Arquitetura e Urbanismo - FAU,Graduação (bacharelado),Presencial,243,WLS4,0.97,0.98,0.96,0.96,44.18,0,0.76,1.58,0.96
+Faculdade de Arquitetura e Urbanismo - FAU,Graduação (bacharelado),Presencial,243,WLS5,0.56,0.56,0.39,0.39,1.27,0.06,1.72,1.13,0.39
+Faculdade de Arquitetura e Urbanismo - FAU,Graduação (bacharelado),Presencial,243,WLS1+WLS3+WLS4+WLS5,0.74,0.76,0.88,0.24,3.12,0.03,2.41,0.72,0.19
+Centro de Tecnologia - CTEC,Graduação (bacharelado),Presencial,289,all,0.78,0.79,0.89,0.24,3.82,0.02,2.67,0.71,0.18
+Centro de Tecnologia - CTEC,Graduação (bacharelado),Presencial,289,WLS1,0.86,0.87,0.88,0.62,6.58,0.01,3.91,0.93,0.64
+Centro de Tecnologia - CTEC,Graduação (bacharelado),Presencial,289,WLS2,0.72,0.74,0.59,0.59,2.82,0.03,2.95,1.21,0.59
+Centro de Tecnologia - CTEC,Graduação (bacharelado),Presencial,289,WLS3,0.91,0.91,0.84,0.84,10.72,0.01,2.38,1.24,0.84
+Centro de Tecnologia - CTEC,Graduação (bacharelado),Presencial,289,WLS4,0.99,0.99,0.98,0.98,106.13,0,0.69,1.58,0.98
+Centro de Tecnologia - CTEC,Graduação (bacharelado),Presencial,289,WLS5,0.5,0.52,0.35,0.35,1.1,0.06,2.17,1.13,0.35
+Centro de Tecnologia - CTEC,Graduação (bacharelado),Presencial,289,WLS1+WLS3+WLS4+WLS5,0.79,0.81,0.9,0.29,4.18,0.02,2.61,0.77,0.24
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (bacharelado),Presencial,55,all,0.74,0.76,0.88,0.21,3.1,0.05,2.46,0.65,0.15
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (bacharelado),Presencial,55,WLS1,0.86,0.86,0.84,0.6,6.02,0.03,3.72,0.98,0.6
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (bacharelado),Presencial,55,WLS2,0.74,0.76,0.61,0.61,3.11,0.07,3.29,1.15,0.61
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (bacharelado),Presencial,55,WLS3,0.88,0.88,0.79,0.79,7.69,0.03,1.73,1.2,0.79
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (bacharelado),Presencial,55,WLS4,0.99,0.99,0.99,0.99,146.17,0,0.45,1.28,0.99
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (bacharelado),Presencial,55,WLS5,0.46,0.46,0.3,0.3,0.84,0.15,1.85,1.16,0.3
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (bacharelado),Presencial,55,WLS1+WLS3+WLS4+WLS5,0.77,0.78,0.89,0.26,3.59,0.05,2.29,0.73,0.23
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (bacharelado),Presencial,141,all,0.78,0.8,0.9,0.25,4,0.03,2.5,0.73,0.19
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (bacharelado),Presencial,141,WLS1,0.87,0.87,0.87,0.63,6.94,0.02,3.59,0.98,0.63
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (bacharelado),Presencial,141,WLS2,0.8,0.83,0.7,0.7,4.77,0.03,3.11,1.35,0.7
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (bacharelado),Presencial,141,WLS3,0.86,0.86,0.76,0.76,6.37,0.02,2.16,1.18,0.76
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (bacharelado),Presencial,141,WLS4,0.99,0.99,0.98,0.98,97.18,0,0.63,1.44,0.98
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (bacharelado),Presencial,141,WLS5,0.57,0.58,0.41,0.41,1.39,0.07,1.91,1.23,0.41
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (bacharelado),Presencial,141,WLS1+WLS3+WLS4+WLS5,0.81,0.82,0.91,0.31,4.44,0.03,2.38,0.79,0.23
+Instituto de Educação Física e Esporte - IEFE,Graduação (bacharelado),Presencial,44,all,0.86,0.87,0.93,0.35,6.54,0.03,2.62,0.89,0.36
+Instituto de Educação Física e Esporte - IEFE,Graduação (bacharelado),Presencial,44,WLS1,0.86,0.86,0.85,0.61,6.13,0.03,3.7,0.97,0.58
+Instituto de Educação Física e Esporte - IEFE,Graduação (bacharelado),Presencial,44,WLS2,0.82,0.84,0.73,0.73,5.35,0.05,2.98,1.39,0.73
+Instituto de Educação Física e Esporte - IEFE,Graduação (bacharelado),Presencial,44,WLS3,0.92,0.93,0.86,0.86,12.63,0.02,2.03,1.21,0.86
+Instituto de Educação Física e Esporte - IEFE,Graduação (bacharelado),Presencial,44,WLS4,0.98,0.98,0.96,0.96,48.79,0.01,1.57,1.97,0.96
+Instituto de Educação Física e Esporte - IEFE,Graduação (bacharelado),Presencial,44,WLS5,0.38,0.38,0.23,0.23,0.61,0.19,1.74,1.01,0.23
+Instituto de Educação Física e Esporte - IEFE,Graduação (bacharelado),Presencial,44,WLS1+WLS3+WLS4+WLS5,0.87,0.87,0.92,0.41,6.98,0.03,2.55,0.95,0.43
+Instituto de Psicologia - IP,Graduação (bacharelado),Presencial,79,all,0.81,0.81,0.91,0.27,4.36,0.03,2.53,0.79,0.24
+Instituto de Psicologia - IP,Graduação (bacharelado),Presencial,79,WLS1,0.88,0.89,0.89,0.66,7.72,0.02,3.63,1.01,0.67
+Instituto de Psicologia - IP,Graduação (bacharelado),Presencial,79,WLS2,0.65,0.67,0.51,0.51,2.05,0.07,3.09,1.07,0.51
+Instituto de Psicologia - IP,Graduação (bacharelado),Presencial,79,WLS3,0.85,0.85,0.75,0.75,5.85,0.03,2.16,1.33,0.75
+Instituto de Psicologia - IP,Graduação (bacharelado),Presencial,79,WLS4,0.99,0.99,0.98,0.98,118.37,0,0.87,1.75,0.98
+Instituto de Psicologia - IP,Graduação (bacharelado),Presencial,79,WLS5,0.65,0.65,0.48,0.48,1.85,0.08,1.78,1.31,0.48
+Instituto de Psicologia - IP,Graduação (bacharelado),Presencial,79,WLS1+WLS3+WLS4+WLS5,0.83,0.84,0.92,0.34,5.21,0.03,2.41,0.9,0.28
+Faculdade de Medicina - FAMED,Graduação (bacharelado),Presencial,185,all,0.77,0.79,0.89,0.24,3.83,0.03,2.84,0.65,0.17
+Faculdade de Medicina - FAMED,Graduação (bacharelado),Presencial,185,WLS1,0.85,0.85,0.85,0.59,5.77,0.02,4.21,0.74,0.63
+Faculdade de Medicina - FAMED,Graduação (bacharelado),Presencial,185,WLS2,0.74,0.76,0.62,0.62,3.2,0.04,3.24,1.25,0.62
+Faculdade de Medicina - FAMED,Graduação (bacharelado),Presencial,185,WLS3,0.88,0.88,0.79,0.79,7.61,0.02,2.49,1.13,0.79
+Faculdade de Medicina - FAMED,Graduação (bacharelado),Presencial,185,WLS4,0.99,0.99,0.98,0.98,100.1,0,0.49,1.38,0.98
+Faculdade de Medicina - FAMED,Graduação (bacharelado),Presencial,185,WLS5,0.64,0.65,0.48,0.48,1.86,0.05,2.38,1.27,0.48
+Faculdade de Medicina - FAMED,Graduação (bacharelado),Presencial,185,WLS1+WLS3+WLS4+WLS5,0.77,0.8,0.9,0.28,3.98,0.03,2.76,0.68,0.22
+Instituto de Ciências Atmosféricas - ICAT,Graduação (bacharelado),Presencial,61,all,0.7,0.72,0.88,0.17,2.51,0.06,2.19,0.6,0.12
+Instituto de Ciências Atmosféricas - ICAT,Graduação (bacharelado),Presencial,61,WLS1,0.85,0.85,0.87,0.59,5.67,0.03,3.49,0.98,0.54
+Instituto de Ciências Atmosféricas - ICAT,Graduação (bacharelado),Presencial,61,WLS2,0.82,0.82,0.69,0.69,4.54,0.05,2.92,1.38,0.69
+Instituto de Ciências Atmosféricas - ICAT,Graduação (bacharelado),Presencial,61,WLS3,0.82,0.82,0.7,0.7,4.63,0.05,1.47,1.12,0.7
+Instituto de Ciências Atmosféricas - ICAT,Graduação (bacharelado),Presencial,61,WLS4,0.98,0.98,0.97,0.97,61.42,0,0.22,0.84,0.97
+Instituto de Ciências Atmosféricas - ICAT,Graduação (bacharelado),Presencial,61,WLS5,0.65,0.65,0.48,0.48,1.88,0.09,1.56,1.21,0.48
+Instituto de Ciências Atmosféricas - ICAT,Graduação (bacharelado),Presencial,61,WLS1+WLS3+WLS4+WLS5,0.72,0.72,0.88,0.21,2.62,0.05,2.04,0.63,0.14
+Faculdade de Direito - FDA,Graduação (bacharelado),Presencial,84,all,0.8,0.82,0.91,0.27,4.45,0.03,2.98,0.81,0.23
+Faculdade de Direito - FDA,Graduação (bacharelado),Presencial,84,WLS1,0.84,0.84,0.83,0.57,5.29,0.03,4.17,0.73,0.55
+Faculdade de Direito - FDA,Graduação (bacharelado),Presencial,84,WLS2,0.77,0.78,0.64,0.64,3.58,0.05,2.69,1.34,0.64
+Faculdade de Direito - FDA,Graduação (bacharelado),Presencial,84,WLS3,0.88,0.88,0.79,0.79,7.36,0.03,2.45,1.18,0.79
+Faculdade de Direito - FDA,Graduação (bacharelado),Presencial,84,WLS4,0.99,0.99,0.97,0.97,71.55,0,2.04,2.25,0.97
+Faculdade de Direito - FDA,Graduação (bacharelado),Presencial,84,WLS5,0.72,0.74,0.58,0.58,2.8,0.06,2.39,1.3,0.58
+Faculdade de Direito - FDA,Graduação (bacharelado),Presencial,84,WLS1+WLS3+WLS4+WLS5,0.8,0.83,0.91,0.32,4.72,0.03,3.04,0.86,0.28
+Escola de Enfermagem e Farmácia - ESENFAR,Graduação (bacharelado),Presencial,64,all,0.67,0.69,0.86,0.16,2.22,0.06,2.37,0.55,0.1
+Escola de Enfermagem e Farmácia - ESENFAR,Graduação (bacharelado),Presencial,64,WLS1,0.83,0.83,0.83,0.55,4.99,0.03,3.73,0.88,0.56
+Escola de Enfermagem e Farmácia - ESENFAR,Graduação (bacharelado),Presencial,64,WLS2,0.79,0.82,0.7,0.7,4.63,0.05,2.76,1.38,0.7
+Escola de Enfermagem e Farmácia - ESENFAR,Graduação (bacharelado),Presencial,64,WLS3,0.9,0.9,0.82,0.82,9.23,0.02,1.99,1.15,0.82
+Escola de Enfermagem e Farmácia - ESENFAR,Graduação (bacharelado),Presencial,64,WLS4,0.98,0.98,0.96,0.96,52.01,0.01,0.14,0.58,0.96
+Escola de Enfermagem e Farmácia - ESENFAR,Graduação (bacharelado),Presencial,64,WLS5,0.44,0.44,0.29,0.29,0.8,0.14,1.88,1.09,0.29
+Escola de Enfermagem e Farmácia - ESENFAR,Graduação (bacharelado),Presencial,64,WLS1+WLS3+WLS4+WLS5,0.73,0.72,0.87,0.21,2.61,0.05,2.29,0.59,0.14
+Faculdade de Serviço Social - FSSO,Graduação (bacharelado),Presencial,35,all,0.79,0.8,0.94,0.25,3.95,0.05,2.25,0.83,0.24
+Faculdade de Serviço Social - FSSO,Graduação (bacharelado),Presencial,35,WLS1,0.91,0.92,0.94,0.73,10.9,0.03,3.43,1.31,0.69
+Faculdade de Serviço Social - FSSO,Graduação (bacharelado),Presencial,35,WLS2,0.86,0.88,0.78,0.78,7.1,0.04,2.81,1.58,0.78
+Faculdade de Serviço Social - FSSO,Graduação (bacharelado),Presencial,35,WLS3,0.89,0.89,0.8,0.8,8.18,0.04,1.77,1.28,0.8
+Faculdade de Serviço Social - FSSO,Graduação (bacharelado),Presencial,35,WLS4,0.99,0.99,0.99,0.99,184.77,0,0.66,1.65,0.99
+Faculdade de Serviço Social - FSSO,Graduação (bacharelado),Presencial,35,WLS5,0.6,0.6,0.43,0.43,1.52,0.13,1.4,1.17,0.43
+Faculdade de Serviço Social - FSSO,Graduação (bacharelado),Presencial,35,WLS1+WLS3+WLS4+WLS5,0.85,0.85,0.94,0.36,5.52,0.04,2.14,0.95,0.31
+Instituto de Computação - IC,Graduação (bacharelado),Presencial,41,all,0.76,0.76,0.91,0.21,3.24,0.05,2.84,0.72,0.18
+Instituto de Computação - IC,Graduação (bacharelado),Presencial,41,WLS1,0.84,0.85,0.88,0.59,5.79,0.04,3.85,0.99,0.59
+Instituto de Computação - IC,Graduação (bacharelado),Presencial,41,WLS2,0.7,0.71,0.55,0.55,2.41,0.09,3.48,1.04,0.55
+Instituto de Computação - IC,Graduação (bacharelado),Presencial,41,WLS3,0.89,0.89,0.81,0.81,8.31,0.03,2.39,1.24,0.81
+Instituto de Computação - IC,Graduação (bacharelado),Presencial,41,WLS4,0.99,0.99,0.98,0.98,80.12,0,0.96,1.87,0.98
+Instituto de Computação - IC,Graduação (bacharelado),Presencial,41,WLS5,0.54,0.6,0.43,0.43,1.53,0.12,2.5,1.07,0.43
+Instituto de Computação - IC,Graduação (bacharelado),Presencial,41,WLS1+WLS3+WLS4+WLS5,0.81,0.81,0.92,0.3,4.39,0.05,2.71,0.85,0.25
+NA,Graduação (licenciatura),Presencial,1203,all,0.77,0.78,0.89,0.23,3.63,0.01,2.33,0.74,0.2
+NA,Graduação (licenciatura),Presencial,1203,WLS1,0.86,0.86,0.87,0.61,6.2,0.01,3.52,1.03,0.59
+NA,Graduação (licenciatura),Presencial,1203,WLS2,0.8,0.82,0.69,0.69,4.46,0.01,2.72,1.41,0.69
+NA,Graduação (licenciatura),Presencial,1203,WLS3,0.89,0.89,0.81,0.81,8.5,0.01,1.78,1.2,0.81
+NA,Graduação (licenciatura),Presencial,1203,WLS4,0.98,0.98,0.96,0.96,49.62,0,0.76,1.55,0.96
+NA,Graduação (licenciatura),Presencial,1203,WLS5,0.56,0.56,0.39,0.39,1.25,0.03,1.71,1.19,0.39
+NA,Graduação (licenciatura),Presencial,1203,WLS1+WLS3+WLS4+WLS5,0.8,0.81,0.9,0.3,4.28,0.01,2.26,0.81,0.22
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (licenciatura),Presencial,308,all,0.75,0.77,0.88,0.22,3.29,0.02,2.19,0.67,0.18
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (licenciatura),Presencial,308,WLS1,0.88,0.88,0.88,0.65,7.4,0.01,3.39,1.04,0.66
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (licenciatura),Presencial,308,WLS2,0.82,0.83,0.71,0.71,4.89,0.02,2.68,1.44,0.71
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (licenciatura),Presencial,308,WLS3,0.89,0.89,0.8,0.8,8.13,0.01,1.61,1.1,0.8
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (licenciatura),Presencial,308,WLS4,0.99,0.99,0.97,0.97,67.81,0,0.47,1.24,0.97
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (licenciatura),Presencial,308,WLS5,0.48,0.48,0.31,0.31,0.91,0.06,1.58,1.11,0.31
+"Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)",Graduação (licenciatura),Presencial,308,WLS1+WLS3+WLS4+WLS5,0.79,0.79,0.89,0.28,3.86,0.02,2.09,0.73,0.21
+Instituto de Química e Biotecnologia - IQB,Graduação (licenciatura),Presencial,44,all,0.8,0.8,0.93,0.25,4.03,0.05,2.47,0.72,0.2
+Instituto de Química e Biotecnologia - IQB,Graduação (licenciatura),Presencial,44,WLS1,0.93,0.93,0.92,0.78,14.25,0.02,3.61,1.11,0.78
+Instituto de Química e Biotecnologia - IQB,Graduação (licenciatura),Presencial,44,WLS2,0.78,0.81,0.68,0.68,4.31,0.06,3.2,1.23,0.68
+Instituto de Química e Biotecnologia - IQB,Graduação (licenciatura),Presencial,44,WLS3,0.94,0.94,0.88,0.88,14.67,0.02,1.89,1.25,0.88
+Instituto de Química e Biotecnologia - IQB,Graduação (licenciatura),Presencial,44,WLS4,0.98,0.98,0.97,0.97,61.12,0,0.6,1.34,0.97
+Instituto de Química e Biotecnologia - IQB,Graduação (licenciatura),Presencial,44,WLS5,0.34,0.34,0.21,0.21,0.52,0.2,1.91,1.06,0.21
+Instituto de Química e Biotecnologia - IQB,Graduação (licenciatura),Presencial,44,WLS1+WLS3+WLS4+WLS5,0.8,0.81,0.93,0.3,4.19,0.05,2.33,0.77,0.21
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (licenciatura),Presencial,142,all,0.8,0.8,0.9,0.25,4.07,0.03,2.34,0.79,0.21
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (licenciatura),Presencial,142,WLS1,0.84,0.84,0.88,0.57,5.34,0.02,3.49,1.09,0.51
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (licenciatura),Presencial,142,WLS2,0.76,0.77,0.62,0.62,3.33,0.04,2.74,1.33,0.62
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (licenciatura),Presencial,142,WLS3,0.89,0.89,0.8,0.8,8.23,0.02,1.97,1.29,0.8
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (licenciatura),Presencial,142,WLS4,0.98,0.98,0.96,0.96,44.52,0,0.69,1.5,0.96
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (licenciatura),Presencial,142,WLS5,0.67,0.67,0.51,0.51,2.06,0.05,1.64,1.27,0.51
+"Instituto de Ciências Humanas, Comunicação e Artes - ICHCA",Graduação (licenciatura),Presencial,142,WLS1+WLS3+WLS4+WLS5,0.81,0.82,0.91,0.31,4.42,0.02,2.26,0.86,0.25
+Faculdade de Letras - FALE,Graduação (licenciatura),Presencial,119,all,0.74,0.76,0.9,0.21,3.17,0.04,2.4,0.71,0.15
+Faculdade de Letras - FALE,Graduação (licenciatura),Presencial,119,WLS1,0.85,0.86,0.87,0.6,6.02,0.02,3.6,0.99,0.54
+Faculdade de Letras - FALE,Graduação (licenciatura),Presencial,119,WLS2,0.84,0.85,0.74,0.74,5.78,0.03,2.69,1.4,0.74
+Faculdade de Letras - FALE,Graduação (licenciatura),Presencial,119,WLS3,0.92,0.93,0.86,0.86,12.34,0.01,1.95,1.27,0.86
+Faculdade de Letras - FALE,Graduação (licenciatura),Presencial,119,WLS4,0.99,0.99,0.98,0.98,108.42,0,0.77,1.53,0.98
+Faculdade de Letras - FALE,Graduação (licenciatura),Presencial,119,WLS5,0.67,0.67,0.5,0.5,2.02,0.06,1.79,1.28,0.5
+Faculdade de Letras - FALE,Graduação (licenciatura),Presencial,119,WLS1+WLS3+WLS4+WLS5,0.79,0.8,0.91,0.29,4.01,0.03,2.34,0.8,0.22
+Centro de Educação - CEDU,Graduação (licenciatura),Presencial,330,all,0.74,0.76,0.87,0.21,3.25,0.02,2.35,0.71,0.17
+Centro de Educação - CEDU,Graduação (licenciatura),Presencial,330,WLS1,0.86,0.87,0.86,0.62,6.43,0.01,3.6,0.96,0.65
+Centro de Educação - CEDU,Graduação (licenciatura),Presencial,330,WLS2,0.83,0.84,0.73,0.73,5.27,0.02,2.42,1.48,0.73
+Centro de Educação - CEDU,Graduação (licenciatura),Presencial,330,WLS3,0.89,0.89,0.79,0.79,7.75,0.01,1.75,1.13,0.79
+Centro de Educação - CEDU,Graduação (licenciatura),Presencial,330,WLS4,0.98,0.98,0.95,0.95,39.83,0,1.02,1.72,0.95
+Centro de Educação - CEDU,Graduação (licenciatura),Presencial,330,WLS5,0.5,0.5,0.34,0.34,1.02,0.05,1.73,1.15,0.34
+Centro de Educação - CEDU,Graduação (licenciatura),Presencial,330,WLS1+WLS3+WLS4+WLS5,0.78,0.8,0.88,0.28,3.91,0.02,2.34,0.78,0.21
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (licenciatura),Presencial,50,all,0.85,0.86,0.93,0.34,6.22,0.03,2.57,0.83,0.27
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (licenciatura),Presencial,50,WLS1,0.89,0.89,0.89,0.68,8.45,0.02,3.67,1.04,0.71
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (licenciatura),Presencial,50,WLS2,0.8,0.81,0.68,0.68,4.3,0.05,3.11,1.43,0.68
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (licenciatura),Presencial,50,WLS3,0.88,0.88,0.79,0.79,7.57,0.03,2.32,1.16,0.79
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (licenciatura),Presencial,50,WLS4,0.99,0.99,0.98,0.98,116.11,0,0.56,1.47,0.98
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (licenciatura),Presencial,50,WLS5,0.72,0.72,0.57,0.57,2.61,0.08,2.1,1.24,0.57
+Instituto de Ciências Biológicas e da Saúde - ICBS,Graduação (licenciatura),Presencial,50,WLS1+WLS3+WLS4+WLS5,0.86,0.87,0.94,0.39,6.47,0.03,2.46,0.86,0.37
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (licenciatura),Presencial,92,all,0.82,0.83,0.91,0.28,4.72,0.03,2.27,0.82,0.27
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (licenciatura),Presencial,92,WLS1,0.87,0.87,0.89,0.62,6.6,0.02,3.27,1.14,0.63
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (licenciatura),Presencial,92,WLS2,0.73,0.75,0.6,0.6,3.02,0.05,3.38,1.28,0.6
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (licenciatura),Presencial,92,WLS3,0.91,0.91,0.84,0.84,10.24,0.02,1.56,1.3,0.84
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (licenciatura),Presencial,92,WLS4,0.97,0.97,0.95,0.95,38.46,0.01,0.82,1.55,0.95
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (licenciatura),Presencial,92,WLS5,0.54,0.54,0.37,0.37,1.18,0.1,1.34,1.18,0.37
+Campus Sertão (Delmiro Gouveia e Santana do Ipanema),Graduação (licenciatura),Presencial,92,WLS1+WLS3+WLS4+WLS5,0.85,0.85,0.92,0.36,5.66,0.02,2.05,0.91,0.32
+Instituto de Educação Física e Esporte - IEFE,Graduação (licenciatura),Presencial,33,all,0.72,0.72,0.9,0.18,2.59,0.07,2.26,0.64,0.2
+Instituto de Educação Física e Esporte - IEFE,Graduação (licenciatura),Presencial,33,WLS1,0.77,0.78,0.83,0.46,3.47,0.07,3.44,0.97,0.4
+Instituto de Educação Física e Esporte - IEFE,Graduação (licenciatura),Presencial,33,WLS2,0.59,0.62,0.44,0.44,1.6,0.13,2.8,1.15,0.44
+Instituto de Educação Física e Esporte - IEFE,Graduação (licenciatura),Presencial,33,WLS3,0.79,0.79,0.66,0.66,3.81,0.07,1.7,1.1,0.66
+Instituto de Educação Física e Esporte - IEFE,Graduação (licenciatura),Presencial,33,WLS4,0.98,0.99,0.98,0.98,95.9,0,0.52,1.42,0.98
+Instituto de Educação Física e Esporte - IEFE,Graduação (licenciatura),Presencial,33,WLS5,0.45,0.45,0.29,0.29,0.83,0.19,1.68,1.01,0.29
+Instituto de Educação Física e Esporte - IEFE,Graduação (licenciatura),Presencial,33,WLS1+WLS3+WLS4+WLS5,0.74,0.75,0.9,0.23,2.99,0.07,2.15,0.7,0.23
+NA,Mestrado,Presencial,250,all,0.77,0.79,0.91,0.24,3.87,0.02,2.8,0.77,0.21
+NA,Mestrado,Presencial,250,WLS1,0.88,0.89,0.89,0.66,7.85,0.01,3.87,0.92,0.67
+NA,Mestrado,Presencial,250,WLS2,0.93,0.93,0.87,0.87,13.37,0.01,2.15,1.72,0.87
+NA,Mestrado,Presencial,250,WLS3,0.84,0.84,0.73,0.73,5.32,0.02,2.78,0.98,0.73
+NA,Mestrado,Presencial,250,WLS4,0.98,0.98,0.96,0.96,43.71,0,1.7,1.98,0.96
+NA,Mestrado,Presencial,250,WLS5,0.68,0.69,0.53,0.53,2.26,0.04,2.44,1.23,0.53
+NA,Mestrado,Presencial,250,WLS1+WLS3+WLS4+WLS5,0.81,0.83,0.9,0.32,4.72,0.02,2.93,0.83,0.25
+Centro de Tecnologia - CTEC,Mestrado,Presencial,31,all,0.75,0.78,0.94,0.22,3.45,0.06,2.9,0.8,0.21
+Centro de Tecnologia - CTEC,Mestrado,Presencial,31,WLS1,0.94,0.94,0.95,0.81,16.52,0.02,4.1,1.05,0.81
+Centro de Tecnologia - CTEC,Mestrado,Presencial,31,WLS2,0.95,0.95,0.9,0.9,18.37,0.02,2.39,1.92,0.9
+Centro de Tecnologia - CTEC,Mestrado,Presencial,31,WLS3,0.81,0.81,0.68,0.68,4.25,0.07,2.73,1.05,0.68
+Centro de Tecnologia - CTEC,Mestrado,Presencial,31,WLS4,0.99,0.99,0.99,0.99,189,0,1.53,2.14,0.99
+Centro de Tecnologia - CTEC,Mestrado,Presencial,31,WLS5,0.64,0.65,0.49,0.49,1.88,0.12,2.53,1.18,0.49
+Centro de Tecnologia - CTEC,Mestrado,Presencial,31,WLS1+WLS3+WLS4+WLS5,0.72,0.76,0.92,0.24,3.1,0.07,3,0.77,0.19
+Centro de Educação - CEDU,Mestrado,Presencial,46,all,0.76,0.79,0.94,0.23,3.69,0.05,3.05,0.74,0.2
+Centro de Educação - CEDU,Mestrado,Presencial,46,WLS1,0.89,0.89,0.92,0.67,8.12,0.03,3.88,0.92,0.63
+Centro de Educação - CEDU,Mestrado,Presencial,46,WLS2,0.93,0.94,0.89,0.89,15.57,0.02,2.64,1.61,0.89
+Centro de Educação - CEDU,Mestrado,Presencial,46,WLS3,0.9,0.9,0.82,0.82,8.98,0.03,3.01,0.88,0.82
+Centro de Educação - CEDU,Mestrado,Presencial,46,WLS4,0.96,0.96,0.93,0.93,25.82,0.01,2.03,1.99,0.93
+Centro de Educação - CEDU,Mestrado,Presencial,46,WLS5,0.6,0.6,0.43,0.43,1.52,0.12,2.84,1.17,0.43
+Centro de Educação - CEDU,Mestrado,Presencial,46,WLS1+WLS3+WLS4+WLS5,0.85,0.85,0.94,0.37,5.76,0.03,3.13,0.88,0.4
+NA,Doutorado,Presencial,140,all,0.78,0.81,0.9,0.27,4.39,0.03,2.97,0.76,0.24
+NA,Doutorado,Presencial,140,WLS1,0.83,0.84,0.85,0.57,5.23,0.02,3.93,0.79,0.56
+NA,Doutorado,Presencial,140,WLS2,0.85,0.86,0.75,0.75,6.15,0.02,2.72,1.52,0.75
+NA,Doutorado,Presencial,140,WLS3,0.82,0.82,0.69,0.69,4.56,0.03,2.79,0.96,0.69
+NA,Doutorado,Presencial,140,WLS4,0.96,0.96,0.93,0.93,24.88,0.01,2.23,1.93,0.93
+NA,Doutorado,Presencial,140,WLS5,0.66,0.66,0.49,0.49,1.94,0.06,2.24,1.29,0.49
+NA,Doutorado,Presencial,140,WLS1+WLS3+WLS4+WLS5,0.79,0.82,0.89,0.32,4.66,0.03,3.02,0.79,0.28
+Centro de Educação - CEDU,Doutorado,Presencial,40,all,0.84,0.86,0.93,0.34,6.28,0.03,3.2,0.77,0.31
+Centro de Educação - CEDU,Doutorado,Presencial,40,WLS1,0.81,0.84,0.82,0.57,5.28,0.05,4.06,0.64,0.58
+Centro de Educação - CEDU,Doutorado,Presencial,40,WLS2,0.8,0.82,0.7,0.7,4.56,0.06,2.8,1.4,0.7
+Centro de Educação - CEDU,Doutorado,Presencial,40,WLS3,0.77,0.77,0.63,0.63,3.41,0.07,2.94,0.8,0.63
+Centro de Educação - CEDU,Doutorado,Presencial,40,WLS4,0.93,0.93,0.87,0.87,13.58,0.02,2.8,1.76,0.87
+Centro de Educação - CEDU,Doutorado,Presencial,40,WLS5,0.81,0.81,0.68,0.68,4.25,0.06,2.52,1.29,0.68
+Centro de Educação - CEDU,Doutorado,Presencial,40,WLS1+WLS3+WLS4+WLS5,0.84,0.86,0.92,0.38,6.19,0.03,3.28,0.77,0.35
+NA,NA,Educação a Distância,154,all,0.78,0.8,0.89,0.25,3.95,0.03,2.88,0.79,0.2
+NA,NA,Educação a Distância,154,WLS1,0.81,0.81,0.8,0.52,4.3,0.02,3.67,0.85,0.5
+NA,NA,Educação a Distância,154,WLS2,0.92,0.93,0.86,0.86,12.37,0.01,2.42,1.8,0.86
+NA,NA,Educação a Distância,154,WLS3,0.86,0.86,0.75,0.75,6,0.02,2.37,1.17,0.75
+NA,NA,Educação a Distância,154,WLS4,0.96,0.96,0.93,0.93,25.62,0.01,2.15,1.93,0.93
+NA,NA,Educação a Distância,154,WLS5,0.71,0.71,0.55,0.55,2.41,0.05,3.02,1.12,0.55
+NA,NA,Educação a Distância,154,WLS1+WLS3+WLS4+WLS5,0.77,0.79,0.87,0.27,3.67,0.03,2.97,0.78,0.22
+Centro de Educação - CEDU,NA,Educação a Distância,77,all,0.83,0.84,0.92,0.31,5.27,0.03,2.89,0.86,0.23
+Centro de Educação - CEDU,NA,Educação a Distância,77,WLS1,0.83,0.84,0.81,0.56,5.15,0.03,3.74,0.87,0.54
+Centro de Educação - CEDU,NA,Educação a Distância,77,WLS2,0.94,0.94,0.89,0.89,16.73,0.01,2.48,1.81,0.89
+Centro de Educação - CEDU,NA,Educação a Distância,77,WLS3,0.85,0.85,0.74,0.74,5.73,0.03,2.35,1.21,0.74
+Centro de Educação - CEDU,NA,Educação a Distância,77,WLS4,0.96,0.96,0.92,0.92,23.54,0.01,1.88,1.92,0.92
+Centro de Educação - CEDU,NA,Educação a Distância,77,WLS5,0.72,0.73,0.57,0.57,2.65,0.06,3.16,1.02,0.57
+Centro de Educação - CEDU,NA,Educação a Distância,77,WLS1+WLS3+WLS4+WLS5,0.81,0.82,0.89,0.31,4.42,0.03,2.98,0.82,0.23
+NA,Graduação (licenciatura),Educação a Distância,113,all,0.72,0.75,0.87,0.2,3.06,0.04,2.79,0.71,0.16
+NA,Graduação (licenciatura),Educação a Distância,113,WLS1,0.8,0.81,0.79,0.51,4.19,0.03,3.59,0.82,0.5
+NA,Graduação (licenciatura),Educação a Distância,113,WLS2,0.92,0.92,0.86,0.86,12.32,0.01,2.12,1.79,0.86
+NA,Graduação (licenciatura),Educação a Distância,113,WLS3,0.86,0.86,0.75,0.75,6.04,0.03,2.25,1.17,0.75
+NA,Graduação (licenciatura),Educação a Distância,113,WLS4,0.95,0.96,0.91,0.91,21.52,0.01,2.02,1.87,0.91
+NA,Graduação (licenciatura),Educação a Distância,113,WLS5,0.56,0.56,0.39,0.39,1.27,0.08,3.13,0.96,0.39
+NA,Graduação (licenciatura),Educação a Distância,113,WLS1+WLS3+WLS4+WLS5,0.74,0.76,0.85,0.24,3.13,0.04,2.92,0.72,0.18
+Centro de Educação - CEDU,Graduação (licenciatura),Educação a Distância,52,all,0.77,0.78,0.9,0.23,3.62,0.05,2.66,0.76,0.19
+Centro de Educação - CEDU,Graduação (licenciatura),Educação a Distância,52,WLS1,0.82,0.82,0.81,0.53,4.6,0.04,3.54,0.87,0.53
+Centro de Educação - CEDU,Graduação (licenciatura),Educação a Distância,52,WLS2,0.94,0.95,0.9,0.9,18.31,0.01,2,1.81,0.9
+Centro de Educação - CEDU,Graduação (licenciatura),Educação a Distância,52,WLS3,0.83,0.83,0.72,0.72,5.05,0.05,2.12,1.18,0.72
+Centro de Educação - CEDU,Graduação (licenciatura),Educação a Distância,52,WLS4,0.94,0.94,0.89,0.89,16.09,0.02,1.64,1.79,0.89
+Centro de Educação - CEDU,Graduação (licenciatura),Educação a Distância,52,WLS5,0.69,0.69,0.52,0.52,2.19,0.09,3.12,1.03,0.52
+Centro de Educação - CEDU,Graduação (licenciatura),Educação a Distância,52,WLS1+WLS3+WLS4+WLS5,0.75,0.76,0.87,0.24,3.16,0.05,2.79,0.73,0.19
