@@ -18,14 +18,10 @@ n <- length(colnames(resp_withcareless))*2/3
 careless_info <- careless::longstring(select(resp_withcareless, -starts_with("UserID")))
 
 (careless <- resp_withcareless[careless_info > n,])
-if (!file.exists('data/careless.csv')) {
-  write_csv(careless, 'data/careless.csv')
-}
+write_csv(careless, 'data/careless.csv')
 
 resp <- resp_withcareless[careless_info <= n & complete.cases(resp_withcareless),]
-if (!file.exists('data/data.csv')) {
-  write_csv(resp, 'data/data.csv')
-}
+write_csv(resp, 'data/data.csv')
 
 ## write report
 render_diff(diff_careless <- diff_data(resp_withcareless, resp), file='report/careless/diff.html')

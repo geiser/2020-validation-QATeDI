@@ -21,9 +21,11 @@ pdat <- data.frame(
   , Unidade=predat_2nd$`Unidade Acadêmica`
   , Nivel=predat_2nd$`Que nível você está cursando?`
   , Modalidade=predat_2nd$`Qual a modalidade de seu curso?`
+  , DispositivoEmCasa=recode(predat_2nd$`Eles são compartilhados com outras pessoas?`
+                             ,  'Sim' = 'Dispositivo Compartilhado'
+                             ,  'Não' = 'Dispositivo Próprio'
+                             , .missing = 'Não Tem Nemhum Dispositivo')
   # condição da infraestrutura em casa
-  , Item6=predat_2nd$`Você possui em casa dispositivos de tecnologia digital para a realização de suas atividades (computador ou notebook)?`
-  , Item7=predat_2nd$`Eles são compartilhados com outras pessoas?` # binário
   , Item8=predat_2nd$`Você tem acesso à internet na sua casa?`
   , Item9=predat_2nd$`Qual a qualidade do acesso à internet na sua casa?`
   , Item10=predat_2nd$`Como é a disponibilidade do acesso à internet em sua casa?`
@@ -48,25 +50,19 @@ pdat <- data.frame(
 )
 
 pdat <- pdat[!duplicated(pdat$UserID),] # removendo respostas de usuários duplicados
-
-if (!file.exists('data/raw-data.csv'))  {
-  write_csv(pdat, 'data/raw-data.csv')
-}
+write_csv(pdat, 'data/raw-data.csv')
 
 # definindo grupos de usuários
 gdat <- select(pdat, -starts_with('Item'))
-if (!file.exists('data/user-groups.csv'))  {
-  write_csv(gdat, 'data/user-groups.csv')
-}
+write_csv(gdat, 'data/user-groups.csv')
 
 # estabelecendo escalas nos itens referidos aos fatores latentes avaliados pelo questionario
 # quando um item é condicionado o valor 0 é adicionado na escala usando a propriedade .missing
-# itens que estabelecem condição em outros são removidos
 rdat <- transmute(
   pdat
   , UserID=UserID
   # factor 1
-  , Item7=recode(Item7, 'Sim'=2, 'Não' = 1, .missing = 0)
+  , Item8=recode(Item8, 'Sim' = 1, 'Não' = 0)
   , Item9=recode(Item9, 'Excelente' = 5, 'Boa' = 4, 'Regular' = 3, 'Péssima' = 2, 'Ruim' = 1, .missing = 0)
   , Item10=recode(Item10
                   , 'Tenho acesso sempre que eu quero (acesso irrestrito) à internet.' = 5
@@ -76,6 +72,7 @@ rdat <- transmute(
                   , 'A internet da minha casa é muito precária' = 1
                   , .missing = 0)
   # factor 2
+  , Item11=recode(Item11, 'Sim' = 1, 'Não não possuo celular/smartphone' = 0)
   , Item12=recode(Item12, 'Excelente' = 5, 'Boa' = 4, 'Regular' = 3, 'Péssima' = 2, 'Ruim' = 1, .missing = 0)
   , Item13=recode(Item13
                   , 'Tenho acesso sempre que eu quero (acesso irrestrito) à internet' = 5
@@ -85,6 +82,7 @@ rdat <- transmute(
                   , 'A internet do meu celular/smartphone é muito precária' = 1
                   , .missing = 0)
   # factor 3
+  , Item14=recode(Item14, 'Sim' = 1, "Não ou não trabalho" = 0)
   , Item15=recode(Item15, 'Excelente' = 5, 'Boa' = 4, 'Regular' = 3, 'Péssima' = 2, 'Ruim' = 1, .missing = 0)
   , Item16=recode(Item16
                   , 'Tenho acesso sempre que eu quero (acesso irrestrito) à internet' = 5
@@ -94,6 +92,7 @@ rdat <- transmute(
                   , 'A internet do meu trabalho é muito precária' = 1
                   , .missing = 0)
   # factor 4
+  , Item17=recode(Item17, 'Sim' = 1, 'Não ou nunca usei (recém ingresso na UFAL)' = 0)
   , Item18=recode(Item18, 'Excelente' = 5, 'Boa' = 4, 'Regular' = 3, 'Péssima' = 2, 'Ruim' = 1, .missing = 0)
   , Item19=recode(Item19
                   , 'Tenho acesso sempre que eu quero (acesso irrestrito) à internet' = 5
@@ -136,7 +135,4 @@ rdat <- transmute(
                   , "Poucas vezes usei o Moodle da Ufal, e não gostei da experiência" = 1
                   , "Nunca usei o Moodle da Ufal" = 0)
 )
-
-if (!file.exists('data/data-withcareless.csv'))  {
-  write_csv(rdat, 'data/data-withcareless.csv')
-}
+write_csv(rdat, 'data/data-withcareless.csv')

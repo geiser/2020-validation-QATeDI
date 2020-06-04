@@ -1,10 +1,10 @@
 ## function to write efa module as sheet
-write_efa_in_workbook <- function(fa_mod, wb) {
+write_efa_in_workbook <- function(fa_mod, wb, sheetName = "EFA", title = "") {
   library(xlsx)
   library(r2excel)
   
-  sheet <- xlsx::createSheet(wb, sheetName = "EFA")
-  xlsx.addHeader(wb, sheet, "Exploratory Factor Analysis Using Minimum Residual", startCol = 1)
+  sheet <- xlsx::createSheet(wb, sheetName = sheetName)
+  xlsx.addHeader(wb, sheet, paste("Exploratory Factor Analysis", title), startCol = 1)
   
   xlsx.addLineBreak(sheet, 2)
   xlsx.addHeader(wb, sheet, "Standardized loadings", level = 2, startCol = 1)
