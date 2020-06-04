@@ -2,6 +2,7 @@ wants <- c('readr','dplyr','psych','lavaan','ggraph','semPlot','robustHD','GPAro
 has <- wants %in% rownames(installed.packages())
 if (any(!has)) install.packages(wants[!has])
 
+source('common/excel/write_mvn_in_workbook.R')
 source('common/excel/write_kmo_in_workbook.R')
 source('common/excel/write_efa_in_workbook.R')
 
@@ -91,6 +92,7 @@ dev.off()
 ## Write results in an Excel Workbook
 filename <- "report/efa/summary.xlsx"
 wb <- createWorkbook(type="xlsx")
+write_mvn_in_workbook(mvn_mod, wb)
 write_kmo_in_workbook(kmo_mod, wb)
 write_efa_in_workbook(fa_mod1_6, wb, "first-EFA-f6", "With 6 Factors and All Items")
 write_efa_in_workbook(fa_mod1_5, wb, "first-EFA-f5", "With 5 Factors and All Items")

@@ -8,15 +8,15 @@ write_efa_in_workbook <- function(fa_mod, wb, sheetName = "EFA", title = "") {
   
   xlsx.addLineBreak(sheet, 2)
   xlsx.addHeader(wb, sheet, "Standardized loadings", level = 2, startCol = 1)
-  xlsx.addTable(wb, sheet, data.frame(unclass(fa_mod$loadings)), startCol = 1, row.names = T)
+  xlsx.addTable(wb, sheet, round(data.frame(unclass(fa_mod$loadings)),2), startCol = 1, row.names = T)
   
   xlsx.addLineBreak(sheet, 2)
   xlsx.addHeader(wb, sheet, "Measures of factor score adequacy", level = 2, startCol = 1)
-  xlsx.addTable(wb, sheet, data.frame(print(fa_mod)), startCol = 1, row.names = T)
+  xlsx.addTable(wb, sheet, round(data.frame(print(fa_mod)), 2), startCol = 1, row.names = T)
   
   xlsx.addLineBreak(sheet, 2)
   xlsx.addHeader(wb, sheet, "Item complexity", level = 2, startCol = 1)
-  xlsx.addTable(wb, sheet, data.frame(Value=fa_mod$complexity), startCol = 1, row.names = T)
+  xlsx.addTable(wb, sheet, round(data.frame(Value=fa_mod$complexity), 2), startCol = 1, row.names = T)
   
   xlsx.addLineBreak(sheet, 2)
   xlsx.addHeader(wb, sheet, "Extra information", level = 2, startCol = 1)
