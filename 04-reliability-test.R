@@ -40,14 +40,20 @@ reliability_df <- do.call(rbind, lapply(seq(1,nrow(groups)), FUN = function(i) {
   if (nrow(sdat) > 30) {
     alpha_mods <- list(
       'all'=list(factor='all', mod=psych::alpha(sdat))
-      , 'WLS1'=list(factor='WLS1', mod=psych::alpha(sdat[,c('Item14','Item15','Item16')]))
-      , 'WLS2'=list(factor='WLS2', mod=psych::alpha(sdat[,c('Item17','Item18','Item19')]))
-      , 'WLS3'=list(factor='WLS3', mod=psych::alpha(sdat[,c('Item8','Item9','Item10')]))
-      , 'WLS4'=list(factor='WLS4', mod=psych::alpha(sdat[,c('Item20','Item21')]))
-      , 'WLS5'=list(factor='WLS5', mod=psych::alpha(sdat[,c('Item22','Item23')]))
-      , 'WLS1+WLS3+WLS4+WLS5'=list(factor='WLS1+WLS3+WLS4+WLS5', mod=psych::alpha(sdat[,c('Item14','Item15','Item16','Item8','Item9','Item10','Item20','Item21','Item22','Item23')]))
+      , 'ML1'=list(factor='ML1', mod=psych::alpha(sdat[,c('Item11','Item12','Item13')]))
+      , 'ML2'=list(factor='ML2', mod=psych::alpha(sdat[,c('Item17','Item18','Item19')]))
+      , 'ML3'=list(factor='ML3', mod=psych::alpha(sdat[,c('Item20','Item21')]))
+      , 'ML4'=list(factor='ML4', mod=psych::alpha(sdat[,c('Item8','Item9','Item10')]))
+      , 'ML5'=list(factor='ML5', mod=psych::alpha(sdat[,c('Item14','Item15','Item16')]))
+      , 'ML6'=list(factor='ML6', mod=psych::alpha(sdat[,c('Item22','Item23')]))
+      , 'multimodal'=list(factor='multimodal', mod=psych::alpha(sdat[,c('Item8','Item9','Item10','Item11','Item12','Item13','Item14','Item15','Item16','Item20','Item21','Item22','Item23')]))
+      , '2nd-mdl1-all'=list(factor='2nd-mdl1-all', mod=psych::alpha(sdat))
+      , '2nd-mdl1-INF'=list(factor='2nd-mdl1-INF', mod=psych::alpha(sdat[,c('Item8','Item9','Item10','Item11','Item12','Item13','Item14','Item15','Item16','Item17','Item18','Item19')]))
+      , '2nd-mdl1-EXP'=list(factor='2nd-mdl1-EXP', mod=psych::alpha(sdat[,c('Item20','Item21','Item22','Item23')]))
+      , '2nd-mdl2-all'=list(factor='2nd-mdl2-all', mod=psych::alpha(sdat[,c('Item8','Item9','Item10','Item11','Item12','Item13','Item14','Item15','Item16','Item20','Item21','Item22','Item23')]))
+      , '2nd-mdl2-INF'=list(factor='2nd-mdl2-INF', mod=psych::alpha(sdat[,c('Item8','Item9','Item10','Item11','Item12','Item13','Item14','Item15','Item16')]))
+      , '2nd-mdl2-EXP'=list(factor='2nd-mdl2-EXP', mod=psych::alpha(sdat[,c('Item20','Item21','Item22','Item23')]))
     )
-    
     # write reliability analysis
     filename <- "report/reliability/"
     if (is.na(group$Unidade) & is.na(group$Nivel) & is.na(group$Modalidade) & is.na(group$DispositivoEmCasa)) {
