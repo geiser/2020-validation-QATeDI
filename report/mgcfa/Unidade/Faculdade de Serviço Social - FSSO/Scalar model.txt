@@ -1,0 +1,262 @@
+lavaan 0.6-5 ended normally after 285 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of free parameters                        118
+  Number of equality constraints                    30
+  Row rank of the constraints matrix                30
+                                                      
+  Number of observations per group:                   
+    Not is Faculdade de Serviço Social - FSSO     4331
+    Faculdade de Serviço Social - FSSO              38
+                                                      
+Model Test User Model:
+                                              Standard      Robust
+  Test Statistic                              3355.087    3431.749
+  Degrees of freedom                               216         216
+  P-value (Chi-square)                           0.000       0.000
+  Scaling correction factor                                  0.978
+    for the Yuan-Bentler correction (Mplus variant) 
+  Test statistic for each group:
+    Not is Faculdade de Serviço Social - FSSO 3076.300    3146.592
+    Faculdade de Serviço Social - FSSO         278.786     285.156
+
+Model Test Baseline Model:
+
+  Test statistic                             51047.962   48435.036
+  Degrees of freedom                               240         240
+  P-value                                        0.000       0.000
+  Scaling correction factor                                  1.054
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.938       0.933
+  Tucker-Lewis Index (TLI)                       0.931       0.926
+                                                                  
+  Robust Comparative Fit Index (CFI)                         0.938
+  Robust Tucker-Lewis Index (TLI)                            0.931
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)             -66770.849  -66770.849
+  Scaling correction factor                                  1.393
+      for the MLR correction                                      
+  Loglikelihood unrestricted model (H1)     -65093.305  -65093.305
+  Scaling correction factor                                  1.236
+      for the MLR correction                                      
+                                                                  
+  Akaike (AIC)                              133717.697  133717.697
+  Bayesian (BIC)                            134279.339  134279.339
+  Sample-size adjusted Bayesian (BIC)       133999.710  133999.710
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.082       0.083
+  90 Percent confidence interval - lower         0.079       0.080
+  90 Percent confidence interval - upper         0.084       0.085
+  P-value RMSEA <= 0.05                          0.000       0.000
+                                                                  
+  Robust RMSEA                                               0.082
+  90 Percent confidence interval - lower                     0.079
+  90 Percent confidence interval - upper                     0.084
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.058       0.058
+
+Parameter Estimates:
+
+  Information                                      Observed
+  Observed information based on                     Hessian
+  Standard errors                        Robust.huber.white
+
+
+Group 1 [Not is Faculdade de Serviço Social - FSSO]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  ML4 =~                                              
+    Item8             1.000                           
+    Item9   (.p2.)    8.715    0.512   17.006    0.000
+    Item10  (.p3.)    8.799    0.412   21.379    0.000
+  ML1 =~                                              
+    Item11            1.000                           
+    Item12  (.p5.)   13.852    1.163   11.914    0.000
+    Item13  (.p6.)   14.389    1.214   11.849    0.000
+  ML5 =~                                              
+    Item14            1.000                           
+    Item15  (.p8.)    3.966    0.028  143.720    0.000
+    Item16  (.p9.)    4.209    0.030  142.034    0.000
+  ML2 =~                                              
+    Item17            1.000                           
+    Item18  (.11.)    6.203    0.175   35.362    0.000
+    Item19  (.12.)    6.457    0.185   34.852    0.000
+  ML6 =~                                              
+    Item20            1.000                           
+    Item21  (.14.)    0.978    0.040   24.547    0.000
+  ML3 =~                                              
+    Item22            1.000                           
+    Item23  (.16.)    0.885    0.018   48.858    0.000
+  INF =~                                              
+    ML4               1.000                           
+    ML1     (.18.)    0.568    0.059    9.683    0.000
+    ML5     (.19.)    1.208    0.105   11.529    0.000
+    ML2     (.20.)    0.321    0.046    6.931    0.000
+  EXP =~                                              
+    ML6               1.000                           
+    ML3     (.22.)    1.058    0.053   20.141    0.000
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  INF ~~                                              
+    EXP               0.046    0.004   12.691    0.000
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Item8   (.48.)    0.967    0.003  356.053    0.000
+   .Item9   (.49.)    3.445    0.017  205.808    0.000
+   .Item10  (.50.)    3.944    0.019  212.296    0.000
+   .Item11  (.51.)    0.980    0.002  461.145    0.000
+   .Item12  (.52.)    3.516    0.016  221.441    0.000
+   .Item13  (.53.)    3.900    0.019  204.514    0.000
+   .Item14  (.54.)    0.249    0.007   37.978    0.000
+   .Item15  (.55.)    0.928    0.026   36.115    0.000
+   .Item16  (.56.)    0.985    0.027   36.175    0.000
+   .Item17  (.57.)    0.904    0.004  201.716    0.000
+   .Item18  (.58.)    2.608    0.021  127.024    0.000
+   .Item19  (.59.)    2.716    0.026  105.216    0.000
+   .Item20  (.60.)    1.533    0.024   64.795    0.000
+   .Item21  (.61.)    2.354    0.021  113.802    0.000
+   .Item22  (.62.)    2.171    0.020  108.120    0.000
+   .Item23  (.63.)    1.982    0.019  103.808    0.000
+   .ML4               0.000                           
+   .ML1               0.000                           
+   .ML5               0.000                           
+   .ML2               0.000                           
+   .ML6               0.000                           
+   .ML3               0.000                           
+    INF               0.000                           
+    EXP               0.000                           
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Item8             0.019    0.001   22.294    0.000
+   .Item9             0.224    0.022   10.335    0.000
+   .Item10            0.489    0.026   18.876    0.000
+   .Item11            0.015    0.001   12.968    0.000
+   .Item12            0.163    0.024    6.765    0.000
+   .Item13            0.576    0.031   18.515    0.000
+   .Item14            0.011    0.001   14.335    0.000
+   .Item15            0.102    0.010   10.002    0.000
+   .Item16            0.105    0.010   10.858    0.000
+   .Item17            0.047    0.001   41.283    0.000
+   .Item18            0.269    0.020   13.726    0.000
+   .Item19            1.200    0.026   45.995    0.000
+   .Item20            1.491    0.047   31.695    0.000
+   .Item21            0.961    0.041   23.404    0.000
+   .Item22            0.221    0.029    7.594    0.000
+   .Item23            0.385    0.026   14.855    0.000
+   .ML4               0.003    0.001    5.227    0.000
+   .ML1               0.002    0.000    4.292    0.000
+   .ML5               0.161    0.003   55.233    0.000
+   .ML2               0.039    0.003   14.536    0.000
+   .ML6               0.334    0.041    8.076    0.000
+   .ML3               0.844    0.045   18.673    0.000
+    INF               0.010    0.001    7.665    0.000
+    EXP               0.608    0.045   13.369    0.000
+
+
+Group 2 [Faculdade de Serviço Social - FSSO]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  ML4 =~                                              
+    Item8             1.000                           
+    Item9   (.p2.)    8.715    0.512   17.006    0.000
+    Item10  (.p3.)    8.799    0.412   21.379    0.000
+  ML1 =~                                              
+    Item11            1.000                           
+    Item12  (.p5.)   13.852    1.163   11.914    0.000
+    Item13  (.p6.)   14.389    1.214   11.849    0.000
+  ML5 =~                                              
+    Item14            1.000                           
+    Item15  (.p8.)    3.966    0.028  143.720    0.000
+    Item16  (.p9.)    4.209    0.030  142.034    0.000
+  ML2 =~                                              
+    Item17            1.000                           
+    Item18  (.11.)    6.203    0.175   35.362    0.000
+    Item19  (.12.)    6.457    0.185   34.852    0.000
+  ML6 =~                                              
+    Item20            1.000                           
+    Item21  (.14.)    0.978    0.040   24.547    0.000
+  ML3 =~                                              
+    Item22            1.000                           
+    Item23  (.16.)    0.885    0.018   48.858    0.000
+  INF =~                                              
+    ML4               1.000                           
+    ML1     (.18.)    0.568    0.059    9.683    0.000
+    ML5     (.19.)    1.208    0.105   11.529    0.000
+    ML2     (.20.)    0.321    0.046    6.931    0.000
+  EXP =~                                              
+    ML6               1.000                           
+    ML3     (.22.)    1.058    0.053   20.141    0.000
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  INF ~~                                              
+    EXP               0.053    0.021    2.570    0.010
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Item8   (.48.)    0.967    0.003  356.053    0.000
+   .Item9   (.49.)    3.445    0.017  205.808    0.000
+   .Item10  (.50.)    3.944    0.019  212.296    0.000
+   .Item11  (.51.)    0.980    0.002  461.145    0.000
+   .Item12  (.52.)    3.516    0.016  221.441    0.000
+   .Item13  (.53.)    3.900    0.019  204.514    0.000
+   .Item14  (.54.)    0.249    0.007   37.978    0.000
+   .Item15  (.55.)    0.928    0.026   36.115    0.000
+   .Item16  (.56.)    0.985    0.027   36.175    0.000
+   .Item17  (.57.)    0.904    0.004  201.716    0.000
+   .Item18  (.58.)    2.608    0.021  127.024    0.000
+   .Item19  (.59.)    2.716    0.026  105.216    0.000
+   .Item20  (.60.)    1.533    0.024   64.795    0.000
+   .Item21  (.61.)    2.354    0.021  113.802    0.000
+   .Item22  (.62.)    2.171    0.020  108.120    0.000
+   .Item23  (.63.)    1.982    0.019  103.808    0.000
+   .ML4               0.011    0.026    0.425    0.671
+   .ML1              -0.003    0.015   -0.203    0.839
+   .ML5              -0.039    0.039   -1.010    0.313
+   .ML2              -0.024    0.038   -0.629    0.529
+   .ML6              -0.272    0.138   -1.968    0.049
+   .ML3               0.063    0.141    0.445    0.656
+    INF              -0.025    0.023   -1.104    0.270
+    EXP              -0.203    0.112   -1.801    0.072
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Item8             0.023    0.010    2.315    0.021
+   .Item9             0.289    0.172    1.677    0.094
+   .Item10            0.229    0.094    2.431    0.015
+   .Item11            0.046    0.022    2.066    0.039
+   .Item12           -0.080    0.162   -0.492    0.623
+   .Item13            0.636    0.244    2.607    0.009
+   .Item14            0.004    0.003    1.557    0.119
+   .Item15            0.039    0.018    2.121    0.034
+   .Item16            0.066    0.055    1.202    0.229
+   .Item17            0.066    0.017    3.884    0.000
+   .Item18           -0.076    0.229   -0.331    0.740
+   .Item19            1.611    0.354    4.548    0.000
+   .Item20            0.762    0.327    2.331    0.020
+   .Item21            1.318    0.345    3.819    0.000
+   .Item22            0.439    0.338    1.300    0.194
+   .Item23            0.695    0.251    2.763    0.006
+   .ML4               0.009    0.007    1.272    0.203
+   .ML1               0.005    0.003    1.909    0.056
+   .ML5               0.134    0.038    3.509    0.000
+   .ML2               0.058    0.011    5.232    0.000
+   .ML6               0.431    0.262    1.644    0.100
+   .ML3               1.141    0.384    2.969    0.003
+    INF               0.010    0.003    3.139    0.002
+    EXP               0.471    0.270    1.744    0.081
+

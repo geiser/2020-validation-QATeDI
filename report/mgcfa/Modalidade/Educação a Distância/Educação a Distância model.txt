@@ -1,0 +1,157 @@
+lavaan 0.6-5 ended normally after 155 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of free parameters                         55
+                                                      
+  Number of observations                           154
+                                                      
+Model Test User Model:
+                                              Standard      Robust
+  Test Statistic                               208.641     261.036
+  Degrees of freedom                                97          97
+  P-value (Chi-square)                           0.000       0.000
+  Scaling correction factor                                  0.799
+    for the Yuan-Bentler correction (Mplus variant) 
+
+Model Test Baseline Model:
+
+  Test statistic                              1808.796    1864.654
+  Degrees of freedom                               120         120
+  P-value                                        0.000       0.000
+  Scaling correction factor                                  0.970
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.934       0.906
+  Tucker-Lewis Index (TLI)                       0.918       0.884
+                                                                  
+  Robust Comparative Fit Index (CFI)                         0.923
+  Robust Tucker-Lewis Index (TLI)                            0.904
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)              -2374.781   -2374.781
+  Scaling correction factor                                  2.840
+      for the MLR correction                                      
+  Loglikelihood unrestricted model (H1)      -2270.460   -2270.460
+  Scaling correction factor                                  1.538
+      for the MLR correction                                      
+                                                                  
+  Akaike (AIC)                                4859.561    4859.561
+  Bayesian (BIC)                              5026.594    5026.594
+  Sample-size adjusted Bayesian (BIC)         4852.510    4852.510
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.086       0.105
+  90 Percent confidence interval - lower         0.070       0.088
+  90 Percent confidence interval - upper         0.103       0.122
+  P-value RMSEA <= 0.05                          0.000       0.000
+                                                                  
+  Robust RMSEA                                               0.094
+  90 Percent confidence interval - lower                     0.080
+  90 Percent confidence interval - upper                     0.107
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.085       0.085
+
+Parameter Estimates:
+
+  Information                                      Observed
+  Observed information based on                     Hessian
+  Standard errors                        Robust.huber.white
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  ML4 =~                                              
+    Item8             1.000                           
+    Item9            27.346   24.808    1.102    0.270
+    Item10           25.675   24.744    1.038    0.299
+  ML1 =~                                              
+    Item11            1.000                           
+    Item12            8.480    2.282    3.715    0.000
+    Item13            8.832    2.508    3.521    0.000
+  ML5 =~                                              
+    Item14            1.000                           
+    Item15            3.920    0.134   29.257    0.000
+    Item16            4.440    0.147   30.245    0.000
+  ML2 =~                                              
+    Item17            1.000                           
+    Item18            4.113    0.141   29.174    0.000
+    Item19            4.063    0.183   22.177    0.000
+  ML6 =~                                              
+    Item20            1.000                           
+    Item21            1.387    0.506    2.739    0.006
+  ML3 =~                                              
+    Item22            1.000                           
+    Item23            0.885    0.159    5.553    0.000
+  INF =~                                              
+    ML4               1.000                           
+    ML1               3.546    3.709    0.956    0.339
+    ML5               7.021    6.774    1.036    0.300
+    ML2               4.993    4.670    1.069    0.285
+  EXP =~                                              
+    ML6               1.000                           
+    ML3               1.709    1.462    1.169    0.242
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  INF ~~                                              
+    EXP               0.006    0.008    0.768    0.442
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Item8             0.994    0.006  153.499    0.000
+   .Item9             3.584    0.070   50.945    0.000
+   .Item10            3.974    0.083   48.099    0.000
+   .Item11            0.968    0.014   67.744    0.000
+   .Item12            3.468    0.086   40.213    0.000
+   .Item13            3.662    0.101   36.373    0.000
+   .Item14            0.604    0.039   15.323    0.000
+   .Item15            2.013    0.149   13.517    0.000
+   .Item16            2.279    0.166   13.715    0.000
+   .Item17            0.701    0.037   19.015    0.000
+   .Item18            2.435    0.140   17.449    0.000
+   .Item19            2.403    0.160   15.042    0.000
+   .Item20            3.208    0.098   32.619    0.000
+   .Item21            2.825    0.106   26.559    0.000
+   .Item22            2.448    0.101   24.131    0.000
+   .Item23            2.286    0.099   23.138    0.000
+   .ML4               0.000                           
+   .ML1               0.000                           
+   .ML5               0.000                           
+   .ML2               0.000                           
+   .ML6               0.000                           
+   .ML3               0.000                           
+    INF               0.000                           
+    EXP               0.000                           
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Item8             0.006    0.005    1.172    0.241
+   .Item9             0.184    0.138    1.336    0.181
+   .Item10            0.541    0.145    3.724    0.000
+   .Item11            0.018    0.005    4.056    0.000
+   .Item12            0.216    0.129    1.678    0.093
+   .Item13            0.554    0.120    4.605    0.000
+   .Item14            0.036    0.007    5.370    0.000
+   .Item15            0.292    0.090    3.250    0.001
+   .Item16            0.247    0.079    3.132    0.002
+   .Item17            0.033    0.006    5.320    0.000
+   .Item18            0.008    0.057    0.132    0.895
+   .Item19            1.010    0.135    7.501    0.000
+   .Item20            0.854    0.252    3.386    0.001
+   .Item21            0.521    0.422    1.235    0.217
+   .Item22            0.277    0.199    1.390    0.165
+   .Item23            0.478    0.222    2.151    0.031
+   .ML4               0.000    0.001    0.378    0.705
+   .ML1               0.007    0.005    1.250    0.211
+   .ML5               0.179    0.021    8.397    0.000
+   .ML2               0.165    0.019    8.736    0.000
+   .ML6               0.432    0.202    2.135    0.033
+   .ML3               0.714    0.420    1.700    0.089
+    INF               0.000    0.001    0.576    0.564
+    EXP               0.203    0.217    0.939    0.348
+

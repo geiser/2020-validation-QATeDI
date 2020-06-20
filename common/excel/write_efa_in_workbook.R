@@ -8,15 +8,22 @@ write_efa_in_workbook <- function(fa_mod, wb, sheetName = "EFA", title = "") {
   
   xlsx.addLineBreak(sheet, 2)
   xlsx.addHeader(wb, sheet, "Standardized loadings", level = 2, startCol = 1)
-  xlsx.addTable(wb, sheet, round(data.frame(unclass(fa_mod$loadings)),2), startCol = 1, row.names = T)
+  xlsx.addTable(wb, sheet, round(data.frame(unclass(fa_mod$loadings)),4), startCol = 1, row.names = T)
+  
+  xlsx.addLineBreak(sheet, 2)
+  xlsx.addHeader(wb, sheet, "Factor correlations", level = 2, startCol = 1)
+  r.scores.df <- round(data.frame(unclass(fa_mod$r.scores)),4)
+  colnames(r.scores.df) <- colnames(fa_mod$Vaccounted)
+  rownames(r.scores.df) <- colnames(fa_mod$Vaccounted)
+  xlsx.addTable(wb, sheet, r.scores.df, startCol = 1, row.names = T)
   
   xlsx.addLineBreak(sheet, 2)
   xlsx.addHeader(wb, sheet, "Measures of factor score adequacy", level = 2, startCol = 1)
-  xlsx.addTable(wb, sheet, round(data.frame(print(fa_mod)), 2), startCol = 1, row.names = T)
+  xlsx.addTable(wb, sheet, round(data.frame(print(fa_mod)), 4), startCol = 1, row.names = T)
   
   xlsx.addLineBreak(sheet, 2)
   xlsx.addHeader(wb, sheet, "Item complexity", level = 2, startCol = 1)
-  xlsx.addTable(wb, sheet, round(data.frame(Value=fa_mod$complexity), 2), startCol = 1, row.names = T)
+  xlsx.addTable(wb, sheet, round(data.frame(Value=fa_mod$complexity), 4), startCol = 1, row.names = T)
   
   xlsx.addLineBreak(sheet, 2)
   xlsx.addHeader(wb, sheet, "Extra information", level = 2, startCol = 1)

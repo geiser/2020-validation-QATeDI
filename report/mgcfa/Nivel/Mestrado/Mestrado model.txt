@@ -1,0 +1,112 @@
+lavaan 0.6-5 did NOT end normally after 172 iterations
+** WARNING ** Estimates below are most likely unreliable
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of free parameters                         55
+                                                      
+  Number of observations                           251
+                                                      
+Model Test User Model:
+                                                      
+  Test statistic                                    NA
+  Degrees of freedom                                NA
+
+Parameter Estimates:
+
+  Information                                      Observed
+  Observed information based on                     Hessian
+  Standard errors                        Robust.huber.white
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  ML4 =~                                              
+    Item8             1.000                           
+    Item9            38.745       NA                  
+    Item10           41.692       NA                  
+  ML1 =~                                              
+    Item11            1.000                           
+    Item12           14.442       NA                  
+    Item13           18.102       NA                  
+  ML5 =~                                              
+    Item14            1.000                           
+    Item15            4.007       NA                  
+    Item16            4.320       NA                  
+  ML2 =~                                              
+    Item17            1.000                           
+    Item18            4.186       NA                  
+    Item19            4.397       NA                  
+  ML6 =~                                              
+    Item20            1.000                           
+    Item21            1.033       NA                  
+  ML3 =~                                              
+    Item22            1.000                           
+    Item23            0.875       NA                  
+  INF =~                                              
+    ML4               1.000                           
+    ML1               2.584       NA                  
+    ML5               7.779       NA                  
+    ML2               0.882       NA                  
+  EXP =~                                              
+    ML6               1.000                           
+    ML3               0.976       NA                  
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  INF ~~                                              
+    EXP               0.006       NA                  
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Item8             0.996       NA                  
+   .Item9             3.709       NA                  
+   .Item10            4.151       NA                  
+   .Item11            0.984       NA                  
+   .Item12            3.661       NA                  
+   .Item13            3.924       NA                  
+   .Item14            0.458       NA                  
+   .Item15            1.633       NA                  
+   .Item16            1.761       NA                  
+   .Item17            0.701       NA                  
+   .Item18            2.084       NA                  
+   .Item19            2.191       NA                  
+   .Item20            2.203       NA                  
+   .Item21            2.669       NA                  
+   .Item22            2.892       NA                  
+   .Item23            2.637       NA                  
+   .ML4               0.000                           
+   .ML1               0.000                           
+   .ML5               0.000                           
+   .ML2               0.000                           
+   .ML6               0.000                           
+   .ML3               0.000                           
+    INF               0.000                           
+    EXP               0.000                           
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Item8             0.004       NA                  
+   .Item9             0.254       NA                  
+   .Item10            0.419       NA                  
+   .Item11            0.012       NA                  
+   .Item12            0.161       NA                  
+   .Item13            0.401       NA                  
+   .Item14            0.027       NA                  
+   .Item15            0.194       NA                  
+   .Item16            0.149       NA                  
+   .Item17            0.061       NA                  
+   .Item18            0.148       NA                  
+   .Item19            0.714       NA                  
+   .Item20            1.363       NA                  
+   .Item21            0.527       NA                  
+   .Item22            0.211       NA                  
+   .Item23            0.378       NA                  
+   .ML4              -0.000       NA                  
+   .ML1               0.001       NA                  
+   .ML5               0.196       NA                  
+   .ML2               0.148       NA                  
+   .ML6               0.511       NA                  
+   .ML3               0.496       NA                  
+    INF               0.000       NA                  
+    EXP               0.479       NA                  
+

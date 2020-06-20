@@ -7,7 +7,7 @@ write_cfa_in_workbook <- function(cfa_mod, wb, sheetName = "CFA") {
   
   xlsx.addLineBreak(sheet, 2)
   xlsx.addHeader(wb, sheet, "Fit Measures for Model", level = 2, startCol = 1)
-  xlsx.addTable(wb, sheet, round(data.frame(t(data.frame(fitMeasures(cfa_mod)))), 2), startCol = 1, row.names = F)
+  xlsx.addTable(wb, sheet, round(data.frame(t(data.frame(fitMeasures(cfa_mod)))), 4), startCol = 1, row.names = F)
   
   xlsx.addLineBreak(sheet, 2)
   xlsx.addHeader(wb, sheet, "Parameter Estimates", level = 2, startCol = 1)

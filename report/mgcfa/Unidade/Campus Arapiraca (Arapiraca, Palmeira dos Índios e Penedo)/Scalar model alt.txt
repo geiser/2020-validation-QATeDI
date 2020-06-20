@@ -1,0 +1,262 @@
+lavaan 0.6-5 ended normally after 247 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of free parameters                        118
+  Number of equality constraints                    19
+  Row rank of the constraints matrix                19
+                                                      
+  Number of observations per group:                                           
+    Not is Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)     3579
+    Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)             790
+                                                                              
+Model Test User Model:
+                                              Standard      Robust
+  Test Statistic                              3231.963    3092.456
+  Degrees of freedom                               205         205
+  P-value (Chi-square)                           0.000       0.000
+  Scaling correction factor                                  1.045
+    for the Yuan-Bentler correction (Mplus variant) 
+  Test statistic for each group:
+    Not is Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo) 2566.162    2455.395
+    Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)  665.800     637.061
+
+Model Test Baseline Model:
+
+  Test statistic                             50666.174   42117.809
+  Degrees of freedom                               240         240
+  P-value                                        0.000       0.000
+  Scaling correction factor                                  1.203
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.940       0.931
+  Tucker-Lewis Index (TLI)                       0.930       0.919
+                                                                  
+  Robust Comparative Fit Index (CFI)                         0.940
+  Robust Tucker-Lewis Index (TLI)                            0.930
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)             -66494.204  -66494.204
+  Scaling correction factor                                  1.812
+      for the MLR correction                                      
+  Loglikelihood unrestricted model (H1)     -64878.223  -64878.223
+  Scaling correction factor                                  1.408
+      for the MLR correction                                      
+                                                                  
+  Akaike (AIC)                              133186.409  133186.409
+  Bayesian (BIC)                            133818.256  133818.256
+  Sample-size adjusted Bayesian (BIC)       133503.674  133503.674
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.082       0.080
+  90 Percent confidence interval - lower         0.080       0.078
+  90 Percent confidence interval - upper         0.085       0.083
+  P-value RMSEA <= 0.05                          0.000       0.000
+                                                                  
+  Robust RMSEA                                               0.082
+  90 Percent confidence interval - lower                     0.080
+  90 Percent confidence interval - upper                     0.085
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.058       0.058
+
+Parameter Estimates:
+
+  Information                                      Observed
+  Observed information based on                     Hessian
+  Standard errors                        Robust.huber.white
+
+
+Group 1 [Not is Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  ML4 =~                                              
+    Item8             1.000                           
+    Item9             9.095    0.580   15.679    0.000
+    Item10            9.238    0.487   18.981    0.000
+  ML1 =~                                              
+    Item11            1.000                           
+    Item12  (.p5.)   13.546    1.117   12.130    0.000
+    Item13  (.p6.)   14.154    1.171   12.088    0.000
+  ML5 =~                                              
+    Item14            1.000                           
+    Item15            3.987    0.029  136.832    0.000
+    Item16            4.240    0.031  136.003    0.000
+  ML2 =~                                              
+    Item17            1.000                           
+    Item18            5.834    0.167   35.009    0.000
+    Item19            6.119    0.177   34.532    0.000
+  ML6 =~                                              
+    Item20            1.000                           
+    Item21  (.14.)    1.001    0.042   24.090    0.000
+  ML3 =~                                              
+    Item22            1.000                           
+    Item23  (.16.)    0.893    0.018   49.561    0.000
+  INF =~                                              
+    ML4               1.000                           
+    ML1     (.18.)    0.589    0.061    9.692    0.000
+    ML5     (.19.)    1.130    0.104   10.823    0.000
+    ML2     (.20.)    0.295    0.047    6.310    0.000
+  EXP =~                                              
+    ML6               1.000                           
+    ML3     (.22.)    1.061    0.055   19.325    0.000
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  INF ~~                                              
+    EXP               0.044    0.004   11.885    0.000
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Item8             0.971    0.003  344.623    0.000
+   .Item9   (.49.)    3.499    0.018  194.755    0.000
+   .Item10  (.50.)    3.997    0.020  202.171    0.000
+   .Item11            0.980    0.002  413.885    0.000
+   .Item12  (.52.)    3.551    0.017  204.113    0.000
+   .Item13  (.53.)    3.938    0.021  190.846    0.000
+   .Item14  (.54.)    0.271    0.007   36.338    0.000
+   .Item15  (.55.)    1.005    0.029   34.378    0.000
+   .Item16  (.56.)    1.066    0.031   34.164    0.000
+   .Item17            0.899    0.005  178.063    0.000
+   .Item18  (.58.)    2.659    0.023  116.973    0.000
+   .Item19            2.794    0.028   98.189    0.000
+   .Item20            1.598    0.026   60.941    0.000
+   .Item21  (.61.)    2.370    0.023  104.289    0.000
+   .Item22  (.62.)    2.236    0.022  101.555    0.000
+   .Item23  (.63.)    2.038    0.021   97.665    0.000
+   .ML4               0.000                           
+   .ML1               0.000                           
+   .ML5               0.000                           
+   .ML2               0.000                           
+   .ML6               0.000                           
+   .ML3               0.000                           
+    INF               0.000                           
+    EXP               0.000                           
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Item8             0.017    0.001   17.871    0.000
+   .Item9             0.230    0.022   10.374    0.000
+   .Item10            0.477    0.026   18.216    0.000
+   .Item11            0.015    0.001   11.986    0.000
+   .Item12            0.163    0.025    6.450    0.000
+   .Item13            0.557    0.032   17.192    0.000
+   .Item14            0.012    0.001   13.581    0.000
+   .Item15            0.108    0.012    9.318    0.000
+   .Item16            0.112    0.011    9.937    0.000
+   .Item17            0.045    0.001   39.213    0.000
+   .Item18            0.280    0.021   13.079    0.000
+   .Item19            1.171    0.029   40.767    0.000
+   .Item20            1.514    0.050   30.226    0.000
+   .Item21            0.896    0.045   19.832    0.000
+   .Item22            0.229    0.030    7.671    0.000
+   .Item23            0.398    0.027   14.773    0.000
+   .ML4               0.003    0.001    4.040    0.000
+   .ML1               0.002    0.000    4.402    0.000
+   .ML5               0.172    0.003   55.148    0.000
+   .ML2               0.045    0.003   13.964    0.000
+   .ML6               0.360    0.043    8.313    0.000
+   .ML3               0.848    0.048   17.781    0.000
+    INF               0.009    0.001    7.316    0.000
+    EXP               0.594    0.047   12.688    0.000
+
+
+Group 2 [Campus Arapiraca (Arapiraca, Palmeira dos Índios e Penedo)]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  ML4 =~                                              
+    Item8             1.000                           
+    Item9             7.465    0.800    9.337    0.000
+    Item10            7.449    0.529   14.070    0.000
+  ML1 =~                                              
+    Item11            1.000                           
+    Item12  (.p5.)   13.546    1.117   12.130    0.000
+    Item13  (.p6.)   14.154    1.171   12.088    0.000
+  ML5 =~                                              
+    Item14            1.000                           
+    Item15            3.776    0.070   54.183    0.000
+    Item16            3.980    0.077   51.943    0.000
+  ML2 =~                                              
+    Item17            1.000                           
+    Item18            7.699    0.637   12.089    0.000
+    Item19            7.861    0.698   11.258    0.000
+  ML6 =~                                              
+    Item20            1.000                           
+    Item21  (.14.)    1.001    0.042   24.090    0.000
+  ML3 =~                                              
+    Item22            1.000                           
+    Item23  (.16.)    0.893    0.018   49.561    0.000
+  INF =~                                              
+    ML4               1.000                           
+    ML1     (.18.)    0.589    0.061    9.692    0.000
+    ML5     (.19.)    1.130    0.104   10.823    0.000
+    ML2     (.20.)    0.295    0.047    6.310    0.000
+  EXP =~                                              
+    ML6               1.000                           
+    ML3     (.22.)    1.061    0.055   19.325    0.000
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  INF ~~                                              
+    EXP               0.039    0.005    7.514    0.000
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Item8             0.989    0.005  213.823    0.000
+   .Item9   (.49.)    3.499    0.018  194.755    0.000
+   .Item10  (.50.)    3.997    0.020  202.171    0.000
+   .Item11            0.995    0.004  232.994    0.000
+   .Item12  (.52.)    3.551    0.017  204.113    0.000
+   .Item13  (.53.)    3.938    0.021  190.846    0.000
+   .Item14  (.54.)    0.271    0.007   36.338    0.000
+   .Item15  (.55.)    1.005    0.029   34.378    0.000
+   .Item16  (.56.)    1.066    0.031   34.164    0.000
+   .Item17            0.962    0.007  136.406    0.000
+   .Item18  (.58.)    2.659    0.023  116.973    0.000
+   .Item19            2.652    0.055   48.553    0.000
+   .Item20            1.327    0.062   21.451    0.000
+   .Item21  (.61.)    2.370    0.023  104.289    0.000
+   .Item22  (.62.)    2.236    0.022  101.555    0.000
+   .Item23  (.63.)    2.038    0.021   97.665    0.000
+   .ML4               0.011    0.007    1.618    0.106
+   .ML1               0.015    0.004    4.077    0.000
+   .ML5              -0.065    0.010   -6.459    0.000
+   .ML2              -0.022    0.008   -2.822    0.005
+   .ML6               0.078    0.036    2.206    0.027
+   .ML3              -0.167    0.031   -5.314    0.000
+    INF              -0.051    0.006   -7.971    0.000
+    EXP              -0.189    0.028   -6.728    0.000
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Item8             0.025    0.002   12.947    0.000
+   .Item9             0.214    0.055    3.913    0.000
+   .Item10            0.521    0.065    8.016    0.000
+   .Item11            0.015    0.003    5.298    0.000
+   .Item12            0.174    0.040    4.388    0.000
+   .Item13            0.633    0.050   12.719    0.000
+   .Item14            0.007    0.001    4.506    0.000
+   .Item15            0.075    0.020    3.768    0.000
+   .Item16            0.069    0.014    4.789    0.000
+   .Item17            0.047    0.004   12.809    0.000
+   .Item18            0.265    0.049    5.389    0.000
+   .Item19            1.271    0.061   20.884    0.000
+   .Item20            1.386    0.079   17.540    0.000
+   .Item21            1.179    0.076   15.553    0.000
+   .Item22            0.267    0.044    6.001    0.000
+   .Item23            0.286    0.038    7.558    0.000
+   .ML4               0.008    0.003    2.552    0.011
+   .ML1               0.001    0.000    1.809    0.070
+   .ML5               0.111    0.007   15.041    0.000
+   .ML2               0.023    0.004    5.321    0.000
+   .ML6               0.203    0.072    2.811    0.005
+   .ML3               0.781    0.070   11.103    0.000
+    INF               0.012    0.002    6.318    0.000
+    EXP               0.540    0.062    8.655    0.000
+

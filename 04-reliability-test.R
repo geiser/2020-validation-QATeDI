@@ -12,6 +12,7 @@ library(semPlot)
 
 library(xlsx)
 library(r2excel)
+
 source('common/excel/write_alpha_in_workbook.R')
 
 library(MVN)
@@ -29,6 +30,7 @@ groups <- unique(expand.grid(Unidade=c(NA,unique(dat$Unidade))
                              , Modalidade=c(NA,unique(dat$Modalidade))
                              , DispositivoEmCasa=c(NA,unique(dat$DispositivoEmCasa))
                              , stringsAsFactors = F))
+
 reliability_df <- do.call(rbind, lapply(seq(1,nrow(groups)), FUN = function(i) {
   sdat <- dat; group <- groups[i,]
   if (!is.na(group$Unidade)) sdat <- sdat[sdat$Unidade == group$Unidade,]
@@ -36,23 +38,18 @@ reliability_df <- do.call(rbind, lapply(seq(1,nrow(groups)), FUN = function(i) {
   if (!is.na(group$Modalidade)) sdat <- sdat[sdat$Modalidade == group$Modalidade,]
   if (!is.na(group$DispositivoEmCasa)) sdat <- sdat[sdat$DispositivoEmCasa == group$DispositivoEmCasa,]
   sdat <- select(sdat, starts_with('Item'))
-  
   if (nrow(sdat) > 30) {
     alpha_mods <- list(
       'all'=list(factor='all', mod=psych::alpha(sdat))
       , 'ML1'=list(factor='ML1', mod=psych::alpha(sdat[,c('Item11','Item12','Item13')]))
       , 'ML2'=list(factor='ML2', mod=psych::alpha(sdat[,c('Item17','Item18','Item19')]))
-      , 'ML3'=list(factor='ML3', mod=psych::alpha(sdat[,c('Item20','Item21')]))
+      , 'ML3'=list(factor='ML3', mod=psych::alpha(sdat[,c('Item22','Item23')]))
       , 'ML4'=list(factor='ML4', mod=psych::alpha(sdat[,c('Item8','Item9','Item10')]))
       , 'ML5'=list(factor='ML5', mod=psych::alpha(sdat[,c('Item14','Item15','Item16')]))
-      , 'ML6'=list(factor='ML6', mod=psych::alpha(sdat[,c('Item22','Item23')]))
-      , 'multimodal'=list(factor='multimodal', mod=psych::alpha(sdat[,c('Item8','Item9','Item10','Item11','Item12','Item13','Item14','Item15','Item16','Item20','Item21','Item22','Item23')]))
-      , '2nd-mdl1-all'=list(factor='2nd-mdl1-all', mod=psych::alpha(sdat))
-      , '2nd-mdl1-INF'=list(factor='2nd-mdl1-INF', mod=psych::alpha(sdat[,c('Item8','Item9','Item10','Item11','Item12','Item13','Item14','Item15','Item16','Item17','Item18','Item19')]))
-      , '2nd-mdl1-EXP'=list(factor='2nd-mdl1-EXP', mod=psych::alpha(sdat[,c('Item20','Item21','Item22','Item23')]))
-      , '2nd-mdl2-all'=list(factor='2nd-mdl2-all', mod=psych::alpha(sdat[,c('Item8','Item9','Item10','Item11','Item12','Item13','Item14','Item15','Item16','Item20','Item21','Item22','Item23')]))
-      , '2nd-mdl2-INF'=list(factor='2nd-mdl2-INF', mod=psych::alpha(sdat[,c('Item8','Item9','Item10','Item11','Item12','Item13','Item14','Item15','Item16')]))
-      , '2nd-mdl2-EXP'=list(factor='2nd-mdl2-EXP', mod=psych::alpha(sdat[,c('Item20','Item21','Item22','Item23')]))
+      , 'ML6'=list(factor='ML6', mod=psych::alpha(sdat[,c('Item20','Item21')]))
+      
+      , 'INF'=list(factor='INF', mod=psych::alpha(sdat[,c('Item8','Item9','Item10','Item11','Item12','Item13','Item14','Item15','Item16','Item17','Item18','Item19')]))
+      , 'EXP'=list(factor='EXP', mod=psych::alpha(sdat[,c('Item20','Item21','Item22','Item23')]))
     )
     # write reliability analysis
     filename <- "report/reliability/"
@@ -75,10 +72,17 @@ reliability_df <- do.call(rbind, lapply(seq(1,nrow(groups)), FUN = function(i) {
     })
     xlsx::saveWorkbook(wb, filename)
     
-    do.call(rbind, lapply(alpha_mods, FUN = function(alpha_mod) {
-      cbind('Unidade'=group$Unidade,'Nivel'=group$Nivel, 'Modalidade'=group$Modalidade, 'DispositivoEmCasa'=group$DispositivoEmCasa
-            , 'n'=nrow(sdat), 'factor'=alpha_mod$factor, round(alpha_mod$mod$total,2))
-    }))
+    
+    cbind(
+      'Unidade'=group$Unidade
+      ,'Nivel'=group$Nivel
+      , 'Modalidade'=group$Modalidade
+      , 'DispositivoEmCasa'=group$DispositivoEmCasa
+      , 'n'=nrow(sdat)
+      , do.call(cbind, lapply(alpha_mods, FUN = function(alpha_mod) {
+        cbind('factor'=alpha_mod$factor
+              , round(alpha_mod$mod$total,2))
+      })))
   }
 }))
 

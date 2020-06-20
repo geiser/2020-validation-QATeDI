@@ -79,7 +79,34 @@ xlsx::saveWorkbook(wb, filename)
 write_csv(rdat, 'data/data-fa.csv')
 
 
-mdls <- list('multimodal-mdl'=list(name='multimodal-mdl', mdl='
+mdls <- list('multi-mdl'=list(name='multi-mdl', mdl='
+ML2 =~ Item17+Item18+Item19
+ML4 =~ Item8+Item9+Item10
+ML1 =~ Item11+Item12+Item13
+ML3 =~ Item22+Item23
+ML6 =~ Item20+Item21
+ML5 =~ Item14+Item15+Item16
+
+ML1 ~~ ML2
+ML1 ~~ ML3
+ML1 ~~ ML4
+ML1 ~~ ML5
+ML1 ~~ ML6
+
+ML2 ~~ ML3
+ML2 ~~ ML4
+ML2 ~~ ML5
+ML2 ~~ ML6
+
+ML3 ~~ ML4
+ML3 ~~ ML5
+ML3 ~~ ML6
+
+ML4 ~~ ML5
+ML4 ~~ ML6
+
+ML5 ~~ ML6
+'), 'efa-mdl'=list(name='efa-mdl', mdl='
 ML2 =~ Item17+Item18+Item19
 ML4 =~ Item8+Item9+Item10
 ML1 =~ Item11+Item12+Item13
@@ -123,32 +150,83 @@ ML3 =~ Item22+Item23
 INF =~ ML4+ML1+ML5
 EXP =~ ML6+ML3
 EXP ~~ INF
+'), 'orth-mdl'=list(name='orth-mdl', mdl='
+ML2 =~ Item17+Item18+Item19
+ML4 =~ Item8+Item9+Item10
+ML1 =~ Item11+Item12+Item13
+ML3 =~ Item22+Item23
+ML6 =~ Item20+Item21
+ML5 =~ Item14+Item15+Item16
+
+ML1 ~~ 0*ML2
+ML1 ~~ 0*ML3
+ML1 ~~ 0*ML4
+ML1 ~~ 0*ML5
+ML1 ~~ 0*ML6
+
+ML2 ~~ 0*ML3
+ML2 ~~ 0*ML4
+ML2 ~~ 0*ML5
+ML2 ~~ 0*ML6
+
+ML3 ~~ 0*ML4
+ML3 ~~ 0*ML5
+ML3 ~~ 0*ML6
+
+ML4 ~~ 0*ML5
+ML4 ~~ 0*ML6
+
+ML5 ~~ 0*ML6
 '))
-wb <- createWorkbook(type="xlsx")
+cfa_mdls <- lapply(mdls, FUN = function(x) {
+  cfa_mdl <- cfa(x$mdl, data=rdat, std.lv=T, estimator="MLR", meanstructure=T)
+  list(name = x$name, cfa = cfa_mdl, fit = fitMeasures(cfa_mdl))
+})
+
+## write summary of CFAs
 fits_df <- do.call(rbind, lapply(mdls, FUN = function(x) {
-  cfa_mdl <- cfa(x$mdl, data = rdat, std.lv=T)
-  fit <- fitMeasures(cfa_mdl)
-  
-  write_cfa_in_workbook(cfa_mdl, wb, x$name)
+  fit <- cfa_mdls[[x$name]]$fit
+  return(
+    cbind(name=x$name, as.data.frame(t(round(as.data.frame(fit), 3)))
+          , "cfi.obs" = ifelse((fit[['cfi']] < 0.85 | fit[['cfi.robust']] < 0.85), 'unacceptable model fit', NA)
+          , "tli.obs" = ifelse((fit[['tli']] < 0.85 | fit[['tli.robust']] < 0.85), 'unacceptable model fit', NA)
+          , "rmsea.obs" = ifelse((fit[['rmsea']] > 0.10 | fit[['rmsea.robust']] > 0.10), 'poor model fit', NA)
+          , "rmsea.pvalue.obs" = ifelse((fit[['rmsea.pvalue']] > 0.05 | fit[['rmsea.pvalue.robust']] > 0.05), "the model has close fit", NA))
+  )
+}))
+write_csv(cbind('model'=rownames(fits_df), fits_df), "report/efa/cfa-fits-summary.csv")
+
+# write summary of comparison for baseline-model
+mdl_names <- fits_df$name[is.na(fits_df$cfi.obs) & is.na(fits_df$tli.obs) & is.na(fits_df$rmsea.obs)]
+comparison_df <- do.call(rbind, lapply(lapply(as.data.frame(combn(mdl_names, 2)), function(x) {
+  list(name=paste(x[1],x[2],sep=':')
+       , comb=x 
+       , aov=anova(cfa_mdls[[x[1]]]$cfa, cfa_mdls[[x[2]]]$cfa))
+}), FUN=function(x) cbind(name=x$name, mdl=x$comb, x$aov)))
+comparison_df <- cbind(mdl=comparison_df[,c('name')]
+                       , fits_df[comparison_df$mdl, c('name','chisq','df','cfi','tli','rmsea','rmsea.ci.lower','rmsea.ci.upper'
+                                                      ,'cfi.robust','tli.robust','rmsea.robust','rmsea.ci.lower.robust','rmsea.ci.upper.robust')]
+                       , round(comparison_df[,c('AIC','BIC', 'Chisq diff', 'Df diff')], 3), comparison_df[,c('Pr(>Chisq)')])
+write_csv(comparison_df, "report/efa/cfa-comparisons-summary.csv")
+
+
+## write cfa-fits-details
+wb <- createWorkbook(type="xlsx")
+lapply(mdls, FUN = function(x) {
   
   filename <- paste0("report/efa/",x$name,".png")
-  png(filename = filename, width = 800, height = 600)
-  semPaths(cfa_mdl, layout = "tree", rotation = 1, intercepts = F, residuals = F, reorder = F, edge.color = 'black', fade=F)
+  png(filename = filename, width = 1050, height = 400)
+  semPaths(cfa_mdls[[x$name]]$cfa, layout = "tree", rotation = 1, intercepts = F, residuals = F, reorder = F, edge.color = 'black', fade=F)
   dev.off()
   
   filename <- paste0("report/efa/",x$name,"-withloadings.png")
-  png(filename = filename, width = 800, height = 600)
-  semPaths(cfa_mdl, "std", layout = "tree", rotation = 1, intercepts = F, residuals = F, reorder = F, edge.color = 'black', edge.width=0.01, fade=F)
+  png(filename = filename, width = 1050, height = 400)
+  semPaths(cfa_mdls[[x$name]]$cfa, "std", layout = "tree", rotation = 1, intercepts = F, residuals = F, reorder = F, edge.color = 'black', edge.width=0.01, fade=F)
   dev.off()
   
-  return(
-    cbind(as.data.frame(t(round(as.data.frame(fit), 4)))
-          , "cfi.obs" = ifelse(fit[['cfi']] < 0.85, 'unacceptable model fit', NA)
-          , "tli.obs" = ifelse(fit[['tli']] < 0.85, 'unacceptable model fit', NA)
-          , "rmsea.obs" = ifelse(fit[['rmsea']] > 0.10, 'poor model fit', NA)
-          , "rmsea.pvalue.obs" = ifelse(fit[['rmsea.pvalue']] > 0.05, "the model has close fit", NA))
-  )
-}))
+  write_cfa_in_workbook(cfa_mdls[[x$name]]$cfa, wb, x$name)
+})
 xlsx::saveWorkbook(wb, "report/efa/cfa-fits-detail.xlsx")
-write_csv(fits_df, "report/efa/cfa-fits-summary.csv")
+
+
 
